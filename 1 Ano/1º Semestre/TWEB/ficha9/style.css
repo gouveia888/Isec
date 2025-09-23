@@ -1,0 +1,53 @@
+html,body{
+    height:100%;
+    font-size:1rem;
+    font-family: 'Montserrat', sans-serif;
+   }
+
+#simulate{
+    height: 800px;
+}
+
+.gradient{
+    background: rgb(150,150,150);
+    background: linear-gradient(90deg, rgba(150,150,150,1) 0%, rgba(221,221,221,1) 73%)
+}
+
+.page-header{
+    margin-top: 5rem;
+    font-size: 1.2em;
+    color: black;
+}
+
+.wave{
+    background-color: white;
+}
+
+.features{
+    color: black   ;
+}
+
+.icon{
+    background-color: lightseagreen;
+    color: white;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery img{
+    border-radius: 5%;
+}
+
+.container.mt-5 form button{
+    margin-top: 10px;
+}
+
+footer{
+        font-weight: 0.9rem;
+        padding: 1rem;
+        color: black;
+}

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNHCR, the UN Refugee Agency | UNHCR</title>
+    <link rel="icon" type="image/x-icon" href="Imagens/icon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+
+    <header>
+
+        <div id="ante-nav">
+            <div id="country">
+                <span>UNHCR global website: </span><button>Change site</button>
+            </div>
+
+            <div >
+                <ul id="language">
+                    <li>
+                        <a href="">English</a>
+                    </li>
+                    <li>
+                        <a href="">Français</a>
+                    </li>
+                    <li>
+                        <a href="">Español</a>
+                    </li>
+                    <li>
+                        <a href="">عربي</a>
+                    </li>
+                </ul>
+            </div>
+        </div>     
+        <div class="first-nav">
+            <div>
+                <a class="icon" id="hamburger">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <img src="Imagens/logo.png" alt="Logotipo UNHCR">
+            <div class="botao">
+                <input class="search-bar" type="search" placeholder="Search">
+                <button class="fa fa-search pesquisa" id="pesquisa"></button>
+                <a href="" id="globo">&#x1F310;</a>
+                <button id="donate">DONATE</button>
+                <button id="get-help">GET HELP</button>
+            </div>
+        </div>
+        
+        <!-- Doações -->
+
+        <div id="popup">
+            <form action="" method="post">
+            <div class="content">
+               <div class="content_doacao">
+                <input type="radio" id="unica" name="tipo_don" value="unica" checked> <label for="unica">Doação Única</label>
+                <input type="radio" id="periodica" name="tipo_don" value="periodica"> <label for="periodica">Doação Periódica</label>
+               </div>
+                <div class="quant_don_unica">
+                    <input type="radio" id="vinte" name="quant_don_unica" value="20" checked> <label for="vinte">20€</label>
+                    <input type="radio" id="quarenta" name="quant_don_unica" value="40"> <label for="quarenta">40€</label>
+                    <input type="radio" id="oitenta" name="quant_don_unica" value="80"> <label for="oitenta">80€</label>
+                    <input type="radio" id="inserido" name="quant_don_unica" value="inserido"> <label for="inserido">Quantidade</label> <input type="number" id="valor_inserido" name="quant_don_unica" min="1" placeholder="200€">
+                    <span id="refeicoes"></span>
+                    <br><label class="paises" for="paises">Pais a ajudar:</label>
+                        <select class="paises" name="paises">
+                        <option value="-">---------</option>
+                        <option value="ucrania">Ucrânia</option>
+                        <option value="sudao">Sudão</option>
+                        <option value="venezuela">Venezuela</option>
+                        <option value="afeganistao">Afeganistão</option>
+                        <option value="congo">R.D. Congo</option>
+                        <option value="rohingya">Rohingya</option>
+                        </select>
+                </div>
+                <div class="informaçoes">                
+                    <input type="radio" id="don_part" name="remetente" value="particular" checked> <label for="don_part">Particular</label> 
+                    <input type="radio" id="don_empresa" name="remetente" value="empresa"> <label for="don_empresa">Empresa</label><br> 
+                    <label>Email</label> <input id="email" type="email" placeholder="email">
+                </div>
+                <div class="particular">
+                    <label>Primeiro Nome</label> <input type="text" name="pnome" id="pnome" placeholder="Miguel">
+                    <label>Último Nome</label> <input type="text" name="unome" id="unome" placeholder="Pinheiro">
+                    <label>Telemóvel</label> <input type="tel" id="telefone" name="telefone" pattern="[0-9]{9}" placeholder="123-456-789">
+                    <label>Nif</label> <input type="text" id="nif" name="nif" pattern="[0-9]{9}" placeholder="123456789">
+                </div><br>
+                <div class="empresa">
+                    <label>Primeiro Nome</label> <input type="text" name="nome" id="pnome" placeholder="Miguel">
+                    <label>Telemóvel</label> <input type="tel" id="telefone" name="telefone" pattern="[0-9]{9}" placeholder="123-456-789">
+                    <label>Nif</label> <input type="text" id="nif" name="nif" pattern="[0-9]{9}" placeholder="123456789">
+                </div>
+                <div id="mensal">
+                    <label>Rua </label><input type="text" name="nome" id="rua" placeholder="Rua">
+                    <label>Cidade </label><input type="text" name="nome" id="cidade" placeholder="Cidade"><br>
+                    <label>Código Postal </label><input type="text" name="nome" id="cp" pattern="[0-9]{4}-[0-9]{4}" placeholder="xxxx-xxx">
+                    <label>Pais </label><input type="text" name="nome" id="pais" placeholder="Pais">
+                </div>                
+                <div id="pagamento_unico">
+                    <input type="radio" id="cartao" name="pagamentos" value="cartao"> <label for="cartao">Cartão de Crédito</label> 
+                    <input type="radio" id="paypal" name="pagamentos" value="paypal"> <label for="paypal">Paypal</label>
+                    <input type="radio" id="multibanco" name="pagamentos" value="multibanco"> <label for="multibanco">Multibanco</label>
+                    <input type="radio" id="mbway" name="pagamentos" value="mbway"> <label for="mbway">MbWay</label>
+                </div>
+                <div id="pagamento_periodica">
+                    <input type="radio" id="cartao1" name="pagamentos" value="cartao"> <label for="cartao1">Cartão de Crédito</label> 
+                    <input type="radio" id="debito" name="pagamentos" value="debito"> <label for="debito">Débito Direto</label>
+                    <input type="text" id="iban" pattern="[A-B]{2}[0-9]{35}">
+                </div>
+            </div>
+        </form> 
+        </div>
+
+        <!-- Doações -->
+
+        <nav class="megamenu">
+            <ul>
+                <li class="menu">
+                    <a href="">About UNHCR</a>
+                    <ul class="sub-menu">
+                        <li class="menu"><a href="">Overview</a>
+                            <ul class="sub-menu2">
+                                <li><a href="">The High Commissioner</a></li>
+                                <li><a href="">History of UNHCR</a></li>
+                                <li><a href="">The 1951 Refugee Convention</a></li>
+                                <li><a href="">Figures at a glance</a></li>
+                                <li><a href="">Sustainable Development Goals</a></li>
+                                <li><a href="">Global compact on Refugee</a></li>
+                                <li><a href="">Evaluation Office</a></li>
+                                <li><a href="">Nansen Refugee Award</a></li>   
+                            </ul>
+                        </li>
+                        <li class="menu"><a href="">Where we work</a>
+                            <ul class="sub-menu2">
+                                <li><a href="">Africa</a></li>
+                                <li><a href="">Americas</a></li>
+                                <li><a href="">Asia and the Pacific</a></li>
+                                <li><a href="">Europe</a></li>
+                                <li><a href="">Middel East and North Africa</a></li> 
+                            </ul>
+                        </li>
+                        <li class="menu"><a href="">Who we protect</a>
+                            <ul class="sub-menu2">
+                                <li><a href="">Asylum-seekers</a></li>
+                                <li><a href="">Refugees</a></li>
+                                <li><a href="">Internally displaced people</a></li>
+                                <li><a href="">Stateless people</a></li>
+                                <li><a href="">Returnees</a></li> 
+                            </ul>
+                        </li>
+                        <li class="menu"><a href="">Our partners</a>
+                            <ul class="sub-menu2">
+                                <li><a href="">Non-govermental organizations</a></li>
+                                <li><a href="">Private sector</a></li>
+                                <li><a href="">Sport partners</a></li>
+                                <li><a href="">Prominent supportes</a></li>
+                                <li><a href="">UN and interacional institutions</a></li>
+                                <li><a href="">Addition parternships</a></li>
+                                <li><a href="">Governments</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu"><a href="">Governance and oversight</a>
+                            <ul class="sub-menu2">
+                                <li><a href="">United Nations General Assembly</a></li>
+                                <li><a href="">Inspector General's Office (IGO)</a></li>
+                                <li><a href="">Executive Committee</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu">
+                    <a href="">What we do</a>
+                    <ul class="sub-menu">
+                        <li class="menu"><a href="">Respond to emergencies</a>
+                            <ul class="sub-menu2">
+                                <li><a href="">Shelter</a></li>
+                                <li><a href="">Cash-based intervations</a></li>
+                                <li><a href="">Coordinating assistance</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu"><a href="">Protect human rights</a>
+                            <ul class="sub-menu2">
+                                <li><a href="">Protection</a></li>
+                                <li><a href="">Advocacy</a></li>
+                                <li><a href="">Ending statelessness</a></li>
+                                <li><a href="">Safeguarding individuals</a></li>
+                                <li><a href="">Public health</a></li>
+                                <li><a href="">Asylum and migration</a></li>
+                                <li><a href="">Tackling sexual exploitation abuse and harassment</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu"><a href="">Build better futures</a>
+                            <ul class="sub-menu2">
+                                <li><a href="">Education</a></li>
+                                <li><a href="">Livelihoods and economic inclusion</a></li>
+                                <li><a href="">Long-term solutions</a></li>
+                                <li><a href="">Environment, disasters and climate change</a></li>
+                                <li><a href="">Innovation Service</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu"><a href="">Forums and committes</a></li>
+                        <li class="menu"><a href="">Reports ad publications</a>
+                            <ul class="sub-menu2">
+                                <li><a href="">Data and statistics</a></li>
+                                <li><a href="">Handbooks and toolkits</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu">
+                    <a href="">Emergencies</a>
+                    <ul class="sub-menu">
+                        <li class="menu"><a href="">Ongoing emergencies</a>
+                            <ul class="sub-menu2">
+                                <li><a href="">Afghanistan emergency</a></li>
+                                <li><a href="">DR Congo emergency</a></li>
+                                <li><a href="">Horn of Africa drought emergency</a></li>
+                                <li><a href="">Rohingya emergency</a></li>
+                                <li><a href="">Sudan emergency</a></li>
+                                <li><a href="">Syria emergency</a></li>
+                                <li><a href="">Ukraine emergency</a></li>
+                                <li><a href="">Venezuela situation</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu"><a href="">Other countries</a></li>
+                    </ul>
+                </li>
+                <li class="menu">
+                    <a href="">News and stories</a>
+                    <ul class="sub-menu">
+                        <li class="menu"><a href="">New releases</a>
+                            <ul class="sub-menu2">
+                                <li><a href="">Briefing notes</a></li>
+                                <li><a href="">Press releases</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu"><a href="">Stories</a></li>
+                        <li class="menu"><a href="">Statements and announcements</a>
+                            <ul class="sub-menu2">
+                                <li><a href="">Statements</a></li>
+                                <li><a href="">Announcements</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu"><a href="">Special features</a></li>
+                        <li class="menu"><a href="">Media center</a>
+                            <ul class="sub-menu2">
+                                <li><a href="">Internacional media contacts</a></li>
+                                <li><a href="">Global social media accounts</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu">
+                    <a href="">Get Involved</a>
+                    <ul class="sub-menu">
+                        <li class="menu"><a href="">Work with us</a>
+                            <ul class="sub-menu2">
+                                <li><a href="">Careers at UNHCR</a></li>
+                                <li><a href="">Become a supplier</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu"><a href="">Take action</a>
+                            <ul class="sub-menu2">
+                                <li><a href="">Word Refugee Day</a></li>
+                                <li><a href="">Aiming Higher</a></li>
+                                <li><a href="">Model UN Refugee Challenge</a></li>
+                                <li><a href="">Young Champions for Refugees</a></li>
+                                <li><a href="">Youth with Refugees Art Contest</a></li>
+                                <li><a href="">Connecting Worlds app</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu"><a href="">Stay informed</a></li>
+                        <li class="menu"><a href="">Ways to donate</a>
+                            <ul class="sub-menu2">
+                                <li><a href="">Donate</a></li>
+                                <li><a href="">Leave a legacy</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu"><a href="">Shop MADE51 handicrafts</a></li>
+                    </ul>
+                </li>
+                <li class="menu"><a id="donate_menu" class="scrolled">&#9825</a></li>
+                <li class="menu"><a class="scrolled" href="">&#128712</a></li>
+                <li class="menu"><a class="fa fa-search scrolled" href=""></a></li>
+            </ul>
+        </nav>
+    </header>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><b><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer>
+        <div id="info">
+            <div class="footer-titulo">
+                Support our work
+                <p>Please help refugees in need.</p>
+                <button type="button">Donate now</button>
+            </div>
+
+            <div  class="footer-titulo">
+                Stay connected
+                <p>Follow us on</p> 
+                <ul class="social-media">
+                    <li>
+                        <a href="https://twitter.com/Refugees" target="blank"><img src="Imagens/twitter.svg" alt="TwitterLink is external"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/UNHCR" target="blank"><img src="Imagens/facebook.svg" alt=" FacebookLink is external"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/refugees/" target="blank"><img src="Imagens/instagram.svg" alt=" InstagramLink is external"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/c/unhcr" target="blank"><img src="Imagens/youtube.svg" alt="YouTubeLink is external"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.tiktok.com/@refugees" target="blank"><img src="Imagens/tiktok.svg" alt="TikTokLink is external"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/unhcr/" target="blank"><img src="Imagens/linkdin.svg" alt="LinkedInLink is external"></a>
+                    </li>
+                </ul>               
+            </div>
+
+            <div class="footer-titulo">
+                Stay informed
+                <p>Sign up to our newsletter to learn more about people forced to flee and how you can support them.</p>
+                <button type="button">Subscribe</button>
+            </div>
+           
+            <div class="footer-titulo">
+                Contact us
+                <br><br><a href="https://www.unhcr.org/contact-us/frequently-asked-questions" target="_blank">Frequently asked questions</a>
+                <br><a href="https://www.unhcr.org/contact-us" target="_blank">Contact UNHCR</a>
+                <br><a href="https://www.unhcr.org/news-and-stories/media-centre" target="_blank">Media centre</a>
+                <br><a href="https://www.unhcr.org/about-unhcr/governance-and-oversight/inspector-generals-office-igo/reporting-misconduct" target="_blank">Report misconduct or abuse</a>
+                <br><a href="https://www.unhcr.org/contact-us/report-fraudulent-site-or-cyber-security-issue" target="_blank">Report a fraudulent site or email</a>
+                <br><a href="https://www.unhcr.org/get-involved/work-us/supply-chain-management" target="_blank">Become a supplier</a>
+            </div>
+        </div>
+      <div id="linha"></div>
+        <div id="footer-links">
+            <a href="https://www.unhcr.org/"><img src="Imagens/logo_unhcr.png" alt="Site UNHCR"></a>
+            <a class="termos" href="https://www.unhcr.org/contact-us/privacy-policy"><span>Privacy policy</span></a>
+            <a class="termos" href="https://www.unhcr.org/terms-and-conditions-use"><span>Terms and conditions of use</span></a>
+            <a class="termos" href="https://www.unhcr.org/contact-us/copyright"><span>Copyright</span></a>
+            <p>© UNHCR 2001-2023</p>
+        </div>
+    </footer>
+    <script src="javascript.js"> </script>
+</body>
+</html>

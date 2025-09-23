@@ -1,0 +1,107 @@
+
+    *,
+    *::after, *::before {
+      margin: 0;
+      padding: 0;
+    }
+    body {  
+      font-family: Verdana, Tahoma, sans-serif; 
+      color: #27190a;
+      font-size: 90%;
+    }
+	
+    /*  nav  menu  */
+    nav{
+        background-color: #BD966D;
+        opacity: 0.7;
+	}
+	
+	/* Footer */
+	footer {
+		background-color: #BD966D;
+		display: flex;
+	}
+	footer a {      
+        padding: 7px 10px;
+        color: white;
+        text-decoration: none;
+      }
+	  
+	/* Menu */
+    .menu li {
+      padding: 7px 10px;
+      list-style-type: none;
+    }
+       
+  .menu:not(.grid)  {
+		display: flex;
+	}
+	
+	.menu > *:last-child
+	{
+		margin-left: auto;
+	}
+  
+  .menu li:hover {
+    background-color:  #8f6e4b;
+    color: white;
+    cursor:pointer;
+  }
+
+  .menu.grid{
+    display: grid;
+    grid-row: 1;
+    grid-column: 4;
+    grid-template-columns: repeat(3,auto) 1fr;
+  }
+
+  label{
+    display:none;
+    font-size: 22px;
+    padding-left: 5px;
+  }
+
+  #toggle{
+    display: none;
+  }
+
+  @media all and (max-width:575px){
+
+    body{
+      font-size: 90%;
+    }
+
+    .menu:not(.grid)  { /*so vai aplicar quando class nao tem a class grid*/
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .menu.grid{
+      grid-template-columns: column;
+      text-align: center;
+    }
+
+    .menu > *:last-child{
+      margin-left: 0%;
+    }
+
+    .sandwich label{
+      display: block;
+    }
+
+    .sandwich .menu{
+      display: none;
+      margin-top: -30px;
+      margin-left:30px;
+      text-align: left;
+    }
+
+    .sandwich #toggle:checked + .menu:not(.grid) {
+      display: flex;
+    }
+     
+    .sandwich #toggle:checked + .menu.grid {
+      flex-direction: column;
+      display: flex;
+    }
+  }

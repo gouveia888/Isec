@@ -1,0 +1,17 @@
+
+
+header ul{
+    list-style-type: none;
+    margin: 2% 0% 2% 0%;
+}
+
+header ul li{
+    width: 20%;
+    justify-content: center;
+    margin:auto;
+}
+
+header ul a{
+    text-decoration: none;
+    margin: auto;
+}

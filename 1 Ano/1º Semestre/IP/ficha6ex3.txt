@@ -1,0 +1,50 @@
+#include <stdio.h>
+#include <ctype.h>
+#define N 4
+
+
+int main(){
+
+int A[N]={0},B[N]={0},I[N]={0},R[N]={0},D[N]={0};
+int i=0,num;
+char resp;
+
+do{
+    do{
+        printf("\nQual a posicao do numero que quer alterar Vetor A:");
+        scanf("%d", &num);
+
+    }while(num>9||num<0);
+
+    A[num]=1;
+    fflush(stdin);
+    printf("Deseja continuar?(N)");
+    scanf("%c", &resp);
+
+}while(toupper(resp)=='N');
+
+i=0;
+
+do{
+    do{
+        printf("\nQual a posicao do numero que quer alterar Vetor B:");
+        scanf("%d", &num);
+
+    }while(num>9||num<0);
+
+    B[num]=1;
+    fflush(stdin);
+    printf("Deseja continuar?(N)");
+    scanf("%c", &resp);
+
+}while(toupper(resp)=='N');
+
+printf("A\tB\tI\tR\tD\n");
+
+for(i=0;i<N;i++){
+    //printf("%d\t%d\n",A[i],B[i]);
+    printf("%d\t%d\t%d\t%d\t%d\n",A[i],B[i],I[i]=A[i]&&B[i],R[i]=A[i]||B[i],D[i]=A[i]&&!B[i]);
+}
+
+return 1;
+}
