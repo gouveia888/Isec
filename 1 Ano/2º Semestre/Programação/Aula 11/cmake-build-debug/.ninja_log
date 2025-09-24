@@ -1,0 +1,24 @@
+# ninja log v5
+7	387	7356525076806289	build.ninja	856930fd06f494f8
+4	405	7356523736510795	CMakeFiles/Aula_11.dir/Aula11/Aula11_CodigoFicheiros/cp.c.obj	a60fa656a2d95cab
+406	658	7356523738976399	Aula_11.exe	5372b4262c56dae4
+3	135	7356525292666209	CMakeFiles/Aula_11.dir/Aula11/Aula11_CodigoFicheiros/cp.c.obj	a60fa656a2d95cab
+138	312	7356525294422830	Aula_11.exe	5372b4262c56dae4
+4	141	7356529543091241	CMakeFiles/Aula_11.dir/Aula11/Aula11_CodigoFicheiros/cp.c.obj	a60fa656a2d95cab
+142	265	7356529544263926	Aula_11.exe	5372b4262c56dae4
+3	133	7356529604962280	CMakeFiles/Aula_11.dir/Aula11/Aula11_CodigoFicheiros/cp.c.obj	a60fa656a2d95cab
+134	266	7356529606303255	Aula_11.exe	5372b4262c56dae4
+3	141	7356529618194734	CMakeFiles/Aula_11.dir/Aula11/Aula11_CodigoFicheiros/cp.c.obj	a60fa656a2d95cab
+142	324	7356529619958480	Aula_11.exe	5372b4262c56dae4
+3	120	7356530292505242	CMakeFiles/Aula_11.dir/Aula11/Aula11_CodigoFicheiros/cp.c.obj	a60fa656a2d95cab
+122	267	7356530293910748	Aula_11.exe	5372b4262c56dae4
+3	121	7356530538666898	CMakeFiles/Aula_11.dir/Aula11/Aula11_CodigoFicheiros/cp.c.obj	a60fa656a2d95cab
+122	252	7356530539866930	Aula_11.exe	5372b4262c56dae4
+4	176	7356530987178809	CMakeFiles/Aula_11.dir/Aula11/Aula11_CodigoFicheiros/cp.c.obj	a60fa656a2d95cab
+177	339	7356530988704023	Aula_11.exe	5372b4262c56dae4
+4	118	7356531109693361	CMakeFiles/Aula_11.dir/Aula11/Aula11_CodigoFicheiros/cp.c.obj	a60fa656a2d95cab
+118	243	7356531110882508	Aula_11.exe	5372b4262c56dae4
+3	128	7356531459846858	CMakeFiles/Aula_11.dir/Aula11/Aula11_CodigoFicheiros/cp.c.obj	a60fa656a2d95cab
+129	256	7356531461022113	Aula_11.exe	5372b4262c56dae4
+4	133	7356531974392467	CMakeFiles/Aula_11.dir/Aula11/Aula11_CodigoFicheiros/cp.c.obj	a60fa656a2d95cab
+134	261	7356531975605227	Aula_11.exe	5372b4262c56dae4

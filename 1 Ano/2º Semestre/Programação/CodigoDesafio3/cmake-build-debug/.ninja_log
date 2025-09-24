@@ -1,0 +1,5 @@
+# ninja log v5
+2	87	7380152583187450	CMakeFiles/CodigoDesafio3.dir/lista.c.obj	c6ca4500eab4073d
+6	74	7380152583050104	CMakeFiles/CodigoDesafio3.dir/main.c.obj	d57baa37ffd637b1
+1	133	7402371174097385	build.ninja	948200cfe2f80314
+87	172	7380152583989334	CodigoDesafio3.exe	24cdd50836861c2a

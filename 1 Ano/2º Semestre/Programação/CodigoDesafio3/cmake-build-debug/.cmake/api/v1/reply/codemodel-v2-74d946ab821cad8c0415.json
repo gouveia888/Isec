@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CodigoDesafio3",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CodigoDesafio3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CodigoDesafio3-Debug-0c6cc647a2a86f3d8746.json",
+					"name" : "CodigoDesafio3",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Gouveia/OneDrive - ISEC/Inform\u00e1tica/2\u00ba Semestre/Programa\u00e7\u00e3o/CodigoDesafio3/cmake-build-debug",
+		"source" : "C:/Users/Gouveia/OneDrive - ISEC/Inform\u00e1tica/2\u00ba Semestre/Programa\u00e7\u00e3o/CodigoDesafio3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

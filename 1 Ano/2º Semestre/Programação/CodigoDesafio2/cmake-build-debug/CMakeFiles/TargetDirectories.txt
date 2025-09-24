@@ -1,0 +1,3 @@
+C:/Users/tiago/OneDrive - ISEC/Informática/2º Semestre/Programação/CodigoDesafio2/cmake-build-debug/CMakeFiles/CodigoDesafio2.dir
+C:/Users/tiago/OneDrive - ISEC/Informática/2º Semestre/Programação/CodigoDesafio2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/tiago/OneDrive - ISEC/Informática/2º Semestre/Programação/CodigoDesafio2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

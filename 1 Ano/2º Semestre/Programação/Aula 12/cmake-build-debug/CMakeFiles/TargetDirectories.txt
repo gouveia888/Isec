@@ -1,0 +1,3 @@
+C:/Users/Gouveia/OneDrive - ISEC/Informática/1 ano/2º Semestre/Programação/Aula 12/cmake-build-debug/CMakeFiles/Aula_12.dir
+C:/Users/Gouveia/OneDrive - ISEC/Informática/1 ano/2º Semestre/Programação/Aula 12/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Gouveia/OneDrive - ISEC/Informática/1 ano/2º Semestre/Programação/Aula 12/cmake-build-debug/CMakeFiles/rebuild_cache.dir
