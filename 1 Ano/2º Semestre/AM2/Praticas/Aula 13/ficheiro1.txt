@@ -1,0 +1,17 @@
+
+
+function [x,y,dydx] = NDerivadaDFP(~,f,a,b,h,y)
+	x = a:h:b;
+        n = length(x);
+        if nargin == 5
+        	y = f(x);
+        end
+        dydx = zeros(1,n);
+        for k = 1:n-1
+        	dydx(k) = (y(k+1)-y(k))/h;
+        end
+        dydx(n) = (y(n)-y(n-1))/h;
+end
+
+
+

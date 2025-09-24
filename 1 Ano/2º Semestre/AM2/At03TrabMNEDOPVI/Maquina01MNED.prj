@@ -1,0 +1,73 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration file="C:\Users\Gouveia\OneDrive - ISEC\Informática\2º Semestre\AM2\At03TrabMNEDOPVI\Maquina01MNED.prj" location="C:\Users\Gouveia\OneDrive - ISEC\Informática\2º Semestre\AM2\At03TrabMNEDOPVI" name="Maquina01MNED" target="target.mlapps" target-name="Package App">
+    <param.appname>Maquina01MNED</param.appname>
+    <param.authnamewatermark>Tiago Filipe / Manuel Furtado</param.authnamewatermark>
+    <param.email>tiagogfilipe@gmail.com</param.email>
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>24ffb631-6a1d-47e8-a599-c0a05d84eeab</param.guid>
+    <unset>
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\APP.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\Adams_Bashworth.m</file>
+      <file>${PROJECT_ROOT}\Euler_Melhorado.m</file>
+      <file>${PROJECT_ROOT}\F_ODE45.m</file>
+      <file>${PROJECT_ROOT}\Imagens\armenioc.jpg</file>
+      <file>${PROJECT_ROOT}\Imagens\tiagof.jpg</file>
+      <file>${PROJECT_ROOT}\NEuler.m</file>
+      <file>${PROJECT_ROOT}\NRK2.m</file>
+      <file>${PROJECT_ROOT}\NRK4.m</file>
+      <file>${PROJECT_ROOT}\Trabalho.pdf</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Gouveia\OneDrive - ISEC\Informática\2º Semestre\AM2" name="At03TrabMNEDOPVI" optional="false">C:\Users\Gouveia\OneDrive - ISEC\Informática\2º Semestre\AM2\At03TrabMNEDOPVI</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2023b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
