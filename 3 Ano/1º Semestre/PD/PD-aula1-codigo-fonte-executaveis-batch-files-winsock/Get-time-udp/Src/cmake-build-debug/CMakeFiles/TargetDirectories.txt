@@ -1,0 +1,3 @@
+C:/Users/Gouveia/OneDrive - ISEC/Informática/3 ano/1º Semestre/PD/PD-aula1-codigo-fonte-executaveis-batch-files-winsock/Get-time-udp/Src/cmake-build-debug/CMakeFiles/Src.dir
+C:/Users/Gouveia/OneDrive - ISEC/Informática/3 ano/1º Semestre/PD/PD-aula1-codigo-fonte-executaveis-batch-files-winsock/Get-time-udp/Src/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Gouveia/OneDrive - ISEC/Informática/3 ano/1º Semestre/PD/PD-aula1-codigo-fonte-executaveis-batch-files-winsock/Get-time-udp/Src/cmake-build-debug/CMakeFiles/rebuild_cache.dir

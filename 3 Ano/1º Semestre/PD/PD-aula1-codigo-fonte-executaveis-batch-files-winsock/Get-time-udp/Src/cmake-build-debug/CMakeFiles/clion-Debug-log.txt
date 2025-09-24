@@ -1,0 +1,30 @@
+"C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe" -G Ninja -S "C:\Users\Gouveia\OneDrive - ISEC\Informática\3 ano\1º Semestre\PD\PD-aula1-codigo-fonte-executaveis-batch-files-winsock\Get-time-udp\Src" -B "C:\Users\Gouveia\OneDrive - ISEC\Informática\3 ano\1º Semestre\PD\PD-aula1-codigo-fonte-executaveis-batch-files-winsock\Get-time-udp\Src\cmake-build-debug"
+-- The C compiler identification is GNU 13.1.0
+-- The CXX compiler identification is GNU 13.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+CMake Warning in C:/Users/Gouveia/OneDrive - ISEC/Informática/3 ano/1º Semestre/PD/PD-aula1-codigo-fonte-executaveis-batch-files-winsock/Get-time-udp/Src/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-twav6s/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/Gouveia/OneDrive - ISEC/Informática/3 ano/1º Semestre/PD/PD-aula1-codigo-fonte-executaveis-batch-files-winsock/Get-time-udp/Src/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-twav6s/CMakeFiles/cmTC_4ed8f.dir/./
+
+  has 227 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CMakeCXXCompilerABI.cpp.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (10.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/Gouveia/OneDrive - ISEC/Informática/3 ano/1º Semestre/PD/PD-aula1-codigo-fonte-executaveis-batch-files-winsock/Get-time-udp/Src/cmake-build-debug
