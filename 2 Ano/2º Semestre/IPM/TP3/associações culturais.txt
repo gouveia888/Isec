@@ -1,0 +1,26 @@
+associações culturais
+1 ficheiro
+	relatório aluno 1
+			2
+		consolidado (uma heurística de cada aluno optando pela melhor)
+1 pagina por heurística (10 - bom ou mau por cada um) + 3 heurísticas de sistemas moveis
+
+nome do produto - link
+data de estudo - data de entrega
+subject id podemos retirar
+
+NO. heurísticas hordenadas H1-descrição
+Nome
+Evidencia - printscreen
+Explicação
+classificar o grau de severidade (bom aspeto = 0) apenas classificar com nota
+solução
+relação com outra heurística: H1.2 sendo este problema relativamente a H1.5
+
+plugin util - UXCheck
+
+
+idade com virgulas, negativa, mais de 3 dígitos
+
+
+noticias pagina principal arrastar para o lado...

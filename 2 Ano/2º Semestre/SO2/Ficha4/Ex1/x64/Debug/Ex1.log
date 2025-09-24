@@ -1,0 +1,6 @@
+﻿  Ex1.c
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex1\Ex1.c(48,9): warning C4101: 'hThreads': variável local não referenciada
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex1\Ex1.c(51,9): warning C4101: 'tdados': variável local não referenciada
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex1\Ex1.c(64,15): warning C4101: 'inter': variável local não referenciada
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex1\Ex1.c(63,15): warning C4101: 'range': variável local não referenciada
+  Ex1.vcxproj -> C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\x64\Debug\Ex1.exe

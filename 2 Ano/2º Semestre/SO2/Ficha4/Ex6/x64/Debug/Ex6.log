@@ -1,0 +1,18 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: O diretório intermediário (x64\Debug\) contém arquivos compartilhados de outro projeto (Ex6-DESKTOP-M351GU7.vcxproj). Isso pode levar a um comportamento incorreto de limpeza e recompilação.
+  Ex6.c
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex6\Ex6.c(66,22): warning C4018: '<=': incompatibilidade de signed/unsigned
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex6\Ex6.c(86,13): warning C4477: 'wscanf_s': a cadeia de formato '%s' requer um argumento do tipo 'unsigned short *', mas um argumento variadic 1 tem o tipo 'char (*)[100]'
+      C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex6\Ex6.c(86,13):
+      esse argumento é usado por um especificador de conversão
+      C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex6\Ex6.c(86,13):
+      considere usar '%hs' na cadeia de formato
+      C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex6\Ex6.c(86,13):
+      considere usar '%Ts' na cadeia de formato
+      C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex6\Ex6.c(86,13):
+      este aviso baseia-se em semântica não padrão usada pelo Visual C++
+  
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex6\Ex6.c(88,15): warning C4133: 'função': tipos incompatíveis - de 'char [100]' para 'const wchar_t *'
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex6\Ex6.c(119,15): warning C4101: 'inter': variável local não referenciada
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex6\Ex6.c(118,15): warning C4101: 'range': variável local não referenciada
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex6\Ex6.c(98,1): warning C4716: 'Teclado': deve retornar um valor
+  Ex6.vcxproj -> C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\x64\Debug\Ex6.exe

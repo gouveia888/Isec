@@ -1,0 +1,19 @@
+﻿  Ex7.c
+C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex7\Ex7.c(56,23): error C2065: 'segundos': identificador não declarado
+C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex7\Ex7.c(60,45): error C2065: 'segundos': identificador não declarado
+C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex7\Ex7.c(62,42): error C2065: 'fimTempo': identificador não declarado
+C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex7\Ex7.c(62,42): warning C4047: 'função': 'PTIMERAPCROUTINE' difere em níveis de indireção de 'int'
+C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex7\Ex7.c(62,42): warning C4024: 'SetWaitableTimer': tipos diferentes para parâmetro formal e real 4
+C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex7\Ex7.c(62,53): error C2065: 'timerData': identificador não declarado
+C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex7\Ex7.c(80,22): warning C4018: '<=': incompatibilidade de signed/unsigned
+C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex7\Ex7.c(100,13): warning C4477: 'wscanf_s': a cadeia de formato '%s' requer um argumento do tipo 'unsigned short *', mas um argumento variadic 1 tem o tipo 'char (*)[100]'
+      C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex7\Ex7.c(100,13):
+      esse argumento é usado por um especificador de conversão
+      C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex7\Ex7.c(100,13):
+      considere usar '%hs' na cadeia de formato
+      C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex7\Ex7.c(100,13):
+      considere usar '%Ts' na cadeia de formato
+      C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex7\Ex7.c(100,13):
+      este aviso baseia-se em semântica não padrão usada pelo Visual C++
+  
+C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex7\Ex7.c(102,15): warning C4133: 'função': tipos incompatíveis - de 'char [100]' para 'const wchar_t *'

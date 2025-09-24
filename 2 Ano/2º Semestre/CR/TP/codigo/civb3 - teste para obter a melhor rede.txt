@@ -1,0 +1,83 @@
+Iteração 1:
+bestB3.mat
+Precisão de Teste: 83.33333333%
+Precisão Global: 92.30769231%
+Precisão de Teste na pasta Start: 100.00000000%
+Precisão de Teste na pasta Train: 95.55555556%
+Precisão de Teste na pasta Test: 100.00000000%
+
+Iteração 2:
+bestB3.mat
+Precisão de Teste: 78.20512821%
+Precisão Global: 81.53846154%
+Precisão de Teste na pasta Start: 80.00000000%
+Precisão de Teste na pasta Train: 84.44444444%
+Precisão de Teste na pasta Test: 55.55555556%
+
+Iteração 3:
+bestB3.mat
+Precisão de Teste: 80.76923077%
+Precisão Global: 91.79487179%
+Precisão de Teste na pasta Start: 80.00000000%
+Precisão de Teste na pasta Train: 88.88888889%
+Precisão de Teste na pasta Test: 66.66666667%
+
+Iteração 4:
+bestB3.mat
+Precisão de Teste: 85.89743590%
+Precisão Global: 93.07692308%
+Precisão de Teste na pasta Start: 80.00000000%
+Precisão de Teste na pasta Train: 95.55555556%
+Precisão de Teste na pasta Test: 100.00000000%
+
+Iteração 5:
+bestB3.mat
+Precisão de Teste: 83.33333333%
+Precisão Global: 93.58974359%
+Precisão de Teste na pasta Start: 60.00000000%
+Precisão de Teste na pasta Train: 97.77777778%
+Precisão de Teste na pasta Test: 88.88888889%
+
+Iteração 6:
+bestB3.mat
+Precisão de Teste: 87.17948718%
+Precisão Global: 92.30769231%
+Precisão de Teste na pasta Start: 100.00000000%
+Precisão de Teste na pasta Train: 93.33333333%
+Precisão de Teste na pasta Test: 100.00000000%
+
+Iteração 7:
+bestB3.mat
+Precisão de Teste: 82.05128205%
+Precisão Global: 92.56410256%
+Precisão de Teste na pasta Start: 80.00000000%
+Precisão de Teste na pasta Train: 93.33333333%
+Precisão de Teste na pasta Test: 77.77777778%
+
+Iteração 8:
+bestB3.mat
+Precisão de Teste: 87.17948718%
+Precisão Global: 91.53846154%
+Precisão de Teste na pasta Start: 100.00000000%
+Precisão de Teste na pasta Train: 93.33333333%
+Precisão de Teste na pasta Test: 77.77777778%
+
+Iteração 9:
+bestB3.mat
+Precisão de Teste: 84.61538462%
+Precisão Global: 93.33333333%
+Precisão de Teste na pasta Start: 80.00000000%
+Precisão de Teste na pasta Train: 97.77777778%
+Precisão de Teste na pasta Test: 88.88888889%
+
+Iteração 10:
+bestB3.mat
+Precisão de Teste: 88.46153846%
+Precisão Global: 91.53846154%
+Precisão de Teste na pasta Start: 100.00000000%
+Precisão de Teste na pasta Train: 88.88888889%
+Precisão de Teste na pasta Test: 88.88888889%
+
+
+Melhor das redes:Precisão de Teste: 85.89743590%
+Precisão Global: 93.07692308%

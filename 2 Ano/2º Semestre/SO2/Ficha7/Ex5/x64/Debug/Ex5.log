@@ -1,0 +1,4 @@
+﻿  Ex5.c
+C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha7\Ex1\Ex5.c(174,9): warning C4101: 'xPos': variável local não referenciada
+C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha7\Ex1\Ex5.c(174,15): warning C4101: 'yPos': variável local não referenciada
+  Ex5.vcxproj -> C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha7\x64\Debug\Ex5.exe

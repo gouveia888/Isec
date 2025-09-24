@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tiago\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\2\u00BA Semestre\\SO2\\Ficha 6 - Codigo Fonte\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tiago\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\2\u00BA Semestre\\SO2\\Ficha 6 - Codigo Fonte\\leitor.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:leitor.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tiago\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\2\u00BA Semestre\\SO2\\Ficha 6 - Codigo Fonte\\escritor.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:escritor.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "leitor.c",
+              "DocumentMoniker": "C:\\Users\\tiago\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\2\u00BA Semestre\\SO2\\Ficha 6 - Codigo Fonte\\leitor.c",
+              "RelativeDocumentMoniker": "leitor.c",
+              "ToolTip": "C:\\Users\\tiago\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\2\u00BA Semestre\\SO2\\Ficha 6 - Codigo Fonte\\leitor.c",
+              "RelativeToolTip": "leitor.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-04-12T11:17:05.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "escritor.c",
+              "DocumentMoniker": "C:\\Users\\tiago\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\2\u00BA Semestre\\SO2\\Ficha 6 - Codigo Fonte\\escritor.c",
+              "RelativeDocumentMoniker": "escritor.c",
+              "ToolTip": "C:\\Users\\tiago\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\2\u00BA Semestre\\SO2\\Ficha 6 - Codigo Fonte\\escritor.c",
+              "RelativeToolTip": "escritor.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-04-12T11:17:03.954Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

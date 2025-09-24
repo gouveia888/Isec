@@ -1,0 +1,6 @@
+﻿  ex2_b.c
+C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha1\Ex2_b\ex2_b.c(9,12): warning C4477: 'printf': a cadeia de formato '%d' requer um argumento do tipo 'int', mas um argumento variadic 2 tem o tipo 'size_t'
+      C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha1\Ex2_b\ex2_b.c(9,12):
+      considere usar '%zd' na cadeia de formato
+  
+  Ex2_b.vcxproj -> C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha1\x64\Debug\Ex2_b.exe

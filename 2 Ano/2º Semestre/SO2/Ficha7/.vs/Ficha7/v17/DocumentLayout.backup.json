@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tiago\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\2\u00BA Semestre\\SO2\\Ficha7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E1A1698-E380-422D-8A4B-19248BC35E29}|Ex5\\Ex5.vcxproj|C:\\Users\\tiago\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\2\u00BA Semestre\\SO2\\Ficha7\\Ex1\\Ex5.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3E1A1698-E380-422D-8A4B-19248BC35E29}|Ex5\\Ex5.vcxproj|solutionrelative:Ex1\\Ex5.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27572D3A-7E65-4A9B-B0D7-1966AF4DFFB0}|Ex6_1\\Ex6_1.vcxproj|C:\\Users\\tiago\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\2\u00BA Semestre\\SO2\\Ficha7\\Ex6_1\\Ex6.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{27572D3A-7E65-4A9B-B0D7-1966AF4DFFB0}|Ex6_1\\Ex6_1.vcxproj|solutionrelative:Ex6_1\\Ex6.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ex6.c",
+              "DocumentMoniker": "C:\\Users\\tiago\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\2\u00BA Semestre\\SO2\\Ficha7\\Ex6_1\\Ex6.c",
+              "RelativeDocumentMoniker": "Ex6_1\\Ex6.c",
+              "ToolTip": "C:\\Users\\tiago\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\2\u00BA Semestre\\SO2\\Ficha7\\Ex6_1\\Ex6.c",
+              "RelativeToolTip": "Ex6_1\\Ex6.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-05-21T12:09:32.759Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ex5.c",
+              "DocumentMoniker": "C:\\Users\\tiago\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\2\u00BA Semestre\\SO2\\Ficha7\\Ex1\\Ex5.c",
+              "RelativeDocumentMoniker": "Ex1\\Ex5.c",
+              "ToolTip": "C:\\Users\\tiago\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\2\u00BA Semestre\\SO2\\Ficha7\\Ex1\\Ex5.c",
+              "RelativeToolTip": "Ex1\\Ex5.c",
+              "ViewState": "AgIAAM0AAAAAAAAAAAAUwOEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-05-21T12:09:41.255Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

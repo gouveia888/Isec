@@ -1,0 +1,12 @@
+Para cada problema:
+		definir as variáveis e entrada e saída
+		para cada variável definir os termos linguísticos , dominio
+		para cada termo linguístico escolher a função pertenca correta
+
+Regras: usam logica difusa
+
+SE temperatura = muito alta E chuva = fraca ENTAO
+	AND - Min(u1,u2)
+	Or  - Max(u1,u2)
+	Not - 1-Ux
+

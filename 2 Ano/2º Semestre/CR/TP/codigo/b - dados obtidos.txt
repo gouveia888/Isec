@@ -1,0 +1,143 @@
+Configuração: Conf1
+Topologia: 5
+Funções de Ativação: tansig tansig purelin
+Função de Treinamento: trainlm
+Divisão: 0.70 / 0.15 / 0.15
+Média do Erro: 0.03728621
+Média da Precisão Global: 86.83%
+Média da Precisão de Teste: 62.00%
+
+Configuração: Conf2
+Topologia: 10
+Funções de Ativação: tansig tansig purelin
+Função de Treinamento: trainlm
+Divisão: 0.70 / 0.15 / 0.15
+Média do Erro: 0.03251307
+Média da Precisão Global: 89.57%
+Média da Precisão de Teste: 69.11%
+
+Configuração: Conf3
+Topologia: [5 15]
+Funções de Ativação: tansig tansig purelin
+Função de Treinamento: trainlm
+Divisão: 0.70 / 0.15 / 0.15
+Média do Erro: 0.05704614
+Média da Precisão Global: 81.80%
+Média da Precisão de Teste: 54.89%
+
+Configuração: Conf4
+Topologia: [10 15]
+Funções de Ativação: tansig tansig purelin
+Função de Treinamento: trainlm
+Divisão: 0.70 / 0.15 / 0.15
+Média do Erro: 0.03799907
+Média da Precisão Global: 89.40%
+Média da Precisão de Teste: 64.89%
+
+Configuração: Conf5
+Topologia: 10
+Funções de Ativação: tansig purelin
+Função de Treinamento: traingd
+Divisão: 0.70 / 0.15 / 0.15
+Média do Erro: 0.17341372
+Média da Precisão Global: 26.67%
+Média da Precisão de Teste: 22.22%
+
+Configuração: Conf6
+Topologia: 10
+Funções de Ativação: tansig purelin
+Função de Treinamento: trainbfg
+Divisão: 0.70 / 0.15 / 0.15
+Média do Erro: 0.12232976
+Média da Precisão Global: 31.07%
+Média da Precisão de Teste: 26.22%
+
+Configuração: Conf7
+Topologia: 10
+Funções de Ativação: tansig purelin
+Função de Treinamento: trainlm
+Divisão: 0.70 / 0.15 / 0.15
+Média do Erro: 0.04965016
+Média da Precisão Global: 88.87%
+Média da Precisão de Teste: 69.56%
+
+Configuração: Conf8
+Topologia: 10
+Funções de Ativação: tansig purelin
+Função de Treinamento: trainrp
+Divisão: 0.70 / 0.15 / 0.15
+Média do Erro: 0.13151157
+Média da Precisão Global: 25.83%
+Média da Precisão de Teste: 20.67%
+
+Configuração: Conf9
+Topologia: 10
+Funções de Ativação: logsig purelin
+Função de Treinamento: trainlm
+Divisão: 0.70 / 0.15 / 0.15
+Média do Erro: 0.05075428
+Média da Precisão Global: 87.53%
+Média da Precisão de Teste: 66.67%
+
+Configuração: Conf10
+Topologia: 10
+Funções de Ativação: tansig logsig
+Função de Treinamento: trainlm
+Divisão: 0.70 / 0.15 / 0.15
+Média do Erro: 0.23602641
+Média da Precisão Global: 56.90%
+Média da Precisão de Teste: 46.22%
+
+Configuração: Conf11
+Topologia: 10
+Funções de Ativação: purelin logsig
+Função de Treinamento: trainlm
+Divisão: 0.70 / 0.15 / 0.15
+Média do Erro: 0.24597730
+Média da Precisão Global: 30.57%
+Média da Precisão de Teste: 27.33%
+
+Configuração: Conf12
+Topologia: 10
+Funções de Ativação: logsig tansig
+Função de Treinamento: trainlm
+Divisão: 0.70 / 0.15 / 0.15
+Média do Erro: 0.02949209
+Média da Precisão Global: 89.83%
+Média da Precisão de Teste: 66.00%
+
+Configuração: Conf13
+Topologia: 10
+Funções de Ativação: radbasn tansig
+Função de Treinamento: trainlm
+Divisão: 0.70 / 0.15 / 0.15
+Média do Erro: 0.08708121
+Média da Precisão Global: 62.93%
+Média da Precisão de Teste: 37.78%
+
+Configuração: Conf14
+Topologia: 10
+Funções de Ativação: tansig purelin
+Função de Treinamento: trainlm
+Divisão: 0.60 / 0.20 / 0.20
+Média do Erro: 0.05301476
+Média da Precisão Global: 86.83%
+Média da Precisão de Teste: 66.83%
+
+Configuração: Conf15
+Topologia: 10
+Funções de Ativação: tansig purelin
+Função de Treinamento: trainlm
+Divisão: 0.80 / 0.10 / 0.10
+Média do Erro: 0.04067848
+Média da Precisão Global: 90.03%
+Média da Precisão de Teste: 63.67%
+
+Configuração: Conf16
+Topologia: 10
+Funções de Ativação: tansig purelin
+Função de Treinamento: trainlm
+Divisão: 0.50 / 0.20 / 0.30
+Média do Erro: 0.07049007
+Média da Precisão Global: 81.03%
+Média da Precisão de Teste: 60.89%

@@ -1,0 +1,6 @@
+﻿  Ex1g.c
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha3\Ex1g\Ex1g.c(80,2): warning C4013: '_setmode' indefinido; assumindo extern retornando int
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha3\Ex1g\Ex1g.c(80,11): warning C4013: '_fileno' indefinido; assumindo extern retornando int
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha3\Ex1g\Ex1g.c(114,5): warning C4133: 'função': tipos incompatíveis - de 'TDATA *' para 'LPDWORD'
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha3\Ex1g\Ex1g.c(121,5): warning C4133: 'função': tipos incompatíveis - de 'TDATA *' para 'LPDWORD'
+  Ex1g.vcxproj -> C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha3\x64\Debug\Ex1g.exe

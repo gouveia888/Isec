@@ -1,0 +1,4 @@
+﻿  escritor.c
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha6\Ex7_escritor\escritor.c(121,5): warning C4013: 'removeCliente' indefinido; assumindo extern retornando int
+escritor.obj : error LNK2019: símbolo externo não resolvido, removeCliente, referenciado na função broadcastClientes
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha6\x64\Debug\Ex7_escritor.exe : fatal error LNK1120: 1 externo não resolvidos

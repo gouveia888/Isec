@@ -1,0 +1,23 @@
+﻿  Ex5_1.c
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex5_1\Ex5_1.c(44,29): warning C4018: '<=': incompatibilidade de signed/unsigned
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex5_1\Ex5_1.c(124,13): warning C4477: 'wscanf_s': a cadeia de formato '%s' requer um argumento do tipo 'unsigned short *', mas um argumento variadic 1 tem o tipo 'char *'
+      C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex5_1\Ex5_1.c(124,13):
+      esse argumento é usado por um especificador de conversão
+      C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex5_1\Ex5_1.c(124,13):
+      considere usar '%hs' na cadeia de formato
+      C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex5_1\Ex5_1.c(124,13):
+      considere usar '%Ts' na cadeia de formato
+      C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex5_1\Ex5_1.c(124,13):
+      este aviso baseia-se em semântica não padrão usada pelo Visual C++
+  
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex5_1\Ex5_1.c(124,13): warning C4473: 'wscanf_s' : não há argumentos suficientes transmitidos para a cadeia de caracteres de formato
+      C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex5_1\Ex5_1.c(124,13):
+      espaços reservados e seus parâmetros esperam 2 argumentos variadic, mas 1 foram fornecidos
+      C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex5_1\Ex5_1.c(124,13):
+      o argumento variadic 2 ausente é requerido pela cadeia de formato '%s'
+      C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex5_1\Ex5_1.c(124,13):
+      esse argumento é usado como um tamanho do buffer
+  
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex5_1\Ex5_1.c(77,15): warning C4101: 'inter': variável local não referenciada
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex5_1\Ex5_1.c(76,15): warning C4101: 'range': variável local não referenciada
+  Ex5_1.vcxproj -> C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\x64\Debug\Ex5_1.exe

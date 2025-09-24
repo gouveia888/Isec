@@ -1,0 +1,21 @@
+﻿  Ex6.c
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex6\Ex6.c(51,29): warning C4047: '==': 'int *' difere em níveis de indireção de 'int'
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex6\Ex6.c(58,26): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'int *' para 'int'
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex6\Ex6.c(83,13): warning C4477: 'wscanf_s': a cadeia de formato '%s' requer um argumento do tipo 'unsigned short *', mas um argumento variadic 1 tem o tipo 'char (*)[100]'
+      C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex6\Ex6.c(83,13):
+      esse argumento é usado por um especificador de conversão
+      C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex6\Ex6.c(83,13):
+      considere usar '%hs' na cadeia de formato
+      C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex6\Ex6.c(83,13):
+      considere usar '%Ts' na cadeia de formato
+      C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex6\Ex6.c(83,13):
+      este aviso baseia-se em semântica não padrão usada pelo Visual C++
+  
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex6\Ex6.c(85,15): warning C4133: 'função': tipos incompatíveis - de 'char [100]' para 'const wchar_t *'
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex6\Ex6.c(85,20): warning C4133: 'função': tipos incompatíveis - de 'char [4]' para 'const wchar_t *'
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex6\Ex6.c(87,26): warning C4047: '=': 'int *' difere em níveis de indireção de 'int'
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex6\Ex6.c(169,16): warning C4047: '=': 'int' difere em níveis de indireção de 'unsigned int *'
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex6\Ex6.c(116,15): warning C4101: 'inter': variável local não referenciada
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex6\Ex6.c(115,15): warning C4101: 'range': variável local não referenciada
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex6\Ex6.c(73,1): warning C4715: 'Multiplos': nem todos os caminhos de controle retornam um valor
+  Ex6.vcxproj -> C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\x64\Debug\Ex6.exe

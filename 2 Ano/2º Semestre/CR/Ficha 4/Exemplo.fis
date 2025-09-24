@@ -1,0 +1,52 @@
+[System]
+Name='Ex1'
+Type='mamdani'
+Version=2.0
+NumInputs=3
+NumOutputs=1
+NumRules=6
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='servico'
+Range=[0 10]
+NumMFs=3
+MF1='fraco':'gaussmf',[1.5 0]
+MF2='bom':'gaussmf',[1.5 5]
+MF3='excelente':'gaussmf',[1.5 10]
+
+[Input2]
+Name='comida'
+Range=[0 10]
+NumMFs=3
+MF1='ma':'trapmf',[0 0 1 3]
+MF2='deliciosa':'trapmf',[7 9 11 19]
+MF3='aceitavel':'trapmf',[2 4 6 8]
+
+[Input3]
+Name='tempo_espera'
+Range=[0 40]
+NumMFs=3
+MF1='rapido':'trapmf',[0 0 5 15]
+MF2='razoavel':'trapmf',[13 18 23 30]
+MF3='lento':'trapmf',[30 35 40 40]
+
+[Output1]
+Name='gorgeta'
+Range=[0 30]
+NumMFs=3
+MF1='fraca':'trimf',[0 5 10]
+MF2='media':'trimf',[10 15 20]
+MF3='generosa':'trimf',[20 25 30]
+
+[Rules]
+1 1 0, 1 (1) : 2
+2 0 0, 2 (1) : 1
+3 2 0, 3 (1) : 2
+2 3 2, 2 (1) : 1
+3 2 1, 2 (1) : 2
+2 2 2, 3 (1) : 1

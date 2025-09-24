@@ -1,0 +1,6 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: O diretório intermediário (x64\Debug\) contém arquivos compartilhados de outro projeto (Ex2_1.vcxproj). Isso pode levar a um comportamento incorreto de limpeza e recompilação.
+  Ex2_1.c
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex2_1\Ex2_1.c(41,29): warning C4018: '<=': incompatibilidade de signed/unsigned
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex2_1\Ex2_1.c(74,15): warning C4101: 'inter': variável local não referenciada
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\Ex2_1\Ex2_1.c(73,15): warning C4101: 'range': variável local não referenciada
+  Ex2_1.vcxproj -> C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha4\x64\Debug\Ex2&3.exe

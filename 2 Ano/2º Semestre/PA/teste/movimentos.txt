@@ -1,0 +1,7 @@
+----- RECIBO DE PAGAMENTO -----
+Data e Hora: 03/04/2025 12:27:28
+Método de Pagamento: Cartão de Crédito
+Valor: € 45.0
+--------------------------------
+Obrigado pela preferência!
+

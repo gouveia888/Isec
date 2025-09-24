@@ -1,0 +1,5 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: O diretório intermediário (x64\Debug\) contém arquivos compartilhados de outro projeto (Ex2-DESKTOP-M351GU7.vcxproj). Isso pode levar a um comportamento incorreto de limpeza e recompilação.
+  codigo.c
+C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha2\Ex1\codigo.c(77,35): warning C4267: 'função': conversão de 'size_t' para 'DWORD', possível perda de dados
+C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha2\Ex1\codigo.c(100,10): warning C4553: '==': o resultado da expressão não usado; você pretendia que fosse '='?
+C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha2\Ex1\codigo.c(152,4): error C2143: erro de sintaxe: ';' ausente antes de 'break'

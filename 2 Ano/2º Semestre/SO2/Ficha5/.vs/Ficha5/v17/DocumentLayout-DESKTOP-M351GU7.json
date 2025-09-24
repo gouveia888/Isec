@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gouveia\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\2\u00BA Semestre\\SO2\\Ficha5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B220FC3-0C6A-4943-BF7E-445A53D0007A}|EX3_Consumidor\\EX3_Consumidor.vcxproj|C:\\Users\\Gouveia\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\2\u00BA Semestre\\SO2\\Ficha5\\Ex3\\Consumidor.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6B220FC3-0C6A-4943-BF7E-445A53D0007A}|EX3_Consumidor\\EX3_Consumidor.vcxproj|solutionrelative:Ex3\\Consumidor.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652BCF48-6D0C-470E-A6B8-F8F6E2146248}|Ex3\\Ex3.vcxproj|C:\\Users\\Gouveia\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\2\u00BA Semestre\\SO2\\Ficha5\\Ex3\\Produtor.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{652BCF48-6D0C-470E-A6B8-F8F6E2146248}|Ex3\\Ex3.vcxproj|solutionrelative:Ex3\\Produtor.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Consumidor.c",
+              "DocumentMoniker": "C:\\Users\\Gouveia\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\2\u00BA Semestre\\SO2\\Ficha5\\Ex3\\Consumidor.c",
+              "RelativeDocumentMoniker": "Ex3\\Consumidor.c",
+              "ToolTip": "C:\\Users\\Gouveia\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\2\u00BA Semestre\\SO2\\Ficha5\\Ex3\\Consumidor.c",
+              "RelativeToolTip": "Ex3\\Consumidor.c",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-04-02T12:29:19.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Produtor.c",
+              "DocumentMoniker": "C:\\Users\\Gouveia\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\2\u00BA Semestre\\SO2\\Ficha5\\Ex3\\Produtor.c",
+              "RelativeDocumentMoniker": "Ex3\\Produtor.c",
+              "ToolTip": "C:\\Users\\Gouveia\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\2\u00BA Semestre\\SO2\\Ficha5\\Ex3\\Produtor.c",
+              "RelativeToolTip": "Ex3\\Produtor.c",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAAwIkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-04-02T11:14:10.728Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

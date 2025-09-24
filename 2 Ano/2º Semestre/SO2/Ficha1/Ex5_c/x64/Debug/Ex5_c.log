@@ -1,0 +1,3 @@
+﻿  ex5_c.c
+C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha1\Ex5_c\ex5_c.c(14,9): warning C4101: 'lenght': variável local não referenciada
+  Ex5_c.vcxproj -> C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha1\x64\Debug\Ex5_c.exe

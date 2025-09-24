@@ -1,0 +1,6 @@
+waitformultiple objects termina o scanf/fgets que sera substituido pelo readfile do stdin no leitor/jogador
+SEtevent do lado do servidor/arbitro para terminar o jogador
+MULTIBYTETOCHAR
+createfile para criar o stdin
+
+case WMCOMMAND: SETDLG

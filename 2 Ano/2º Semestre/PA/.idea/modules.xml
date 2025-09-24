@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Colecoes/Colecoes.iml" filepath="$PROJECT_DIR$/Colecoes/Colecoes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ficha de Exercicios 1/Ficha de Exercicios 1.iml" filepath="$PROJECT_DIR$/Ficha de Exercicios 1/Ficha de Exercicios 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Jogo/Jogo.iml" filepath="$PROJECT_DIR$/Jogo/Jogo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PA.iml" filepath="$PROJECT_DIR$/PA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teste/teste.iml" filepath="$PROJECT_DIR$/teste/teste.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tp-group-10/tp-group-10.iml" filepath="$PROJECT_DIR$/tp-group-10/tp-group-10.iml" />
+    </modules>
+  </component>
+</project>

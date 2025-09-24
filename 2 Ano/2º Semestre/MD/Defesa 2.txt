@@ -1,0 +1,6 @@
+outra classe produto para retirar o item de lista de compra
+agenda trocar eventos tem varios menus
+retirar doses no modelo de dominio
+agendar refeciao e selecionar receita podem nao estar com include
+editar consumo e editar bloco de tempo fica dentro da agendar confecção
+agendar cofeçao de receita incluir a seleção da receita incluir lembretes e doses

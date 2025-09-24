@@ -1,0 +1,45 @@
+[System]
+Name='Ex1 - Controlador da água de um tanque'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=5
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='nivel'
+Range=[-1 1]
+NumMFs=3
+MF1='alto':'gaussmf',[0.25 -1]
+MF2='ok':'gaussmf',[0.2 0]
+MF3='baixo':'gaussmf',[0.25 1]
+
+[Input2]
+Name='fluxo'
+Range=[-0.4 0.4]
+NumMFs=3
+MF1='negativo':'gaussmf',[0.02 -0.1]
+MF2='nulo':'gaussmf',[0.02 0]
+MF3='positivo':'gaussmf',[0.02 0.1]
+
+[Output1]
+Name='valvula'
+Range=[-1 1]
+NumMFs=5
+MF1='fecha-rapido':'trimf',[-1 -0.9 -0.8]
+MF2='fecha-devagar':'trimf',[-0.6 -0.5 -0.4]
+MF3='nada':'trimf',[-0.1 0 0.1]
+MF4='abre-rapido':'trimf',[0.2 0.3 0.4]
+MF5='abre-devagar':'trimf',[0.8 0.9 1]
+
+[Rules]
+2 0, 3 (1) : 1
+3 0, 4 (1) : 1
+1 0, 1 (1) : 1
+1 3, 2 (1) : 1
+1 1, 5 (1) : 1

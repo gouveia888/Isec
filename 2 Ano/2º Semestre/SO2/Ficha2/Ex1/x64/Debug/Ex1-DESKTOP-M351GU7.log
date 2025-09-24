@@ -1,0 +1,7 @@
+﻿  codigo.c
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha2\Ex1\codigo.c(77,35): warning C4267: 'função': conversão de 'size_t' para 'DWORD', possível perda de dados
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha2\Ex1\codigo.c(100,10): warning C4553: '==': o resultado da expressão não usado; você pretendia que fosse '='?
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha2\Ex1\codigo.c(147,21): warning C4047: 'função': 'const wchar_t *' difere em níveis de indireção de 'int'
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha2\Ex1\codigo.c(147,21): warning C4024: 'wcscpy': tipos diferentes para parâmetro formal e real 2
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha2\Ex1\codigo.c(147,26): error C2197: 'wchar_t *wcscpy(wchar_t *,const wchar_t *)': muitos argumentos para chamada
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\2º Semestre\SO2\Ficha2\Ex1\codigo.c(147,4): error C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
