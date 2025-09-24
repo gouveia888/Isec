@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Controle por Voz</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: sans-serif;
+      margin: 0;
+    }
+    #log {
+      margin-top: 40px;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Controle por Voz</h2>
+  <div id="log">Aguardando comando de voz...</div>
+
+  <script>
+    const targetIP = '192.168.99.130';
+    const log = document.getElementById("log");
+
+    window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    if ('SpeechRecognition' in window) {
+      const recognition = new SpeechRecognition();
+      recognition.lang = 'pt-PT';
+      recognition.continuous = true;
+
+      recognition.onresult = (event) => {
+        const transcript = event.results[event.results.length - 1][0].transcript
+						  .trim()
+						  .toLowerCase()
+						  .replace(/[.,!?]/g, '');
+
+
+        if (["frente", "direita", "esquerda", "parar"].includes(transcript)) {
+          log.innerText = `Comando reconhecido: ${transcript}`;
+          sendCommand(transcript);
+        } else {
+          log.innerText = `Não reconhecido: "${transcript}"`;
+        }
+      };
+
+      recognition.onerror = (e) => {
+        log.innerText = "Erro de voz: " + e.error;
+      };
+
+      recognition.start();
+    } else {
+      log.innerText = "Reconhecimento de voz não suportado neste navegador.";
+    }
+
+    function sendCommand(command) {
+      fetch(`http://${targetIP}/comando?command=${command}`)
+        .then(response => response.text())
+        .then(data => console.log(data))
+        .catch(err => log.innerText = `Erro: ${err}`);
+    }
+  </script>
+</body>
+</html>
