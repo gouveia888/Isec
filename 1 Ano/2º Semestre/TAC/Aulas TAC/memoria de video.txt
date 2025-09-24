@@ -1,0 +1,80 @@
+    calcminas proc
+    
+        push bx
+        push si
+
+        ; Recebe a posição no monitor (linha em AL e coluna em AH)
+        mov cx, ax         ; CL = linha, CH = coluna
+        xor ah, ah         ; Coloca AH=0 para usar AL (linha) em cálculos
+        mov bl, 160        ; Cada linha tem 160 bytes
+        mul bl             ; AX = linha * 160
+        mov si, ax         ; SI agora tem o deslocamento da linha
+        mov bl, ch         ; BX = coluna
+        add bx, bx         ; Multiplica coluna por 2 (2 bytes por célula)
+        add ax, bx
+        mov si, ax         ; SI = deslocamento total (linha + coluna)
+
+		xor cl, cl
+
+        ; Verificação das células adjacentes
+        mov bx, es:[si]    ; Leitura da célula atual
+        cmp bx, '*'
+        je mina
+
+        ; Verifica célula à direita (+2)
+        mov bx, es:[si+2]
+        cmp bx, '*'
+        jne p3
+		inc cl
+		
+        ; Verifica célula à esquerda (-2)
+     p3:mov bx, es:[si-2]
+        cmp bx, '*'
+        jne p4
+		inc cl
+
+        ; Verifica célula acima (-160)
+     p4:mov bx, es:[si-160]
+        cmp bx, '*'
+        jne p5
+		inc cl
+
+        ; Verifica célula acima-direita (-158)
+     p5:mov bx, es:[si-158]
+        cmp bx, '*'
+        jne p6
+		inc cl
+
+        ; Verifica célula acima-esquerda (-162)
+     p6:mov bx, es:[si-162]
+        cmp bx, '*'
+        jne p7
+		inc cl
+
+        ; Verifica célula abaixo (+160)
+      p7:mov bx, es:[si+160]
+        cmp bx, '*'
+        jne p8
+		inc cl
+
+        ; Verifica célula abaixo-direita (+162)
+     p8:mov bx, es:[si+162]
+        cmp bx, '*'
+        jne p9
+		inc cl
+
+        ; Verifica célula abaixo-esquerda (+158)
+     p9:mov bx, es:[si+158]
+        cmp bx, '*'
+        jne fim
+		inc cl
+		jmp fim
+
+	mina: mov CK, '*'
+
+        fim:
+            pop si
+            pop bx
+            ret
+
+    calcminas endp

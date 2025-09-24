@@ -1,0 +1,30 @@
+/**********************************************
+*** © Linguagens Script > DEIS > ISEC > IPC 
+*** Jogo de Minesweeper em React
+*** Estilos Index.js
+**********************************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(#024870, rgba(0, 0, 0, 0.329)) fixed;
+  font-family: Verdana, "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+select,
+label,
+dd,
+button {
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+}
+
+select,
+button {
+  cursor: pointer;
+}

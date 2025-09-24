@@ -1,0 +1,20 @@
+#game-panel {
+    display: grid;
+    grid-template-columns: repeat(9, auto);
+    gap: 5px;
+    justify-content: center;
+    padding: 20px;
+    width: 80%;
+    min-width: 200px;
+    perspective: 1000px;
+}
+
+#game-panel.intermedio {
+    width: 80%;
+    grid-template-columns: repeat(16, auto);
+}
+
+#game-panel.avancado {
+    width: 80%;
+    grid-template-columns: repeat(30, auto);
+}

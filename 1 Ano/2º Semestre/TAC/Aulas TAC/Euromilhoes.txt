@@ -1,0 +1,73 @@
+.8086
+.model small
+.stack 2048
+
+dados segment para 'data'
+    Aposta db 1,20,23,47,49,6,7
+    PPremio db 1,47,250,99,3,0,9
+	Numeros db 0
+	Estrelas db 0
+	Invalidos db 0	
+dados ends
+
+codigo segment para 'code'
+    main proc
+        assume cs:codigo, ds:dados
+        mov ax, dados
+        mov ds, ax
+        xor si, si       
+        mov cx, 7
+
+    ciclo: cmp cx, 5
+        jbe NUM
+        ja EST
+        inc si
+		loop ciclo
+		jmp sair
+		
+	NUM: mov AL, PPremio[si]
+		cmp al, 50
+		ja INV
+		cmp AL, 0
+		jbe INV
+		xor bx, bx
+	
+	ciclo2:	cmp bx, 4
+			ja ciclo
+			cmp al, Aposta[bx]
+			je C_NUM
+			inc bx
+			jmp ciclo2
+		
+	EST: mov al, PPremio[SI]
+		cmp al, 12
+		ja INV
+		cmp al, 0
+		jbe INV
+		xor bx, bx
+		
+	ciclo3: cmp bx, 1
+			ja ciclo
+			cmp Aposta[BX], al
+			je C_EST
+			inc bx
+			jmp ciclo3
+			
+	C_EST:inc Estrelas
+	      jmp ciclo
+	
+	C_NUM:inc Numeros
+		  jmp ciclo
+	
+	INV: inc Invalidos
+		jmp ciclo
+		
+	
+
+    fim:
+        mov ax, 4C00h      
+        int 21h             
+
+    main endp
+codigo ends
+end main

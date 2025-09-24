@@ -1,0 +1,58 @@
+ml ficheiro.asm para compilar para executavel
+cv ficheiro.exe para abrir em code view
+para executar instruçoes F8 e para abrir a memorio do DS ir a windows e memory 1 fechar a anterior
+var1b 0ADH
+string -> p a t a 00H . cada um em uma celula
+5 bytes  
+db data byte
+dw data word 2 bytes 16 bits
+numero em binario 101001010b
+sem indicaçao é decimal
+
+var1w 173 que fica em binario 10101101(2) - 00ADH - logo na memoria aparece AD00 (bit mais significativo primeiro)
+var1dw dd (double word 4 bytes 32 bits) - 000000ADH - na memoria aparece ao contrario
+var2w word 16 bits 2 bytes -28 achar o binario puro +11100(2)
+		c2 16bits +28 = 0000000000011100(c2)
+		c2 16bits -28 = 1111111111100100(c2)
+		em hex -28 = FFE4H em memoria E4 FF
+
+var3w uma sword (word com sinal) = -28 (=a word 2 bytes 16 bits) ou seja igual ao anterior
+
+var2b byte(1byte) -28 = 11100100
+		E4
+var3b sbyte = a byte (byte com sinal)
+var2dw dword (4bytes 32 bits) = FF FF FF E4 acrescenta FF a esquerda ou seja completa os bits
+var3dw sdword = vai se igual a anterior (32 bits)
+
+
+---------------------------------MATRIZES---------------------------------
+   Nome  
+CharArray dw 3 dup (00CCH)
+		     dw
+em memoria aparece 3 vezes CC00 data word 2 bytes 
+Square byte 0,1,4,9,16 em memoria aparece em hexadecimal logo vai aparecer 00 01 04 09 10(16 em Hex)
+ThreeD db(data byte) 2 dup (4 dup (2 dup (052h))) --- /4 espessura (4 linhas (2 colunas)))
+			             52H 52H
+			             52H 52H
+			             52H 52H
+			             52H 52H
+16 vezes em memoria 52H
+twoD data byte 2 dup (2 dup (12h))   12H 12H
+				     12H 12H
+
+word 2 bytes
+IntArray word 4 dup (0BCh) em memoria fica BC 00 BC 00 BC 00 BC 00
+
+		      
+var1f		6 bytes fword	65535 (em Hex FFFF)
+var1q		8 bytes  qword   65534 (em Hex FFFE)
+var1t		10 bytes  tbyte	65533 (em Hex FFFD)
+
+X REAL4 4.0 = +4.0 = +100.0(2)x2^0 = +1000,0(2)x2^2
+
+exp 127+2 = 129(10) = 10000001(2)
+BS
+0100 0000 1000 00..00
+  4   0     8   0 0 0 0 0 H
+vai guardar em memoria 00 00 80 40  
+
