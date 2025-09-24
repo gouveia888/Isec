@@ -1,0 +1,7 @@
+# ninja log v5
+6	887	7544963873874026	CMakeFiles/Aula_13.dir/ListaCompras.cpp.obj	ffe44dab19efa0a0
+13	802	7544963872980103	CMakeFiles/Aula_13.dir/Compra.cpp.obj	4f04d7d35b6c66a2
+887	1791	7544963883061791	CMakeFiles/Aula_13.dir/ListaComprasSet.cpp.obj	b9944889ebbb9d7b
+1792	2094	7544963886019030	Aula_13.exe	f86cdb3942d3e22a
+804	1665	7544963881780599	CMakeFiles/Aula_13.dir/main.cpp.obj	c394ad38cca90a4f
+19	1081	7544963875711042	CMakeFiles/Aula_13.dir/ListaComprasVetor.cpp.obj	1f9189d5957bc2f5

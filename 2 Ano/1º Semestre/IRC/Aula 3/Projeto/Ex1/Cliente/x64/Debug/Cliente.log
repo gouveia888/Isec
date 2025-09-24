@@ -1,0 +1,8 @@
+﻿  Ex2_Cliente.c
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\IRC\Aula 3\Resolucao-exercicio-udp-1\Ex2_Cliente.c(79,12): warning C4267: '=': conversão de 'size_t' para 'int', possível perda de dados
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\IRC\Aula 3\Resolucao-exercicio-udp-1\Ex2_Cliente.c(92,22): warning C4133: 'função': tipos incompatíveis - de 'sockaddr_in *' para 'sockaddr *'
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\IRC\Aula 3\Resolucao-exercicio-udp-1\Ex2_Cliente.c(122,3): warning C4047: 'função': 'int *' difere em níveis de indireção de 'size_t'
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\IRC\Aula 3\Resolucao-exercicio-udp-1\Ex2_Cliente.c(122,3): warning C4024: 'recvfrom': tipos diferentes para parâmetro formal e real 6
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\IRC\Aula 3\Resolucao-exercicio-udp-1\Ex2_Cliente.c(32,7): warning C4101: 'buffer': variável local não referenciada
+  LINK : C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\IRC\Aula 3\Projeto\Ex1\x64\Debug\Cliente.exe não encontrado ou não compilado pelo o último link incremental; executando link completo
+LINK : fatal error LNK1104: não é possível abrir o arquivo 'C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\IRC\Aula 3\Projeto\Ex1\x64\Debug\Cliente.exe'

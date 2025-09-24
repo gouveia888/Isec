@@ -1,0 +1,8 @@
+# ninja log v5
+357	8583	7559244086591034	CMakeFiles/Codigo.dir/funcao.c.obj	f31683a64a9a366e
+8	731	7559256185471069	CMakeFiles/Codigo.dir/main.c.obj	9a43b7b3f9f2aa2
+928	9894	7559244092273244	CMakeFiles/Codigo.dir/utils.c.obj	13b9b2ad9af120a4
+22	6948	7559244083221676	CMakeFiles/Codigo.dir/trepa-colinas.c.obj	d40a49fd3a4fd1f3
+1049	1944	7559256195882445	Codigo.exe	d87e1b40bf375dbb
+122	1049	7559256186607816	CMakeFiles/Codigo.dir/evolutivo.c.obj	fa5e0b078372d138
+7	410	7561834000697682	build.ninja	3ffc1b9b918c0fb7

@@ -1,0 +1,16 @@
+ps (a all login - x todos do sistema opcional) - mostra os processos
+kill  aquando da retoma de um processo ele termina o processo  -9 mata
+jobs - mostra as tarefas (num determinado terminal)
+fg  - foreground  fg %1 (numero do processo em espera)
+bg  - background
+%
+&   colocar a correr em background
+ctrl+c - terminar a tarefa
+ctrl+z - suspende a tarefa
+getpid();
+getppid();
+excel();
+fork();    0 e filho maior que 0 e pai
+
+
+ex4 colocar fork antes do excel

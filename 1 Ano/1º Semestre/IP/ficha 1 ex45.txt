@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int divisor (int);
+
+void main(){
+
+int num, divisores;
+
+do{
+    printf("Introduza um numero:");
+    scanf("\n%d", &num);
+
+    divisores=divisor(num);
+
+    if(divisores==2)
+        printf("Numero primo!\n");
+}while(num>0);
+
+}
+
+int divisor (int num){
+
+int i=0, cont=0;
+
+for(i=1;i<=num;i++){
+
+  if(num%i==0)
+    cont++;
+}
+
+
+return cont;
+}

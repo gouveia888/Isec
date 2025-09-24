@@ -1,0 +1,12 @@
+# ninja log v5
+2	594	7496487565599730	build.ninja	3ef6214da90fb657
+1713	1994	7496483452481313	Aula2.exe	51642fcfb4bb88e1
+4	1711	7496483450136057	CMakeFiles/Aula2.dir/ex1.cpp.obj	56aed3dd38630501
+7	1111	7496488290586058	CMakeFiles/Aula2.dir/ex1.cpp.obj	56aed3dd38630501
+7	2060	7496494954946829	CMakeFiles/Aula2.dir/ex1.cpp.obj	56aed3dd38630501
+10	1890	7496495200593456	CMakeFiles/Aula2.dir/ex1.cpp.obj	56aed3dd38630501
+5	978	7496495645027892	CMakeFiles/Aula2.dir/ex1.cpp.obj	56aed3dd38630501
+19	1380	7496496280758610	CMakeFiles/Aula2.dir/Tabela.cpp.obj	fe6d06a68d0fd345
+11	784	7496497285440647	CMakeFiles/Aula2.dir/Tabela.cpp.obj	fe6d06a68d0fd345
+11	927	7496497583286389	CMakeFiles/Aula2.dir/Tabela.cpp.obj	fe6d06a68d0fd345
+11	916	7496510793189114	CMakeFiles/Aula2.dir/Tabela.cpp.obj	fe6d06a68d0fd345

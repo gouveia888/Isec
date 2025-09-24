@@ -1,0 +1,45 @@
+Select titulo, preco_tabela, paginas, round((preco_tabela/paginas)*100,2) as "Custo página", 
+floor((preco_tabela/paginas)*100+1) as "Custo pág.(sup)", 
+floor((preco_tabela/paginas)*100) as "Custo pág.(inf)"
+from livros
+where paginas BETWEEN 100 and 300
+order by titulo;
+
+
+Select lower(titulo) "Titulo (em minusculas)", upper(titulo) "Titulo (em maisculas)", initcap(titulo) "Titulo (1a letra maiúscula)"
+from livros
+where genero='Informática'
+order by titulo;
+
+Select titulo "Titulo", preco_tabela "Preco", quant_em_stock "Quantidade em stock"
+from livros
+where lower(genero)='romance' or upper(genero)='ROMANCE'
+order by quant_em_stock desc;
+
+----------------------------------------------------------------------------------
+
+Select lower(livros.titulo) as "Titulo (em minusculas)", upper(livros.genero) as "genero (maisculas)", initcap(autores.nome) as "Nome Autor (1a letra)"
+from autores, livros, editoras
+where autores.codigo_autor = livros.codigo_autor
+and editoras.codigo_editora = livros.codigo_editora
+and editoras.nome = 'FCA - EDITORA'
+and livros.genero=autores.genero_preferido
+order by livros.titulo desc;
+
+Select titulo, genero
+from livros
+where length(titulo) > 35
+or titulo like '%f%'
+order by titulo;
+
+Select titulo, genero
+from livros
+where length(titulo) > 35
+and (titulo like '%f%' or genero like 'F%' or genero like '%f%')
+order by titulo;
+
+Select titulo, preco_tabela as preco, round(preco_tabela*1.08,1) as PRECO_COM_AUMENTO 
+from livros
+where preco_tabela > 20
+and genero = 'Fantástico'
+order by round(preco_tabela*1.08,1) desc;

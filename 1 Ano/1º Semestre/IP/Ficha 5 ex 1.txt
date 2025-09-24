@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+float Quadrado(float);
+
+void main(){
+
+float num;
+
+do{
+    printf("Escreva um numero:");
+    scanf("%f", &num);
+
+    if(num!=0){
+        num=Quadrado(num);
+        printf("O quadrado do numero e %f\n", num);
+    }
+
+}while(num!=0);
+
+}
+
+float Quadrado (float num){
+
+num=num*num;
+
+return num;
+}
+

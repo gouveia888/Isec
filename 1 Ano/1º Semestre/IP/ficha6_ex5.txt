@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+void main(){
+
+const int N=20;
+
+int vetor[N],tam=0,i=0,num=0,capicua,y;
+
+do{
+    printf("\nPrograma que verifica se o numero e capicua\nIntroduza um numero:");
+    scanf("%d", &num);
+}while(num<1);
+
+while(num!=0){
+    vetor[tam]=num%10;
+    num=num/10;
+    tam++;
+}
+
+capicua=1;
+y=tam-1;
+
+do{
+    if(vetor[i]!=vetor[y])
+        capicua=0;
+
+    i=i+1;
+    y=y-1;
+}while(i<=(tam-1)/2 && capicua==1);
+
+if(capicua==1)
+    printf("\nO numero e capicua!!");
+
+
+}

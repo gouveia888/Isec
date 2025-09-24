@@ -1,0 +1,78 @@
+Ficha 1
+
+apt - instalar software
+sudo - super user do
+man -k print - procura no manual onde esta a palavra print
+nano texto.txt - editor de texto
+cat texto.txt - mostrar texto
+more texto.txt - paginar texto
+man -k print | more - paginar conteúdo print
+
+passwd - mudar password
+usermod - modificar características do utilizador
+sudo usermod -aG SO gouveia - adiciona ao grupo SO
+
+
+sudo
+	alterações a fazer
+exit
+
+
+-----------------------------
+comandos de ficheiros
+
+pwd - mostra caminho da diretoria onde estamos
+ls - lista diretorias
+mkdir pasta - cria pasta
+ls 
+ls -l
+nano texto.txt
+ls
+ls -l
+sudo apt install tree
+tree - mostra arvore da pasta
+cd pasta - entra na pasta
+pwd
+cd .. - sai da pasta
+pwd
+cp texto.txt pasta - copiou texto.txt para pasta
+ls -l
+tree
+cp texto.txt old.text - copia do texto.txt para old.txt
+ls -l
+tree
+mv old.txt new.txt - renomeia old.txt para new.txt
+ls -l
+tree
+cat new.txt
+ls -l
+tree
+rm new.txt - apaga o new.txt
+ls -l
+tree
+rmdir pasta - nao apaga porque diretoria nao esta vazia
+	ls -r pasta
+	rm -r pasta - apaga pasta e o seu conteudo
+cd pasta
+rm texto.txt - apaga ficheiros
+cd ..
+rmdir pasta - apaga porque diretoria esta vazia
+	cp text.txt pasta/ttt.txt - copia para pasta e altera o nome	
+	mv pasta/texto.txt . - move o texto.txt para pasta onde estou
+	cd ~ - vai para a pasta pessoal do utilizador
+	
+ls -l
+tree 	
+
+---------------------------------------------------------
+echo "Ola Mundo"
+echo "Ola NOME"
+NOME="Joao Pedro"
+echo "Ola Nome"
+echo "Ola $NOME"
+unset NOME
+echo "Ola $NOME"
+
+---------------------------
+ls -l
+chmod u=rwx, g+w, o-rwx texto.txt

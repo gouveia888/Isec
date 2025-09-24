@@ -1,0 +1,5 @@
+﻿  servidorUDPv1a_basico.c
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\IRC\Aula 2\Resolucao-exercicio-udp-1\servidorUDPv1a_basico.c(73,4): warning C4133: 'função': tipos incompatíveis - de 'sockaddr_in *' para 'sockaddr *'
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\IRC\Aula 2\Resolucao-exercicio-udp-1\servidorUDPv1a_basico.c(86,46): warning C4267: 'função': conversão de 'size_t' para 'int', possível perda de dados
+  LINK : C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\IRC\Aula 2\Projeto\Ex1\x64\Debug\Servidor.exe não encontrado ou não compilado pelo o último link incremental; executando link completo
+  Servidor.vcxproj -> C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\IRC\Aula 2\Projeto\Ex1\x64\Debug\Servidor.exe

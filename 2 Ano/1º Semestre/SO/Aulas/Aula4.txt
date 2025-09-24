@@ -1,0 +1,5 @@
+set | grep "variavel" - ver se a variável esta definida
+unset "variavel" - apagar variavel
+export variável - export variável para ficar visível no terminal
+export | grep "variavel" - ver se a variável esta declarada
+"variavel"=12 -definir variavel

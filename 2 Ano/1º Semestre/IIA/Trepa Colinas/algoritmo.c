@@ -1,0 +1,168 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include "algoritmo.h"
+#include "funcao.h"
+#include "utils.h"
+
+#define PROBABILIDADE 0.01
+
+// Gera um vizinho
+// Parametros: solucao actual, vizinho, numero de vertices
+//swap two vertices
+void gera_vizinho(int a[], int b[], int n)
+{
+    int i, p1, p2;
+
+    for(i=0; i<n; i++)
+        b[i]=a[i];
+	// Encontra posicao com valor 0
+    do
+        p1=random_l_h(0, n-1);
+    while(b[p1] != 0);
+	// Encontra posicao com valor 0
+    do
+        p2=random_l_h(0, n-1);
+    while(b[p2] != 1);
+	// Troca
+    b[p1] = 1;
+    b[p2] = 0;
+}
+
+void gera_vizinho2(int a[], int b[], int n)
+{
+    int i, p1, p2, p3,p4;
+
+    for(i=0; i<n; i++)
+        b[i]=a[i];
+    // Encontra posicao com valor 0
+    do
+        p1=random_l_h(0, n-1);
+    while(b[p1] != 0);
+    do
+        p3=random_l_h(0, n-1);
+    while(b[p3] != 0 || p1==p3);
+    // Encontra posicao com valor 0
+    do
+        p2=random_l_h(0, n-1);
+    while(b[p2] != 1);
+    do
+        p4=random_l_h(0, n-1);
+    while(b[p4] != 1);
+    // Troca
+    b[p1] = 1;
+    b[p2] = 0;
+    b[p3] = 1;
+    b[p4] = 0;
+}
+
+// Trepa colinas first-choice
+// Parametros: solucao, matriz de adjacencias, numero de vertices e numero de iteracoes
+// Devolve o custo da melhor solucao encontrada
+int trepa_colinas(int sol[], int *mat, int vert, int num_iter)
+{
+    int *nova_sol, custo, custo_viz, i;
+
+	nova_sol = malloc(sizeof(int)*vert);
+    if(nova_sol == NULL)
+    {
+        printf("Erro na alocacao de memoria");
+        exit(1);
+    }
+	// Avalia solucao inicial
+    custo = calcula_fit(sol, mat, vert);
+    for(i=0; i<num_iter; i++)
+    {
+		// Gera vizinho
+		gera_vizinho(sol, nova_sol, vert);
+        // Gera vizinho2
+        //gera_vizinho2(sol, nova_sol, vert);
+        // Avalia vizinho
+		custo_viz = calcula_fit(nova_sol, mat, vert);
+		// Aceita vizinho se o custo diminuir (problema de minimizacao)
+        if(custo_viz <= custo)
+        {
+			substitui(sol, nova_sol, vert);
+			custo = custo_viz;
+        }
+    }
+    free(nova_sol);
+    return custo;
+}
+
+int trepa_colinas_prop(int sol[], int *mat, int vert, int num_iter)
+{
+    int *nova_sol, custo, custo_viz, i;
+
+    nova_sol = malloc(sizeof(int)*vert);
+    if(nova_sol == NULL)
+    {
+        printf("Erro na alocacao de memoria");
+        exit(1);
+    }
+    // Avalia solucao inicial
+    custo = calcula_fit(sol, mat, vert);
+    for(i=0; i<num_iter; i++)
+    {
+        // Gera vizinho
+        gera_vizinho(sol, nova_sol, vert);
+        // Gera vizinho2
+        //gera_vizinho2(sol, nova_sol, vert);
+        // Avalia vizinho
+        custo_viz = calcula_fit(nova_sol, mat, vert);
+        // Aceita vizinho se o custo diminuir (problema de minimizacao)
+        if(custo_viz <= custo){
+            substitui(sol, nova_sol, vert);
+            custo = custo_viz;
+        }else if(rand_01() <= PROBABILIDADE){
+            substitui(sol, nova_sol, vert);
+            custo=custo_viz;
+        }
+    }
+    free(nova_sol);
+    return custo;
+}
+
+int recristalizacao_simulada(int sol[], int *mat, int vert)
+{
+    int *nova_sol, custo, custo_viz, i, k, iter=0;
+    double tmax, tmin, t, fa;
+
+    tmax=100;
+    tmin=5; //melhor resultado com valor mais proximo de 0
+    k=5;
+    fa=0.99;  //variaçao menor melhor resutado
+    t=tmax;
+
+    nova_sol = malloc(sizeof(int)*vert);
+    if(nova_sol == NULL)
+    {
+        printf("Erro na alocacao de memoria");
+        exit(1);
+    }
+    // Avalia solucao inicial
+    custo = calcula_fit(sol, mat, vert);
+    while(t > tmin)
+    {
+        for(i = 0; i < k; i++){
+            // Gera vizinho
+            gera_vizinho(sol, nova_sol, vert);
+            // Gera vizinho2
+            //gera_vizinho2(sol, nova_sol, vert);
+            // Avalia vizinho
+            custo_viz = calcula_fit(nova_sol, mat, vert);
+            // Aceita vizinho se o custo diminuir (problema de minimizacao)
+            if(custo_viz <= custo){
+                substitui(sol, nova_sol, vert);
+                custo = custo_viz;
+            }else if(rand_01() <= exp((custo-custo_viz)/t)){
+                substitui(sol, nova_sol, vert);
+                custo=custo_viz;
+            }
+        }
+        t=t*fa;
+        iter++;
+    }
+    free(nova_sol);
+    return custo;
+}

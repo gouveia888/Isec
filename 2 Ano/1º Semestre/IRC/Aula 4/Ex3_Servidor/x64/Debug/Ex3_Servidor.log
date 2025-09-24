@@ -1,0 +1,4 @@
+﻿  Ex3_Servidor.c
+C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\IRC\Aula 4\Ex3_Servidor\Ex3_Servidor.c(30,27): warning C4101: 'buffer1': variável local não referenciada
+C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\IRC\Aula 4\Ex3_Servidor\Ex3_Servidor.c(30,48): warning C4101: 'resposta': variável local não referenciada
+  Ex3_Servidor.vcxproj -> C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\IRC\Aula 4\x64\Debug\Ex3_Servidor.exe

@@ -1,0 +1,4 @@
+﻿  Ex2_Servidor.c
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\IRC\Aula 3\Resolucao-exercicio-udp-1\Ex2_Servidor.c(74,4): warning C4133: 'função': tipos incompatíveis - de 'sockaddr_in *' para 'sockaddr *'
+  LINK : C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\IRC\Aula 3\Projeto\Ex1\x64\Debug\Servidor.exe não encontrado ou não compilado pelo o último link incremental; executando link completo
+  Servidor.vcxproj -> C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\IRC\Aula 3\Projeto\Ex1\x64\Debug\Servidor.exe

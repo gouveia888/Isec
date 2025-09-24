@@ -1,0 +1,108 @@
+exec naluno(2019112767);
+
+--ex 3
+
+Select titulo, genero, preco_tabela, quant_em_stock
+from livros
+where to_char(data_edicao,'YYYY') = '2020'
+order by data_edicao desc;
+
+EXEC SQLCHECK('FDGYACTCYSPGGPP');
+
+--ex 4
+
+Select to_char(sysdate, 'DDTH, Month, YYYY') "DATA Atual", to_char(sysdate, 'HH24:MI:SS PM') "Hora Min Sec Atual" 
+from dual;
+EXEC SQLCHECK('FDSFRMTDJAMNHYJ');
+
+--ex 5
+
+Select titulo "Titulo", preco_tabela "Preco", to_char(data_edicao, 'DD-MM-YYYY') "DATA_EDICAO"
+from livros
+where sysdate-data_edicao < 900;
+
+EXEC SQLCHECK('FDOIZQOEMVPVIHE');
+
+--ex 6
+
+Select distinct titulo, to_char(data_edicao, 'DD-MM-YYYY') "DATA"
+from livros, clientes, vendas
+where data_venda between to_date('15-01-2014', 'DD-MM-YYYY')
+and to_date('18-02-2014', 'DD-MM-YYYY')
+and clientes.morada like '%Lisboa%'
+and livros.codigo_livro = vendas.codigo_livro
+and vendas.codigo_cliente = clientes.codigo_cliente
+order by data;
+
+EXEC SQLCHECK('FDLFOHYFTHWFJXA');
+
+-- ex7
+Select DISTINCT titulo, to_char(data_edicao, 'YYYY-MM') "ANO_MES"
+from livros, vendas
+where upper(genero)='INFORMÁTICA'
+and to_char(vendas.data_venda, 'YYYY-MM') = to_char(livros.data_edicao, 'YYYY-MM')
+and livros.codigo_livro = vendas.codigo_livro
+order by to_char(data_edicao, 'YYYY-MM') DESC;
+
+EXEC SQLCHECK('FDZUYQHGLOLRKRW');
+
+--ex 8
+
+Select distinct autores.nome
+from autores, livros
+where livros.genero like 'Informática'
+and livros.paginas < 630
+and livros.data_edicao between to_date('21-12-2013', 'DD-MM-YYYY')
+and to_date('21-03-2014', 'DD-MM-YYYY')
+and livros.codigo_autor = autores.codigo_autor
+order by autores.nome desc;
+
+EXEC SQLCHECK('FDGJANGHQEZULPZ');
+
+--ex 9
+
+Select genero, titulo "Titulo", to_char(data_edicao,'DD-MM-YYYY') "DATA_EDICAO", trunc(Months_Between(sysdate, data_edicao)/12) "Num. de anos"
+from livros
+where (genero = 'Romance' or genero = 'Aventura')
+order by genero desc, titulo asc;
+EXEC SQLCHECK('FDLIJMWIFXDWMRQ');
+
+--ex10
+
+select c.nome
+from clientes c, vendas v
+where v.codigo_cliente=c.codigo_cliente and 
+to_char(v.data_venda, 'D')<8 and 
+to_char(v.data_venda, 'day') like '%sábado%' and 
+to_char(v.data_venda, 'HH24')>20;
+EXEC SQLCHECK('FDYYTINJWEKJNXV');
+
+--ex11
+select distinct b.nome, b.idade
+from autores b
+minus
+select distinct a.nome, a.idade
+from autores a, livros l
+where l.codigo_autor=a.codigo_autor
+order by idade;
+EXEC SQLCHECK('FDCOQEFKOCQGOZY');
+
+--ex12
+
+select b.nome
+from autores b, livros l
+minus
+select a.nome
+from autores a, livros l
+where l.codigo_autor=a.codigo_autor or to_char(l.data_edicao, 'YYYY')=2024
+order by nome desc;
+EXEC SQLCHECK('FDMMLCMLYWBAPIZ');
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+Ativar, no windows, a funcionalidade Telnet
+
+Iniciar a telnet:
+cmd> telnet
+cmd> open hostname [port] -> open nome_do_pc 6000
+cmd> entrar em dialogo com o TCP_Ex04_server (acabar com o SAIR)

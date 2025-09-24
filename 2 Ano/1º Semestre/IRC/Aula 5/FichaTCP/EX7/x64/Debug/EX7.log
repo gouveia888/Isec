@@ -1,0 +1,8 @@
+﻿  TCP_Ex07_Proxy.c
+C:\Users\Gouveia\Downloads\TCP_07\TCP_Ex07_Proxy.c(32,36): warning C4081: esperado 'newline'; encontrado ';'
+C:\Users\Gouveia\Downloads\TCP_07\TCP_Ex07_Proxy.c(52,22): warning C4047: 'função': 'char **' difere em níveis de indireção de 'char *'
+C:\Users\Gouveia\Downloads\TCP_07\TCP_Ex07_Proxy.c(52,22): warning C4024: 'get_target_data': tipos diferentes para parâmetro formal e real 1
+C:\Users\Gouveia\Downloads\TCP_07\TCP_Ex07_Proxy.c(64,21): warning C4047: 'função': 'char **' difere em níveis de indireção de 'char *'
+C:\Users\Gouveia\Downloads\TCP_07\TCP_Ex07_Proxy.c(64,21): warning C4024: 'get_proxy_data': tipos diferentes para parâmetro formal e real 1
+C:\Users\Gouveia\Downloads\TCP_07\TCP_Ex07_Proxy.c(64,44): warning C4133: 'função': tipos incompatíveis - de 'sockaddr *' para 'sockaddr_in *'
+  EX7.vcxproj -> C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\IRC\Aula 5\FichaTCP\x64\Debug\Clienteex7.exe

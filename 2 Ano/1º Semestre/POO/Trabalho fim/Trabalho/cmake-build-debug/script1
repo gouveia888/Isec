@@ -1,0 +1,26 @@
+saves inicial
+cidade a
+comprac a C
+cidade a
+caravana 1
+move 1 E
+move 1 C
+prox
+caravana 1
+vende 3
+move 3 D
+prox
+caravana 3
+vende 3
+compra 3 1
+tripul 1 10
+tripul 3 10
+caravana 3
+lists
+loads teste
+loads inicial
+dels inicial
+lists
+loads inicial
+saves atual
+

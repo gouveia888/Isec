@@ -1,0 +1,4 @@
+﻿  clienteTCPv1a.c
+C:\Users\tonic\Desktop\ISEC\Introdução às Redes de Comunicação\Prática\TCP\ex3\Cliente\clienteTCPv1a.c(72,10): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonic\Desktop\ISEC\Introdução às Redes de Comunicação\Prática\TCP\ex3\Cliente\clienteTCPv1a.c(79,12): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Cliente.vcxproj -> C:\Users\tonic\Desktop\ISEC\Introdução às Redes de Comunicação\Prática\TCP\ex3\x64\Debug\Cliente.exe

@@ -1,0 +1,81 @@
+exec naluno(2019112767);
+
+--ex3
+
+Select livros.titulo, sum(vendas.quantidade) SOMA_QUANTIDADE
+from livros, vendas
+where livros.codigo_livro=vendas.codigo_livro
+group by titulo
+having sum(vendas.quantidade) > all (select sum(v.quantidade) from vendas v group by v.quantidade)
+order by livros.titulo;
+
+EXEC SQLCHECK('FGQCMTLCEUEFJWO');
+
+--ex4
+
+Select genero, titulo, paginas
+from livros l
+where unidades_vendidas = (select max(unidades_vendidas) from livros where genero = l.genero and paginas > 500)
+order by genero, titulo;
+EXEC SQLCHECK('FGVEIWUDJOVJKTQ');
+
+--ex5
+Select titulo, nome, unidades_vendidas
+from livros l, autores a
+where l.codigo_autor=a.codigo_autor 
+and unidades_vendidas = (select max(unidades_vendidas) from livros where livros.codigo_autor=l.codigo_autor)
+order by nome, titulo;
+EXEC SQLCHECK('FGJHLNLEAMTMLYJ');
+
+--ex6
+Select e.nome NOME_EDITORA	, l.titulo TITULO, a.nome NOME_AUTOR, l.unidades_vendidas UNIDADES_VENDIDAS
+from editoras e, livros l, autores a
+where l.codigo_autor=a.codigo_autor
+and l.codigo_editora=e.codigo_editora
+and unidades_vendidas = (select max(unidades_vendidas) from livros where livros.codigo_editora=e.codigo_editora)
+order by e.nome, l.titulo;
+EXEC SQLCHECK('FGZYLJNFAAZTMNU');
+
+--EX7
+Select v.codigo_cliente "Código do Cliente", c.nome "Nome", sum(v.quantidade) NUM_LIVROS_COMPRADOS
+from vendas v, clientes c
+where v.codigo_cliente=c.codigo_cliente
+and to_char(v.data_venda, 'MM') >= 9 and to_char(v.data_venda, 'YYYY') = 2020
+group by v.codigo_cliente, c.nome
+having sum(v.quantidade) = (Select max(v2.quantidade) from vendas v2 where to_char(v2.data_venda, 'MM') >= 9 and to_char(v2.data_venda, 'YYYY') = 2020)
+order by c.nome;
+EXEC SQLCHECK('FGEIQFUGALEMNNQ');
+
+--EX8
+
+select a.nome,e.nome as "Nome Editora",sum(l.unidades_vendidas) as TOTAL_UNID_VENDIDAS
+from autores a, editoras e, livros l
+where l.codigo_editora=e.codigo_editora
+and l.codigo_autor=a.codigo_autor 
+group by a.nome,e.nome,l.codigo_editora 
+having sum(l.unidades_vendidas) > 0.7 *(select max(l2.unidades_vendidas)from livros l2 where l.codigo_editora = l2.codigo_editora group by l2.codigo_editora)
+order by a.nome,e.nome;
+EXEC SQLCHECK('FGBCPQUHNQNOOYG');
+
+--EX9
+Select distinct titulo, genero, nome
+from livros, vendas, autores
+where livros.codigo_livro=vendas.codigo_livro
+and livros.codigo_autor=autores.codigo_autor
+and autores.codigo_autor in (Select livros.codigo_autor 
+                            from livros, vendas 
+                            where livros.codigo_livro = vendas.codigo_livro 
+                            and to_char (vendas.data_venda, 'YYYY') = '2020' 
+                            group by livros.codigo_autor
+                            having max(quantidade) = (Select max(v.quantidade) from vendas v where to_char(v.data_venda, 'YYYY') = 2020))
+order by autores.nome, livros.titulo;
+EXEC SQLCHECK('FGXTIZIIVFAOPHW');
+
+--ex10
+Select nome, titulo, quantidade QUANT_COMPRADA
+from livros, vendas, clientes
+where clientes.codigo_cliente=vendas.codigo_cliente
+and vendas.codigo_livro=livros.codigo_livro
+and vendas.codigo_cliente = (Select v2.codigo_cliente from vendas v2 where v2.quantidade = (Select max(v.quantidade) from vendas v where v.preco_unitario < 30 ))
+order by nome, titulo;
+EXEC SQLCHECK('FGDCWHOJPYMEQVQ');

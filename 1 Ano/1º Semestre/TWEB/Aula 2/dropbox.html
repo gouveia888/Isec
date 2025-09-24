@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<form name="formulario" action="mailto:tw@alunos.isec.pt" method="post">
+    <h1>Your Stuf, anywhere</h1>
+        <fieldset ><legend>My profile</legend>
+            <input name="Fisrt Name" type="text" placeholder="First Name" required autofocus maxlength="20">
+            <br><br>
+            <input name="Last Name" type="text" placeholder="Last Name" required>
+            <br><br>
+            <input name="email" type="email" placeholder="Email" required>
+            <br><br>
+            <input name="passsword" type="password" placeholder="Password" required pattern="[A-Z a-z]{3}[0-9]{3}">
+        </fieldset>
+    <br><br>
+    <input name="checkbox" type="checkbox" required> I agree to Dropbox terms
+    <br><br>
+    <input name="entrar" type="submit" value="Sing up" required>
+    <br><br>
+    <textarea name="comentario" id="1" cols="50" rows="3" maxlength="150" placeholder="enter text here..."></textarea>
+    <br><br>
+    <select>
+        <option value="1">Base Plane</option>
+        <option value="2">Intermidian Plane</option>
+        <option value="3">Premium Plane</option>
+    </select>
+</form>
+    
+</body>
+</html>

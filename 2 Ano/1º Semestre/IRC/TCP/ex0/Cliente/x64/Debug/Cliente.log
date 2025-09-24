@@ -1,0 +1,4 @@
+﻿  clienteUDPv1_basico.c
+C:\Users\tonic\Desktop\ISEC\Introdução às Redes de Comunicação\Prática\TCP\ex0\Cliente\clienteUDPv1_basico.c(65,12): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonic\Desktop\ISEC\Introdução às Redes de Comunicação\Prática\TCP\ex0\Cliente\clienteUDPv1_basico.c(30,7): warning C4101: 'buffer': unreferenced local variable
+  Cliente.vcxproj -> C:\Users\tonic\Desktop\ISEC\Introdução às Redes de Comunicação\Prática\TCP\ex0\x64\Debug\Cliente.exe

@@ -1,0 +1,20 @@
+-- Tiago Filipe nº2019112767
+--Ficha Script_TP_Exercícios de SQL_F1
+
+--Selecione tada a informaçao da tabela emp
+Select * from emp;
+
+--Mostre a lista de todos os empregados contendo o nome de cada empregado, a sua funçao, a data de entrada e o numero do departamento a que pertence.
+
+Select nome, funcao, data_entrada, ndep from emp;
+
+-- Apresente a lista de todos os empregados(nome, numero de departamento e salario) cujo salario mensal esta entre 1000 e 2000.
+Select nome, ndep, sal from emp
+where sal between 1000 and 2000;
+
+--Apresente a lista de todos os empregados ordenados descrescentemente por data de entrada
+Select * from emp
+order by data_entrada desc;
+
+--Mostre a lista de todos os locais onde há departamentos. Deveem ser excluidas repetiçoes.
+Select distinct loc from dep;

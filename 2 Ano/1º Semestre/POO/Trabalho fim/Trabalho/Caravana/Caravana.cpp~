@@ -1,0 +1,151 @@
+#include "Caravana.h"
+#include "iostream"
+
+// Inicializa o ID da próxima caravana
+int Caravana::proximoId = 1;
+std::vector<Caravana*> Caravana::todasAsCaravanas; // Inicializa o vetor estático
+
+Caravana::Caravana() : id(proximoId++), x(0), y(0), mercadoria(0), agua(0), tripulacao(0) {
+    todasAsCaravanas.push_back(this); // Adiciona a nova caravana ao vetor
+}
+
+Caravana::Caravana(int mercadoria, int agua, int tripulacao, int x, int y)
+        : id(proximoId++), mercadoria(mercadoria), agua(agua), tripulacao(tripulacao), x(x), y(y) {
+    todasAsCaravanas.push_back(this); // Adiciona a nova caravana ao vetor
+}
+
+// Implementação do metodo getAgua
+int Caravana::getAgua() const {
+    return agua;
+}
+
+// Métodos de acesso
+int Caravana::getMercadoria() const {
+    return mercadoria;
+}
+
+void Caravana::setMercadoria(int mercadoria) {
+    this->mercadoria = mercadoria;
+}
+
+int Caravana::getId() const {
+    return id;
+}
+
+void Caravana::setId(int id) {
+    this->id = id;
+}
+
+void Caravana::setAgua(int agua) {
+    this->agua = agua;
+}
+
+int Caravana::getTripulacao() const {
+    return tripulacao;
+}
+
+void Caravana::setTripulacao(int tripulacao) {
+    this->tripulacao = tripulacao;
+}
+
+void Caravana::setPosicao(int newX, int newY) {
+    x = newX;
+    y = newY;
+}
+
+int Caravana::getX() const {
+    return x;
+}
+
+int Caravana::getY() const {
+    return y;
+}
+
+// Encontra caravana pelo ID
+Caravana* Caravana::encontrarCaravanaPorId(int id) {
+    for (Caravana* c : todasAsCaravanas) {
+        if (c->getId() == id) {
+            return c; // Retorna a caravana se o ID corresponder
+        }
+    }
+    return nullptr; // Retorna nullptr se não encontrar
+}
+
+
+// Adicione este metodo na classe Caravana
+void Caravana::exibirDetalhes() const {
+    std::cout << "Caravana ID: " << id << std::endl;
+    std::cout << "Posicao: (" << x << ", " << y << ")" << std::endl;
+    std::cout << "Mercadoria: " << mercadoria << " toneladas" << std::endl;
+    std::cout << "Agua: " << agua << " litros" << std::endl;
+    std::cout << "Tripulacao: " << tripulacao << " membros" << std::endl;
+}
+
+
+
+void Caravana::ativarAutoGestao() {
+    autoGestao = true;
+}
+
+void Caravana::desativarAutoGestao() {
+    autoGestao = false;
+}
+
+bool Caravana::isAutoGestao() const {
+    return autoGestao;
+}
+
+
+void Caravana::mover(const std::string& direcao, Buffer& buffer, const Dados& dados) {
+    if (isAutoGestao()==true) {
+        std::cout << "Caravana " << id << " esta em modo automatico e nao pode ser movida manualmente." << std::endl;
+        return; // Impede o movimento se estiver em modo automático
+    }
+
+    int xAntigo = x;
+    int yAntigo = y;
+
+    // Mapeia a direção para as coordenadas
+    if (direcao == "D") { // Direita
+        x += 1;
+    } else if (direcao == "E") { // Esquerda
+        x -= 1;
+    } else if (direcao == "C") { // Cima
+        y -= 1;
+    } else if (direcao == "B") { // Baixo
+        y += 1;
+    } else if (direcao == "CE") { // Cima-Esquerda
+        x -= 1;
+        y -= 1;
+    } else if (direcao == "CD") { // Cima-Direita
+        x += 1;
+        y -= 1;
+    } else if (direcao == "BE") { // Baixo-Esquerda
+        x -= 1;
+        y += 1;
+    } else if (direcao == "BD") { // Baixo-Direita
+        x += 1;
+        y += 1;
+    }
+
+    // Verifica se a nova posição é válida
+    if (buffer.posicaoValida(x, y)) {
+        setPosicao(x, y); // Atualiza a posição da caravana
+        buffer.atualizarPosicaoCaravana(id, x, y,false); // Atualiza o mapa no buffer
+        std::cout << "Caravana " << id << " movida para a posicao (" << x << ", " << y << ")." << std::endl;
+
+        // Chama o metodo de verificação de consumo de água
+        verificarConsumoAgua();
+    } else {
+        // Se a nova posição não for válida, restaura a posição antiga
+        x = xAntigo;
+        y = yAntigo;
+        std::cout << "Movimento invalido! A nova posicao esta fora dos limites ou ocupada." << std::endl;
+    }
+}
+
+void Caravana::mina() {
+    todasAsCaravanas.erase(
+            remove(todasAsCaravanas.begin(), todasAsCaravanas.end(), this), //iterador para o inicio do vetor
+            todasAsCaravanas.end());
+}

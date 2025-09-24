@@ -1,0 +1,16 @@
+# ninja log v5
+40	1251	7532773927957339	CMakeFiles/Aula9.dir/main.cpp.obj	8d02e52757de00a2
+9	1284	7532773928365535	CMakeFiles/Aula9.dir/Pessoa.cpp.obj	dc399408fd7eb07e
+23	1509	7532773930500987	CMakeFiles/Aula9.dir/RegistoCivil.cpp.obj	9a73529bd4851061
+2044	2458	7532773940138309	Aula9.exe	aae1bffb30acb543
+1255	2044	7532773936074224	CMakeFiles/Aula9.dir/Clube.cpp.obj	84a0edb70b4fce90
+98	2819	7532810657036694	CMakeFiles/Aula9.dir/main.cpp.obj	6c2b31d179ed8ea8
+90	2891	7532810657857371	CMakeFiles/Aula9.dir/Pessoa.cpp.obj	abd08f1eb7b2817f
+104	2961	7532810658639666	CMakeFiles/Aula9.dir/Clube.cpp.obj	89ad88a34f8e80ca
+2820	4047	7532810669529931	CMakeFiles/Aula9.dir/RegistoCivil.cpp.obj	b7a3d1c3e7d80190
+4048	4262	7532810671551223	Aula9.exe	aae1bffb30acb543
+11	1048	7532810707067493	CMakeFiles/Aula9.dir/Pessoa.cpp.obj	abd08f1eb7b2817f
+5	1057	7532810707268937	CMakeFiles/Aula9.dir/main.cpp.obj	6c2b31d179ed8ea8
+16	1098	7532810707723077	CMakeFiles/Aula9.dir/Clube.cpp.obj	89ad88a34f8e80ca
+1052	1998	7532810716798367	CMakeFiles/Aula9.dir/RegistoCivil.cpp.obj	b7a3d1c3e7d80190
+1998	2179	7532810718554761	Aula9.exe	aae1bffb30acb543

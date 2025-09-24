@@ -1,0 +1,20 @@
+wc - word count linhas palavras caracteres
+sort (-r)(-n) ordena ou ordena ordem inversa
+grep (-n) - grep "Texto" texto.txt
+find-
+< - comando + ficheiro
+> - comando + ficheiro
+| - comando + comando
+
+Compilar e abrir ficheiros em c
+
+nano ex2.c
+gcc exc2.c -o ex2
+./ex2
+
+se utilizarmos librarias .h 
+//fazer include do ex3_aux.h
+
+nano ex3.c
+gcc exc3.c ex3_aux.c libraria.c -o ex3
+./ex2

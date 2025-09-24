@@ -1,0 +1,7 @@
+﻿  clienteUDPv1_basico.c
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\IRC\Aula 2\Resolucao-exercicio-udp-1\clienteUDPv1_basico.c(63,33): warning C4047: 'função': 'u_short' difere em níveis de indireção de 'char *'
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\IRC\Aula 2\Resolucao-exercicio-udp-1\clienteUDPv1_basico.c(63,33): warning C4024: 'htons': tipos diferentes para parâmetro formal e real 1
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\IRC\Aula 2\Resolucao-exercicio-udp-1\clienteUDPv1_basico.c(67,12): warning C4267: '=': conversão de 'size_t' para 'int', possível perda de dados
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\IRC\Aula 2\Resolucao-exercicio-udp-1\clienteUDPv1_basico.c(87,22): warning C4133: 'função': tipos incompatíveis - de 'sockaddr_in *' para 'sockaddr *'
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\IRC\Aula 2\Resolucao-exercicio-udp-1\clienteUDPv1_basico.c(99,3): warning C4133: 'função': tipos incompatíveis - de 'sockaddr_in *' para 'sockaddr *'
+  Cliente.vcxproj -> C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\IRC\Aula 2\Projeto\Ex1\x64\Debug\Cliente.exe

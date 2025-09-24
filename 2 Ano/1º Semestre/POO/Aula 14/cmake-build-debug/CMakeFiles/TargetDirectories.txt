@@ -1,0 +1,3 @@
+C:/Users/tiago/OneDrive - ISEC/Informática/2 ano/POO/Aula 14/cmake-build-debug/CMakeFiles/ficha9aula.dir
+C:/Users/tiago/OneDrive - ISEC/Informática/2 ano/POO/Aula 14/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/tiago/OneDrive - ISEC/Informática/2 ano/POO/Aula 14/cmake-build-debug/CMakeFiles/rebuild_cache.dir

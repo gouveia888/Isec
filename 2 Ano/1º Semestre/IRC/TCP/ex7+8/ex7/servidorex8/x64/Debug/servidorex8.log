@@ -1,0 +1,5 @@
+﻿  Servidor_TCP_Ex08.c
+C:\Users\Gouveia\Downloads\TCP_08\TCP.Ex08.Server\Servidor_TCP_Ex08.c(122,12): warning C4133: 'função': tipos incompatíveis - de 'FILE *' para 'const char *const '
+  Servidor_TCP_Ex08_Aux.c
+  Gerando Código...
+  servidorex8.vcxproj -> C:\Users\Gouveia\Downloads\TCP\TCP\ex7\x64\Debug\servidorex8.exe

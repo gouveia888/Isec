@@ -1,0 +1,121 @@
+$text-color:#222222;
+$theme-color:#170a48;
+$secondary-color:#f27731;
+$thernary-color:#ccf962;
+$menu-item-color:white;
+$link-color:$secondary-color;
+$text-font:'Open Sans', sans-serif;
+$headline-font: Georgia, serif;
+$content-width:940px;
+$header-height:60px;
+$footer-height:60px;
+
+
+
+@mixin codereuse ($cor-fundo){
+    background-color:$cor-fundo;
+    color: white;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $text-font;
+    color: $text-color;
+}
+
+h1, h2, h3, h4 {
+    font-family: $headline-font;
+}
+
+p {
+    font-family: $text-font;
+}
+a {
+    color: $link-color;
+    
+    &:hover{
+        color:darken($link-color, 15%);
+    }
+}
+
+.wrapper {
+    max-width: $content-width;
+    margin: auto;
+    display: grid;
+    grid-gap: 10px;
+
+    header {
+                background-color: $theme-color;
+                min-height: $header-height;
+                border-radius: 5px;
+        #main-menu {
+            a{
+                color: $menu-item-color;
+                text-decoration: none;
+            
+                &:hover{
+                    color: darken($menu-item-color,15%);
+                    text-decoration: underline white 2px;
+                }
+            }
+    
+            ul{
+                display: flex;
+                flex-direction: column;
+                list-style: none;
+                padding: 0px 10px 0px 10px;
+                
+                li{
+                    padding: 3px 0px 3px 0px;
+                }
+            }
+        }
+
+    }
+
+    #content {
+        .code-button{
+            @include codereuse(orange);
+            padding: 8px;
+            border-radius: 5px;
+        }
+    }
+
+    #sidebar ul{
+        padding: 0;
+    }
+
+    #sidebar ul li{
+        list-style: none;
+        padding: 5px 0px 5px 0px;
+        border-bottom: dotted 1px #ddd;
+    }
+
+    footer {
+        height: $footer-height;
+        background-color: $thernary-color;
+        border-radius: 5px;
+    }
+
+    @media all and (min-width:525px){
+        grid-template-columns: 4fr 1fr;
+
+        header{
+            grid-column: 1/-1;
+            #main-menu ul{    
+                    flex-direction: row;
+                    
+                    li{
+                        padding-right: 20px;
+                    }
+            }
+        }
+        footer{
+            grid-column: 1/-1;
+        }
+    }
+}
+

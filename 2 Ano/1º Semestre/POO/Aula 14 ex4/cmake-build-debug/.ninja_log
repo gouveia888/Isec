@@ -1,0 +1,8 @@
+# ninja log v5
+1681	1760	1734603029226203089	aquario_aula	67bed4ced3dcb748
+1979	3235	7563067101792728	CMakeFiles/aquario_aula.dir/Peixes/Carpa/Carpa.cpp.obj	605ffaecb9237497
+3235	3489	7563067104355294	aquario_aula.exe	e8ba13d437e12d27
+19	2047	7563067089789618	CMakeFiles/aquario_aula.dir/main.cpp.obj	907ccb60562eeee3
+2047	3231	7563067101758670	CMakeFiles/aquario_aula.dir/Peixes/Tubarao/Tubarao.cpp.obj	12c72f262774e7e
+8	3039	7563067099698723	CMakeFiles/aquario_aula.dir/Aquario.cpp.obj	2473cc911ba03fd0
+27	1978	7563067089177044	CMakeFiles/aquario_aula.dir/Peixes/Peixe.cpp.obj	6d8d1d1babc7abcb

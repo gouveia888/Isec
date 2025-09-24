@@ -1,0 +1,24 @@
+# ninja log v5
+4	501	7537965810696921	build.ninja	6319aad95740f212
+108	1312	7537961345160731	CMakeFiles/Trepa_Colinas.dir/algoritmo.c.obj	ca26bdbf65cd2b1d
+23	827	7531983351341429	CMakeFiles/Trepa_Colinas.dir/utils.c.obj	1d11212a53eeb31a
+52	1436	7537961346436110	CMakeFiles/Trepa_Colinas.dir/main.c.obj	8c8eb66423b54958
+424	967	7531983355622658	CMakeFiles/Trepa_Colinas.dir/funcao.c.obj	7ef9ad6d93d3d602
+1437	3051	7537961362482833	Trepa_Colinas.exe	bf31650926ba9f06
+8	555	7537983491879465	CMakeFiles/Trepa_Colinas.dir/main.c.obj	8c8eb66423b54958
+19	558	7537983491957427	CMakeFiles/Trepa_Colinas.dir/algoritmo.c.obj	ca26bdbf65cd2b1d
+563	846	7537983494785670	Trepa_Colinas.exe	bf31650926ba9f06
+5	366	7537991359845796	CMakeFiles/Trepa_Colinas.dir/algoritmo.c.obj	ca26bdbf65cd2b1d
+368	676	7537991362966708	Trepa_Colinas.exe	bf31650926ba9f06
+4	262	7537998622748567	CMakeFiles/Trepa_Colinas.dir/main.c.obj	8c8eb66423b54958
+264	603	7537998625954080	Trepa_Colinas.exe	bf31650926ba9f06
+6	165	7538000014402965	CMakeFiles/Trepa_Colinas.dir/main.c.obj	8c8eb66423b54958
+165	366	7538000016275787	Trepa_Colinas.exe	bf31650926ba9f06
+4	143	7538000921586509	CMakeFiles/Trepa_Colinas.dir/main.c.obj	8c8eb66423b54958
+144	413	7538000924106920	Trepa_Colinas.exe	bf31650926ba9f06
+3	130	7538001208280680	CMakeFiles/Trepa_Colinas.dir/main.c.obj	8c8eb66423b54958
+131	267	7538001209535338	Trepa_Colinas.exe	bf31650926ba9f06
+4	331	7538003639087093	CMakeFiles/Trepa_Colinas.dir/main.c.obj	8c8eb66423b54958
+333	666	7538003642416603	Trepa_Colinas.exe	bf31650926ba9f06
+6	376	7543997120433788	CMakeFiles/Trepa_Colinas.dir/main.c.obj	8c8eb66423b54958
+376	666	7543997123249933	Trepa_Colinas.exe	bf31650926ba9f06

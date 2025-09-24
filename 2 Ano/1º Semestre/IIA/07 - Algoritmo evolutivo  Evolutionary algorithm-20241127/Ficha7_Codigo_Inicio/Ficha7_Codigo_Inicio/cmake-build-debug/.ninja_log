@@ -1,0 +1,16 @@
+# ninja log v5
+5	237	7544035770811132	CMakeFiles/Ficha7_Codigo_Inicio.dir/main.c.obj	ba1a3ef005a7b4b1
+32	621	7544005414122062	CMakeFiles/Ficha7_Codigo_Inicio.dir/algoritmo.c.obj	29e0bc5f8f53cd30
+4	124	7544053749934949	CMakeFiles/Ficha7_Codigo_Inicio.dir/funcao.c.obj	848fbd92ff5ba583
+571	1202	7544005419841516	CMakeFiles/Ficha7_Codigo_Inicio.dir/utils.c.obj	4ec1b462f44d0af
+125	267	7544053751202725	Ficha7_Codigo_Inicio.exe	f3e097838ee7d77e
+6	131	7546307440271927	CMakeFiles/Ficha7_Codigo_Inicio.dir/funcao.c.obj	e7e2b94707aeb3d4
+9	133	7546307440291932	CMakeFiles/Ficha7_Codigo_Inicio.dir/utils.c.obj	2937ea3c875b5c0e
+11	137	7546307440301939	CMakeFiles/Ficha7_Codigo_Inicio.dir/main.c.obj	5cde351da726c920
+2	137	7546307440311937	CMakeFiles/Ficha7_Codigo_Inicio.dir/algoritmo.c.obj	103670badfd195d0
+138	249	7546307441422279	Ficha7_Codigo_Inicio.exe	f3e097838ee7d77e
+5	79	7546307629316696	CMakeFiles/Ficha7_Codigo_Inicio.dir/funcao.c.obj	e7e2b94707aeb3d4
+8	99	7546307629541781	CMakeFiles/Ficha7_Codigo_Inicio.dir/main.c.obj	5cde351da726c920
+2	100	7546307629551781	CMakeFiles/Ficha7_Codigo_Inicio.dir/algoritmo.c.obj	103670badfd195d0
+12	106	7546307629621798	CMakeFiles/Ficha7_Codigo_Inicio.dir/utils.c.obj	2937ea3c875b5c0e
+107	210	7546307630607081	Ficha7_Codigo_Inicio.exe	f3e097838ee7d77e

@@ -1,0 +1,2 @@
+Clienteex3 "SAIR" DESKTOP-M351GU7 6000 
+pause

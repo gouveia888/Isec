@@ -1,0 +1,9 @@
+﻿  proxy-incompleto.c
+C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\IRC\TCP\ex7\Proxy\proxy-incompleto.c(204,17): warning C4477: 'fprintf': a cadeia de formato '%d' requer um argumento do tipo 'int', mas um argumento variadic 2 tem o tipo 'char *'
+C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\IRC\TCP\ex7\Proxy\proxy-incompleto.c(204,17): warning C4313: 'fprintf': '%d' na cadeia de formato está em conflito com o argumento 2 do tipo 'char *'
+C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\IRC\TCP\ex7\Proxy\proxy-incompleto.c(204,78): warning C4474: 'fprintf': excesso de argumentos transmitidos para cadeia de caracteres de formato
+      C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\IRC\TCP\ex7\Proxy\proxy-incompleto.c(204,78):
+      espaços reservados e seus parâmetros esperam 2 argumentos variadic, mas 3 foram fornecidos
+  
+  LINK : C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\IRC\TCP\ex7\x64\Debug\Proxy.exe não encontrado ou não compilado pelo o último link incremental; executando link completo
+  Proxy.vcxproj -> C:\Users\tiago\OneDrive - ISEC\Informática\2 ano\IRC\TCP\ex7\x64\Debug\Proxy.exe

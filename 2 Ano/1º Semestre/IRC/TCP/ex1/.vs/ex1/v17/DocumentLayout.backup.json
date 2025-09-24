@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tonic\\Desktop\\ISEC\\Introdu\u00E7\u00E3o \u00E0s Redes de Comunica\u00E7\u00E3o\\Pr\u00E1tica\\TCP\\ex1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D3325B71-0DD1-4E89-A665-CB665F6B7365}|Cliente\\Cliente.vcxproj|C:\\Users\\tonic\\Desktop\\ISEC\\Introdu\u00E7\u00E3o \u00E0s Redes de Comunica\u00E7\u00E3o\\Pr\u00E1tica\\TCP\\ex1\\Cliente\\clienteTCPv1a.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D3325B71-0DD1-4E89-A665-CB665F6B7365}|Cliente\\Cliente.vcxproj|solutionrelative:Cliente\\clienteTCPv1a.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{781679EC-F504-426E-B644-832808A33AC8}|Servidor\\Servidor.vcxproj|C:\\Users\\tonic\\Desktop\\ISEC\\Introdu\u00E7\u00E3o \u00E0s Redes de Comunica\u00E7\u00E3o\\Pr\u00E1tica\\TCP\\ex1\\Servidor\\servidorTCPv1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{781679EC-F504-426E-B644-832808A33AC8}|Servidor\\Servidor.vcxproj|solutionrelative:Servidor\\servidorTCPv1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "servidorTCPv1.c",
+              "DocumentMoniker": "C:\\Users\\tonic\\Desktop\\ISEC\\Introdu\u00E7\u00E3o \u00E0s Redes de Comunica\u00E7\u00E3o\\Pr\u00E1tica\\TCP\\ex1\\Servidor\\servidorTCPv1.c",
+              "RelativeDocumentMoniker": "Servidor\\servidorTCPv1.c",
+              "ToolTip": "C:\\Users\\tonic\\Desktop\\ISEC\\Introdu\u00E7\u00E3o \u00E0s Redes de Comunica\u00E7\u00E3o\\Pr\u00E1tica\\TCP\\ex1\\Servidor\\servidorTCPv1.c",
+              "RelativeToolTip": "Servidor\\servidorTCPv1.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-08T13:57:24.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clienteTCPv1a.c",
+              "DocumentMoniker": "C:\\Users\\tonic\\Desktop\\ISEC\\Introdu\u00E7\u00E3o \u00E0s Redes de Comunica\u00E7\u00E3o\\Pr\u00E1tica\\TCP\\ex1\\Cliente\\clienteTCPv1a.c",
+              "RelativeDocumentMoniker": "Cliente\\clienteTCPv1a.c",
+              "ToolTip": "C:\\Users\\tonic\\Desktop\\ISEC\\Introdu\u00E7\u00E3o \u00E0s Redes de Comunica\u00E7\u00E3o\\Pr\u00E1tica\\TCP\\ex1\\Cliente\\clienteTCPv1a.c",
+              "RelativeToolTip": "Cliente\\clienteTCPv1a.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-08T13:57:23.171Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

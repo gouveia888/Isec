@@ -1,0 +1,9 @@
+# ninja log v5
+3673	4045	7557010001799192	ficha9aula.exe	e910b5caa93b5f57
+7	2564	7557009986959395	CMakeFiles/ficha9aula.dir/main.cpp.obj	c73e2850279961ca
+1449	1560	1733397765244993637	ficha9aula	3e35c95e73998de1
+2517	3271	7557009994068068	CMakeFiles/ficha9aula.dir/Imovel/Loja/Loja.cpp.obj	970906616c8a6352
+66	2516	7557009986357193	CMakeFiles/ficha9aula.dir/Imovel/Imovel.cpp.obj	5db8cc23d22819f1
+2414	3672	7557009998127440	CMakeFiles/ficha9aula.dir/Imobiliaria.cpp.obj	d66508fa1be65429
+14	2413	7557009984898256	CMakeFiles/ficha9aula.dir/Imovel/Apartamento/Apartamento.cpp.obj	e920e2bf4d3ffacb
+2	1052	7565701455946911	build.ninja	5e858c39f7a1869e

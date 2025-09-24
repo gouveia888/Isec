@@ -1,0 +1,9 @@
+﻿  Servidor_TCP_Ex08.c
+/TCP_08/TCP.Ex08.Server/Servidor_TCP_Ex08.c(1,1): error C1083: Não é possível abrir arquivo fonte: '..\..\..\..\TCP_08\TCP.Ex08.Server\Servidor_TCP_Ex08.c': No such file or directory
+  (compilando o arquivo fonte '/TCP_08/TCP.Ex08.Server/Servidor_TCP_Ex08.c')
+  
+  Servidor_TCP_Ex08_Aux.c
+/TCP_08/TCP.Ex08.Server/Servidor_TCP_Ex08_Aux.c(1,1): error C1083: Não é possível abrir arquivo fonte: '..\..\..\..\TCP_08\TCP.Ex08.Server\Servidor_TCP_Ex08_Aux.c': No such file or directory
+  (compilando o arquivo fonte '/TCP_08/TCP.Ex08.Server/Servidor_TCP_Ex08_Aux.c')
+  
+  Gerando Código...

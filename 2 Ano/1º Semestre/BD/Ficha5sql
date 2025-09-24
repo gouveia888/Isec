@@ -1,0 +1,99 @@
+exec naluno(2019112767);
+
+--ex1
+Select count(codigo_livro) "N. Livros de Informática"
+from livros
+where genero='Informática'
+and preco_tabela between 25 and 35;
+EXEC SQLCHECK('FEXFSGVCNTPUHEN');
+
+--ex4
+Select count(codigo_livro) "N. Livros Editados", sum(unidades_vendidas) "Total Unidades vendidas", round(avg(nvl(preco_tabela,0)),1) "Media Preço Tabela"
+from livros
+where genero='Fantástico' or genero='Thriller';
+EXEC SQLCHECK('FECXQZODVHENIDN');
+
+--ex5
+
+Select genero, count(codigo_livro) "N. Livros Editados"
+from livros
+group by genero
+having count(genero) > 2
+order by count(codigo_livro) desc, genero;
+EXEC SQLCHECK('FEZQTZSEOVYSJTY');
+
+--ex6
+Select titulo, round(avg(preco_unitario),2) "PRECO_MEDIO", min(preco_unitario) "PRECO_MAIS_BAIXO", max(preco_unitario) "PRECO_MAIS_ALTO"
+from livros, vendas
+where genero='Informática'
+and vendas.codigo_livro = livros.codigo_livro
+group by titulo
+order by max(preco_unitario) desc, avg(preco_unitario) desc;
+EXEC SQLCHECK('FEHKJWYFSYGLKKT');
+
+--ex7
+Select genero, count(codigo_livro) N_LIVROS_EDITADOS, max(preco_tabela)-min(preco_tabela) DIF_MAX_MIN
+from livros
+group by genero
+having count(codigo_livro) >= 3
+order by max(preco_tabela)-min(preco_tabela) desc;
+EXEC SQLCHECK('FERHSBKGWJYKLWR');
+
+--ex8
+
+Select titulo, preco_tabela, quantidade "NUM_VENDIDOS", quantidade*sum(preco_tabela) RECEITA_ESPERADA, quantidade*sum(preco_unitario) RECEITA_EFECTIVA
+from livros, vendas
+where livros.codigo_livro=vendas.codigo_livro
+and to_char(sysdate, 'YYYY')-1 = to_char(data_venda, 'YYYY')
+group by titulo, preco_tabela, quantidade
+order by count(livros.codigo_livro) desc, titulo;
+EXEC SQLCHECK('FETFBLIHPTPXMXY');
+
+--ex9
+Select genero, ceil(avg(preco_tabela)) "PRECO MÉDIO"
+from livros
+group by genero
+having count(codigo_livro)>3
+order by avg(preco_tabela) desc, genero desc;
+EXEC SQLCHECK('FEERCQIIKIEENEZ');
+
+--ex10
+Select nome, min(preco_tabela) "Preco do Mais Barato", max(preco_tabela) "Preco do Mais Caro"
+from autores, livros
+where livros.codigo_autor = autores.codigo_autor
+group by nome
+having min(preco_tabela) > 10 and min(preco_tabela) < 25
+and min(preco_tabela) < max(preco_tabela)
+order by min(preco_tabela) asc, nome;
+EXEC SQLCHECK('FEXXKEYJLHDBOEW');
+
+--ex11
+Select clientes.nome, sum(vendas.quantidade) "N.Livros Comprados", round(avg(vendas.preco_unitario), 1) "Preco Medio", count( distinct livros.codigo_autor) "N.Autor Dif"
+from livros, autores, vendas, clientes
+where livros.codigo_autor=autores.codigo_autor
+and vendas.codigo_cliente=clientes.codigo_cliente
+and vendas.codigo_livro=livros.codigo_livro
+and clientes.morada not like '%Porto%'
+group by clientes.nome
+having count(distinct livros.codigo_editora) = 1
+order by clientes.nome;
+EXEC SQLCHECK('FEREOVBKEMJKPKU');
+
+--ex12
+select autores.nome, 
+       case 
+           when count(livros.codigo_livro) = 0 then 'Nenhum'
+           else to_char(count(livros.codigo_livro))
+       end as "N. Livros escritos"
+from autores
+left join livros on autores.codigo_autor = livros.codigo_autor
+where autores.idade between 40 and 55
+group by autores.nome
+union
+select autores.nome, 'Nenhum' as "N. Livros escritos"
+from autores
+where autores.idade between 40 and 55
+and autores.codigo_autor not in (select distinct codigo_autor from livros)
+order by nome;
+EXEC SQLCHECK('FEXWBLGLAUKIQFW');
+

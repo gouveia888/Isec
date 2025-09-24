@@ -1,0 +1,5 @@
+﻿  servidorTCPv1.c
+C:\Users\Gouveia\Downloads\TCP\TCP\ex5\Servidor\servidorTCPv1.c(74,5): warning C4013: 'close' indefinido; assumindo extern retornando int
+C:\Users\Gouveia\Downloads\TCP\TCP\ex5\Servidor\servidorTCPv1.c(114,13): warning C4267: '=': conversão de 'size_t' para 'int', possível perda de dados
+  LINK : C:\Users\Gouveia\Downloads\TCP\TCP\ex5\x64\Debug\Servidor.exe não encontrado ou não compilado pelo o último link incremental; executando link completo
+  Servidor.vcxproj -> C:\Users\Gouveia\Downloads\TCP\TCP\ex5\x64\Debug\Servidor.exe

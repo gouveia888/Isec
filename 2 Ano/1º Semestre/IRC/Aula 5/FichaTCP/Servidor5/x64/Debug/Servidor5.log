@@ -1,0 +1,4 @@
+﻿  TCP_Server_Ex05_Aux.c
+C:\Users\Gouveia\Downloads\TCP_56\TCP.Ex05.Server\TCP_Server_Ex05_Aux.c(77,5): warning C4029: lista de parâmetros formais declarada diferente da definição
+C:\Users\Gouveia\Downloads\TCP_56\TCP.Ex05.Server\TCP_Server_Ex05_Aux.c(136,6): warning C4029: lista de parâmetros formais declarada diferente da definição
+  Servidor5.vcxproj -> C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\IRC\Aula 5\FichaTCP\x64\Debug\Servidorex5.exe

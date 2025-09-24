@@ -1,0 +1,3 @@
+C:/Users/tiago/OneDrive - ISEC/Informática/2 ano/POO/ClubeSP/cmake-build-debug/CMakeFiles/ClubeSP.dir
+C:/Users/tiago/OneDrive - ISEC/Informática/2 ano/POO/ClubeSP/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/tiago/OneDrive - ISEC/Informática/2 ano/POO/ClubeSP/cmake-build-debug/CMakeFiles/rebuild_cache.dir

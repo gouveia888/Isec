@@ -1,0 +1,7 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: O diretório intermediário (x64\Debug\) contém arquivos compartilhados de outro projeto (Servidorex3.vcxproj). Isso pode levar a um comportamento incorreto de limpeza e recompilação.
+  ServerTCP_Ex04.c
+  ServerTCP_Ex04_Aux.c
+  Gerando Código...
+C:\Users\Gouveia\Downloads\TCP_234\TCP.Ex04.Server\ServerTCP_Ex04_Aux.c(27,21): warning C4267: 'função': conversão de 'size_t' para 'int', possível perda de dados
+C:\Users\Gouveia\Downloads\TCP_234\TCP.Ex04.Server\ServerTCP_Ex04_Aux.c(30,21): warning C4267: 'função': conversão de 'size_t' para 'int', possível perda de dados
+  Servidorex3.vcxproj -> C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\IRC\Aula 5\FichaTCP\x64\Debug\Servidorex4.exe

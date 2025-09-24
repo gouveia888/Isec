@@ -1,0 +1,179 @@
+exec naluno(2019112767);
+
+--ex3
+
+Create table autores2(
+CODIGO_AUTOR	NUMBER(4,0) constraint pk_id_autor2 primary key,
+NOME	VARCHAR2(30 BYTE) not null,
+N_CONTRIBUINTE	NUMBER(9,0) unique,
+MORADA	VARCHAR2(80 BYTE),
+IDADE	NUMBER(3) check(idade between 0 and 200),
+SEXO	CHAR(1 BYTE),
+NACIONALIDADE	VARCHAR2(20 BYTE),
+GENERO_PREFERIDO	VARCHAR2(20 BYTE),
+constraint CK_AUTORES2_NOME CHECK (NOME = upper(NOME))
+);
+EXEC SQLCHECK('FJURGEYCRPWBCQL');
+
+--ex4
+create table avaliacoes(
+CODIGO_LIVRO	NUMBER(4,0),
+CODIGO_CLIENTE	NUMBER(4,0),
+NOTA NUMBER(1) check(nota between 1 and 5),
+constraint pk_Avaliacoes primary key(CODIGO_LIVRO, CODIGO_CLIENTE),
+constraint fk_Avaliacoes_Livros FOREIGN key(CODIGO_LIVRO) references LIVROS(CODIGO_LIVRO),
+constraint fk_Avaliacoes_Cliente FOREIGN KEY(CODIGO_CLIENTE) references CLIENTES(CODIGO_CLIENTE)
+);
+EXEC SQLCHECK('FJPJGYEDBOGCGUG');
+
+--ex5
+Create table LIVROS_BACKUP as SELECT
+    codigo_livro,
+    codigo_editora,
+    codigo_autor,
+    titulo,
+    isbn,
+    UPPER(genero) GENERO,
+    preco_tabela,
+    paginas,
+    quant_em_stock,
+    unidades_vendidas,
+    data_edicao
+FROM
+    livros;
+EXEC SQLCHECK('FJCSVXDEHOMCUDH');
+--nao copia keys nem restricoes 
+
+--ex6
+ALTER TABLE LIVROS_BACKUP
+add constraint pk_codigo_livro_BK primary key (Codigo_LIVRO)
+add constraint fk_BKlivros_editora FOREIGN key (CODIGO_EDITORA) references EDITORAS
+add constraint fk_BKlivros_autores FOREIGN key (CODIGO_AUTOR) references AUTORES
+add check(CODIGO_LIVRO is not null)
+add check(TITULO is not null)
+add CHECK(ISBN is not null);
+EXEC SQLCHECK('FJTVXTKFXANHWRJ');
+--ex7
+INSERT INTO LIVROS_BACKUP values(
+    51,
+    (Select codigo_EDITORA from editoras where nome='FCA - EDITORA'),
+    (Select codigo_autor from autores where nome='Sérgio Sousa'),
+    'Informática para todos', 132434, 'Informática', 24, 430, null, 0, sysdate);
+EXEC SQLCHECK('FJEEBXSGVMHBUGB');
+
+--ex8
+--podemos trocar a ordem desde que bem identificados
+INSERT INTO AUTORES2(CODIGO_AUTOR,NOME ,N_CONTRIBUINTE)VALUES (
+    45, 'José de Magalhães', 77665544
+);
+EXEC SQLCHECK('FJSHIAGHEFTFMOU');
+
+--ex9
+DELETE from LIVROS_BACKUP where codigo_livro = 51;
+EXEC SQLCHECK('FJIDOBHIRHQKMGJ');
+
+--ex10
+Update livros_backup
+    set preco_tabela = preco_tabela * 1.1 --virgula para caso mais que um campo de update
+where genero = 'AVENTURA';
+EXEC SQLCHECK('FJENOMGJBYRFHME');
+
+--ex11
+Delete from LIVROS_BACKUP
+    where preco_tabela < (Select avg(preco_tabela) from livros_backup)
+    and genero = 'INFORMÁTICA';
+EXEC SQLCHECK('FJJMILYKNGTVTXU');
+
+--ex 12
+Create table AUTORES_BACKUP as SELECT
+    codigo_autor,
+    nome,
+    n_contribuinte,
+    morada,
+    idade,
+    sexo,
+    nacionalidade,
+    genero_preferido
+FROM
+    autores;
+EXEC SQLCHECK('FJPRIYCLMEJDIQJ');
+
+Alter table Autores_backup
+add constraint uk_nif_autores_backup unique(n_contribuinte)
+add constraint pk_Autores_backup primary key(CODIGO_AUTOR);
+    
+Drop table autores_backup;
+
+--ex13
+Alter table AUTORES_BACKUP
+add N_LIVROS NUMBER Default 0 not null check(N_LIVROS between 0 and 150);
+EXEC SQLCHECK('FJPOALWMHGZEKYT');
+
+--ex14
+Update AUTORES_BACKUP
+set N_LIVROS = (Select count(*) from livros 
+                where AUTORES_BACKUP.codigo_autor=livros.codigo_autor);
+EXEC SQLCHECK('FJBDINYNMKKXOAI');
+--ex15
+Update autores_backup
+set genero_preferido  = (select genero_preferido from autores 
+                where codigo_autor = 
+                (select max(count(codigo_autor)) from livros 
+                group by codigo_autor));
+EXEC SQLCHECK('FJUPXPGOXYJXIMH');
+--ex16
+Create table EDITORAS_BACKUP as SELECT
+    codigo_editora,
+    nome,
+    n_contribuinte,
+    morada,
+    telefone,
+    fax
+FROM
+    editoras;
+EXEC SQLCHECK('FJKTIDMPBAXIQHZ');
+
+--ex17
+Drop table EDITORAS_BACKUP;
+EXEC SQLCHECK('FJJJWGBQFLHDFMC');
+
+--ex18
+Alter table LIVROS_BACKUP
+add EDICAO Number(7,0);
+EXEC SQLCHECK('FJHIWSKRECYOZQH');
+
+--ex19
+UPDATE LIVROS_BACKUP
+SET UNIDADES_VENDIDAS = (Select sum(vendas.quantidade) from vendas where vendas.codigo_livro=livros_backup.codigo_livro);
+EXEC SQLCHECK('FJHBQOGSCBQNXYY');
+--ex20
+UPDATE VENDAS_BACKUP
+SET TOTAL_VENDAS = (Select quantidade * preco_unitario from vendas where vendas.codigo_venda=vendas_backup.codigo_venda);
+EXEC SQLCHECK('FJNOVBYTDNUBGAE');
+
+--ex21
+create table vendas_backup as SELECT
+    codigo_venda,
+    data_venda,
+    codigo_cliente,
+    codigo_livro,
+    preco_unitario,
+    quantidade,
+    total_venda
+FROM
+    vendas;
+EXEC SQLCHECK('FJKHRKTUSCQOKBD');
+
+--ex22
+DELETE FROM VENDAS_BACKUP
+    WHERE to_char(DATA_VENDA, 'MM') = 1;
+EXEC SQLCHECK('FJMLDZHVGGVXVBN');
+
+--ex23
+DELETE FROM VENDAS_BACKUP    
+    where (Select max(preco_tabela) from livros, vendas 
+            where vendas.codigo_livro=livros.codigo_livro
+            and livros.codigo_autor=(Select a.codigo_autor 
+                                        from autores a 
+                                        where a.nome like 'Sérgio Sousa'));
+EXEC SQLCHECK('FJSPUXLWQFIIVAE');

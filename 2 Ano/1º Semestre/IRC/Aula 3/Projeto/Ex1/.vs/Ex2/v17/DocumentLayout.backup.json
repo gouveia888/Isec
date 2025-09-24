@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tiago\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\IRC\\Aula 3\\Projeto\\Ex1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E890ACF-7EE5-4895-A629-EC714CFAEFE3}|Cliente\\Cliente.vcxproj|C:\\Users\\tiago\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\IRC\\Aula 3\\Resolucao-exercicio-udp-1\\Ex2_Cliente.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D070A4F9-4D2F-40E3-8AEB-309113FB295F}|Servidor\\Servidor.vcxproj|C:\\Users\\tiago\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\IRC\\Aula 3\\Resolucao-exercicio-udp-1\\Ex2_Servidor.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ex2_Servidor.c",
+              "DocumentMoniker": "C:\\Users\\tiago\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\IRC\\Aula 3\\Resolucao-exercicio-udp-1\\Ex2_Servidor.c",
+              "RelativeDocumentMoniker": "..\\..\\Resolucao-exercicio-udp-1\\Ex2_Servidor.c",
+              "ToolTip": "C:\\Users\\tiago\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\IRC\\Aula 3\\Resolucao-exercicio-udp-1\\Ex2_Servidor.c",
+              "RelativeToolTip": "..\\..\\Resolucao-exercicio-udp-1\\Ex2_Servidor.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-20T20:43:30.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ex2_Cliente.c",
+              "DocumentMoniker": "C:\\Users\\tiago\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\IRC\\Aula 3\\Resolucao-exercicio-udp-1\\Ex2_Cliente.c",
+              "RelativeDocumentMoniker": "..\\..\\Resolucao-exercicio-udp-1\\Ex2_Cliente.c",
+              "ToolTip": "C:\\Users\\tiago\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\IRC\\Aula 3\\Resolucao-exercicio-udp-1\\Ex2_Cliente.c",
+              "RelativeToolTip": "..\\..\\Resolucao-exercicio-udp-1\\Ex2_Cliente.c",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-20T20:43:11.595Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

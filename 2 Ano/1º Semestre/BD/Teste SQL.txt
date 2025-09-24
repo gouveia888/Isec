@@ -1,0 +1,64 @@
+1.
+
+Select sp.nome "NOME SPONSOR", r.nome "nome circuito", to_char(r.dataHora, "DD-MM-YYYY") "Data Corrida", p.nome "Nome Piloto", st.total "TempoTotal"
+from race r
+join standing st on st.idRace=r.idRace
+join sponsor sp on  sp.idSponsor=r.idSponsor
+join pilot p on p.idSponsor=sp.idSponsor
+where r.dataHora betweem to_char((sysdate,'YYYY')-10) and to_char(sysdate,'YYYY')
+and to_lower(sp.areaDeNegocio) like 'seguro'
+order by sp.nome desc, r.dataHora desc;
+
+2.
+
+Select t.nome "NOME DA EQUIPA", sum(st.numPontos) "Num Total de Pontos"
+from team t
+join pilot p on p.idTeam=t.idTeam
+join standing st on st.idPilot=p.idPilot
+join race r on r.idRace=st.idRace
+where to_lower(t.pais) like 'alemanha'
+and where r.dataHora betweem to_char((sysdate,'YYYY')-1) and to_char(sysdate,'YYYY')
+group by t.nome
+having count(r.idRace) > 4
+order by sum(st.numPontos) asc;
+
+3.
+
+Select p.nome "NOME DO PILOTO", TO_CHAR(dataNascimento, 'YYYY') - TO_CHAR (sysdate, 'YYYY') "IDADE",
+from pilot p
+join Sponsor sp on sp.idSponsor=p.idSponsor
+join Race r on r.idSponsor = sp.idSponsor
+where p.idpilot = (Select max(count(*)) 
+		   from race r1, standing c1
+		   where c1.idrace = r1.idrace
+		   and to_upper(r.nome) = 'SILVERSTONE'
+		   and posicao = 1
+	  	   group by c.idpilot
+		   ) 
+and lower(r.nomeCircuito) like 'silverstone'
+order by IDADE desc  
+
+4.
+
+Insert into Standing values(
+	(Select p.pilot from Race r 
+		join standing st on st.idRace=r.idRace
+		join pilot p on p.idpiot=st.idpilot
+		where to_lower(p.nome) like 'miguel oliveira'),
+	376, 12, NULL, 165, NULL
+);
+
+5.
+
+Create table Standing(
+	idRace Number constrain pk_standing primary key,
+	idPilot Number,
+	posição Number,
+	numPontos Number,
+	numVoltas Number,
+	tempoTotal Number,
+	tempoVoltaMaisRapida Number,
+	add constraint fk_idPilot foreing key (idPilot) references Pilot(idPilot)
+	add constarint ck_points check (numPoints > 0) 
+)
+

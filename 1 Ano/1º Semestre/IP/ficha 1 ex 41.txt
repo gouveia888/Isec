@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+float IMC (float, float);
+
+void main(){
+
+float peso, altura, imc;
+
+    printf("Introduza o peso:");
+    scanf("%f", &peso);
+
+    printf("\nIntroduza a altura:");
+    scanf("%f", &altura);
+
+    imc=IMC(peso, altura);
+    printf("\nO imc do peso %.2f e altura %.2f e de %.2f", peso, altura, imc);
+
+}
+
+float IMC (float peso, float altura){
+
+float imc;
+
+imc=peso/(altura*altura);
+
+return imc;
+}

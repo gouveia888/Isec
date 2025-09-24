@@ -1,0 +1,159 @@
+exec naluno(2019112767);
+
+--ex3
+
+CREATE SEQUENCE exp_sequencia; --cria a sequencia
+SELECT exp_sequencia.CURRVAL FROM dual; --erro
+SELECT exp_sequencia.NEXTVAL FROM dual; -- valor seguinte da sequencia e incrementa 1
+SELECT exp_sequencia.NEXTVAL FROM dual; -- valor seguinte da sequencia e incrementa 2
+SELECT exp_sequencia.NEXTVAL from dual; -- valor seguinte da sequencia e incrementa 3
+SELECT exp_sequencia.CURRVAL FROM dual; --valor atual da sequencia 3
+DROP SEQUENCE exp_sequencia; --apaga a sequencia
+EXEC SQLCHECK('FKGFNXWCTITWNME');
+
+--ex4
+Create table EDITORAS_BACKUP as SELECT
+    codigo_editora,
+    nome,
+    n_contribuinte,
+    morada,
+    telefone,
+    fax
+FROM
+    editoras;
+EXEC SQLCHECK('FKNJNXHDQJLUSPV');    
+    
+--ex5
+Alter table EDITORAS_BACKUP
+add constraint pk_codigo_editoras_BK primary key (CODIGO_EDITORA)
+add check(CODIGO_EDITORA is not null)
+add check(NOME is not null)
+add constraint uniq_NIF_EB unique (N_CONTRIBUINTE);
+EXEC SQLCHECK('FKYEXNXEUROHELV');
+
+--ex6
+Create sequence seq_editback
+start with 10
+increment by 1
+nocycle
+NOMAXVALUE;
+EXEC SQLCHECK('FKYDNPXFPBWPIRC');
+--ex7
+Insert into editoras_backup VALUES(
+seq_editback.nextval,
+'D.Quixote',
+901111111,
+'Rua Cidade de Cï¿½rdova, n.2 2610-038 Alfragide, Portugal',
+707252252,
+707252253
+);
+EXEC SQLCHECK('FKIVZGPGIOZKVZL');
+
+--ex8
+Insert into editoras_backup VALUES(
+seq_editback.nextval,
+'Almedina',
+901212121,
+'Rua Fernandes Tomï¿½s, n.ï¿½ 76 a 80, 3000-167 Coimbra, Portugal',
+239851903,
+239851904
+);
+EXEC SQLCHECK('FKAQCEVHKASRDLO');
+
+--ex9
+SELECT seq_editback.CURRVAL FROM dual;
+Select seq_editback.NEXTVAL from dual;
+EXEC SQLCHECK('FKNNXQTIRKBLACD');
+
+--ex10
+DROP sequence seq_editback;
+EXEC SQLCHECK('FKEPPMCJBROFZHT');
+
+--ex11
+Create view livros_informï¿½tica
+as Select * from Livros where genero like 'Informática';
+EXEC SQLCHECK('FKNAOLLKSLABNKG');
+
+Select * from livros_informática;
+
+--ex12
+INSERT INTO livros_informï¿½tica (codigo_livro, titulo,isbn, genero) VALUES 
+(50,'Uma noite de Verão', 8000000001,'Informática'); --inserido atraves da vista
+INSERT INTO livros_informï¿½tica (codigo_livro, titulo,isbn, genero) VALUES 
+(51,'O céu é azul',8000000002,'Romance'); --inserido attraves da vista isere na tabela livros nao aparece na vista
+INSERT INTO livros (codigo_livro, codigo_editora, codigo_autor,titulo,isbn, genero) VALUES  
+(52,2, 2,'Longe de tudo',8000000003,'Informática'); --inserido diretamente na tabela e aparece na vista
+EXEC SQLCHECK('FKPWADILYCFLUJD');
+
+--ex13
+Delete from livros where codigo_livro between 50 and 52;
+EXEC SQLCHECK('FKAQXPRMLGWNPXE');
+
+--ex14
+Drop view livros_informática;
+EXEC SQLCHECK('FKJZDYONFMBBLTS');
+
+--ex15
+Create table livros_backup as SELECT
+    codigo_livro,
+    codigo_editora,
+    codigo_autor,
+    titulo,
+    isbn,
+    genero,
+    preco_tabela,
+    paginas,
+    quant_em_stock,
+    unidades_vendidas,
+    data_edicao
+FROM
+    livros;
+EXEC SQLCHECK('FKZBSHOOZEWQOTY');
+
+--ex16
+Create view autor_livro as
+Select upper(autores.nome) NOME, upper(livros_backup.titulo) TITULO from autores, livros_backup
+where autores.codigo_autor=livros_backup.codigo_autor;
+EXEC SQLCHECK('FKUAXXVPLXQVHWW');
+
+--ex17
+Select NOME, TITULO from autor_livro;
+EXEC SQLCHECK('FKUZJQEQHXZGJJH');
+
+--ex18
+Delete from LIVROS_BACKUP;
+EXEC SQLCHECK('FKDGLKJRGRCADEV');
+
+--ex19
+Select NOME, TITULO from autor_livro; --nao retorna nenhum dado
+EXEC SQLCHECK('FKBMGXFSRZOUQYF');
+
+--ex20
+Drop table livros_backup;
+EXEC SQLCHECK('FKASZYETZHOLOEE');
+
+--ex21
+Select * from autor_livro; --da erro porque o objeto nao existe
+EXEC SQLCHECK('FKGRFMEUNATDSFN');
+
+--ex22
+Create view livros_vendidos as
+Select l.titulo, a.nome, v.quantidade from livros l, autores a, vendas v
+where a.codigo_autor=l.codigo_autor
+and v.codigo_livro=l.codigo_livro
+order by v.quantidade desc;
+EXEC SQLCHECK('FKNWSKQVNMPQGVI');
+
+--ex23
+Select TABLE_NAME FROM USER_TABLES
+order by 1 asc; --ALL_TABLES
+EXEC SQLCHECK('FKTDWYWWPTIMSOZ');
+
+--ex24
+Select TABLE_NAME, CONSTRAINT_NAME, CONSTRAINT_TYPE FROM USER_CONSTRAINTS
+order by 1 asc, 2 asc;
+EXEC SQLCHECK('FKFEPNHXETKIOZG');
+
+
+--desc dict
+--desc autores

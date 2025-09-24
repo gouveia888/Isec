@@ -1,0 +1,31 @@
+mkfifo();		open();close();read();write();
+acecess();
+unfifo();
+
+FEED --- Cliente
+argumentos de comando
+OBTER / VALIDAR COMANDOS (USER)
+
+open do ficheiro
+scanf
+write();
+
+ciclo
+
+close();
+
+escreve.c
+
+MANAGER --- FEED
+VARS. AMBIENTE
+OBTER/VALIDAR COMANDOS (ADMIN)
+
+mkfifo();
+nao esquecer de quando abrir o ficheiro(); -> ler(); -> close();
+unlink();
+
+le.c
+
+
+VALIDAR OS COMANDOS DO LADO DO FEED.C
+guardar numa tabela os getpid dos clientes no eco.c

@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <signal.h>
+#include <fcntl.h>
+#include <string.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+
+#define TAM 5
+#define FIFO_CS "tubo"
+
+int main(int argc,char* argv[]){
+
+int fd,i, n, res=0;
+char str[TAM];
+
+printf("\nInicio\n");
+mkfifo(FIFO_CS, 0600); //criar pipe
+fd = open(FIFO_CS, O_RDONLY ); //NO LUGAR DO FIFO_CS "dados.txt"
+printf("FD = %d\n", fd);
+do{
+        n = read(fd, str, sizeof(str)-1);
+        str[n]= '\0';
+        printf("LI... %s (%d bytes)\n", str, n);
+}while(n > 0);
+
+unlink(FIFO_CS); //fechar name pipe
+printf("\nFIM\n");
+close (fd); //vai escrever tudo o que aparceria no ecra no ficheiro
+
+
+exit(0);
+
+}

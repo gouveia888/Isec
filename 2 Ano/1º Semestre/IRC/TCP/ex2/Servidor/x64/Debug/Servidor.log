@@ -1,0 +1,4 @@
+﻿  servidorTCPv1.c
+C:\Users\tonic\Desktop\ISEC\Introdução às Redes de Comunicação\Prática\TCP\ex2\Servidor\servidorTCPv1.c(103,11): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonic\Desktop\ISEC\Introdução às Redes de Comunicação\Prática\TCP\ex2\Servidor\servidorTCPv1.c(151,1): error C4700: uninitialized local variable 'nRead' used
+C:\Users\tonic\Desktop\ISEC\Introdução às Redes de Comunicação\Prática\TCP\ex2\Servidor\servidorTCPv1.c(155,1): error C4700: uninitialized local variable 'c' used

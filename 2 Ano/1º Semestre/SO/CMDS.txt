@@ -1,0 +1,17 @@
+head -n 
+tail -n
+grep ^ $ [...] . (inicio de linha, fim de linha, caracters específicos, um caracter)
+cut -c -f -d(char, fields, delimiter)
+sort -n -r -u -k -t (number,reverse, unique, key, terminal)
+uniq
+wc -l -w -c (linhas, palavras, caracters)
+who / finger
+uname
+
+FICHEIROS
+
+etc/password
+login username uid gid info pasta cmd
+
+etc/group
+grupo password gid membros

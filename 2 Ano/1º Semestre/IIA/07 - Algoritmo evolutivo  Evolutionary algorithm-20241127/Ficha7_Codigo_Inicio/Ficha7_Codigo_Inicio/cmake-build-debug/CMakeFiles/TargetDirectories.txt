@@ -1,0 +1,3 @@
+C:/Users/tiago/OneDrive - ISEC/Informática/2 ano/IIA/07 - Algoritmo evolutivo  Evolutionary algorithm-20241127/Ficha7_Codigo_Inicio/Ficha7_Codigo_Inicio/cmake-build-debug/CMakeFiles/Ficha7_Codigo_Inicio.dir
+C:/Users/tiago/OneDrive - ISEC/Informática/2 ano/IIA/07 - Algoritmo evolutivo  Evolutionary algorithm-20241127/Ficha7_Codigo_Inicio/Ficha7_Codigo_Inicio/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/tiago/OneDrive - ISEC/Informática/2 ano/IIA/07 - Algoritmo evolutivo  Evolutionary algorithm-20241127/Ficha7_Codigo_Inicio/Ficha7_Codigo_Inicio/cmake-build-debug/CMakeFiles/rebuild_cache.dir

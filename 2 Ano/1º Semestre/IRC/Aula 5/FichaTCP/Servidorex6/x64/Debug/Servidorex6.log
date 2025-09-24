@@ -1,0 +1,16 @@
+﻿  TCP_Server_Ex06.c
+  TCP_Server_Ex06_Aux.c
+C:\Users\Gouveia\Downloads\TCP_56\TCP.Ex06.Server\TCP_Server_Ex06.c(54,73): error C2065: 'serv_sock': identificador não declarado
+C:\Users\Gouveia\Downloads\TCP_56\TCP.Ex06.Server\TCP_Server_Ex06.c(54,65): warning C4312: 'conversão de tipo': conversão de 'int' para 'LPVOID' de tamanho maior
+C:\Users\Gouveia\Downloads\TCP_56\TCP.Ex06.Server\TCP_Server_Ex06.c(62,2): error C2143: erro de sintaxe: ';' ausente antes de 'tipo'
+C:\Users\Gouveia\Downloads\TCP_56\TCP.Ex06.Server\TCP_Server_Ex06.c(62,26): error C2065: 'cli_addr': identificador não declarado
+C:\Users\Gouveia\Downloads\TCP_56\TCP.Ex06.Server\TCP_Server_Ex06.c(69,24): error C2065: 'serv_sock': identificador não declarado
+C:\Users\Gouveia\Downloads\TCP_56\TCP.Ex06.Server\TCP_Server_Ex06.c(69,54): error C2065: 'cli_addr': identificador não declarado
+C:\Users\Gouveia\Downloads\TCP_56\TCP.Ex06.Server\TCP_Server_Ex06.c(82,73): error C2065: 'cli_addr': identificador não declarado
+C:\Users\Gouveia\Downloads\TCP_56\TCP.Ex06.Server\TCP_Server_Ex06.c(82,82): error C2224: esquerda de '.sin_addr' deve possuir tipo struct/union
+C:\Users\Gouveia\Downloads\TCP_56\TCP.Ex06.Server\TCP_Server_Ex06.c(82,63): error C2198: 'char *inet_ntoa(in_addr)': poucos argumentos para chamada
+C:\Users\Gouveia\Downloads\TCP_56\TCP.Ex06.Server\TCP_Server_Ex06.c(82,99): error C2065: 'cli_addr': identificador não declarado
+C:\Users\Gouveia\Downloads\TCP_56\TCP.Ex06.Server\TCP_Server_Ex06.c(82,108): error C2224: esquerda de '.sin_port' deve possuir tipo struct/union
+C:\Users\Gouveia\Downloads\TCP_56\TCP.Ex06.Server\TCP_Server_Ex06.c(82,93): error C2198: 'u_short ntohs(u_short)': poucos argumentos para chamada
+C:\Users\Gouveia\Downloads\TCP_56\TCP.Ex06.Server\TCP_Server_Ex06.c(89,14): error C2065: 'serv_sock': identificador não declarado
+  Gerando Código...

@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tiago\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\IRC\\Aula 4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DC3964ED-0962-4C0C-A454-E8F88F6236D4}|Ex3_Servidor\\Ex3_Servidor.vcxproj|C:\\Users\\tiago\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\IRC\\Aula 4\\Ex3_Servidor\\Ex3_Servidor.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DC3964ED-0962-4C0C-A454-E8F88F6236D4}|Ex3_Servidor\\Ex3_Servidor.vcxproj|solutionrelative:Ex3_Servidor\\Ex3_Servidor.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE0CC60-BD4F-4FDD-88C7-C9B80E6EBD54}|Ex3_Cliente\\Ex3_Cliente.vcxproj|C:\\Users\\tiago\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\IRC\\Aula 4\\Ex3_Cliente\\Ex3_Cliente.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7FE0CC60-BD4F-4FDD-88C7-C9B80E6EBD54}|Ex3_Cliente\\Ex3_Cliente.vcxproj|solutionrelative:Ex3_Cliente\\Ex3_Cliente.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 136,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ex3_Cliente.c",
+              "DocumentMoniker": "C:\\Users\\tiago\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\IRC\\Aula 4\\Ex3_Cliente\\Ex3_Cliente.c",
+              "RelativeDocumentMoniker": "Ex3_Cliente\\Ex3_Cliente.c",
+              "ToolTip": "C:\\Users\\tiago\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\IRC\\Aula 4\\Ex3_Cliente\\Ex3_Cliente.c",
+              "RelativeToolTip": "Ex3_Cliente\\Ex3_Cliente.c",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAFgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-03T13:38:50.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ex3_Servidor.c",
+              "DocumentMoniker": "C:\\Users\\tiago\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\IRC\\Aula 4\\Ex3_Servidor\\Ex3_Servidor.c",
+              "RelativeDocumentMoniker": "Ex3_Servidor\\Ex3_Servidor.c",
+              "ToolTip": "C:\\Users\\tiago\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\IRC\\Aula 4\\Ex3_Servidor\\Ex3_Servidor.c",
+              "RelativeToolTip": "Ex3_Servidor\\Ex3_Servidor.c",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-03T13:38:47.919Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+wifexited - 
+wexitstatus - 0 com sucesso
+sigaction()
+sigqueue()

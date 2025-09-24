@@ -1,0 +1,81 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gouveia\\OneDrive - ISEC\\Inform\u00E1tica\\2 ano\\IRC\\Aula 5\\FichaTCP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{27D9F2C9-673D-4F15-BF56-1AD99353CE46}|EX7\\EX7.vcxproj|C:\\Users\\Gouveia\\Downloads\\TCP_07\\TCP_Ex07_Aux.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1C666D0-5310-4173-B0AD-38043B83B681}|Servidor5\\Servidor5.vcxproj|C:\\Users\\Gouveia\\Downloads\\TCP_56\\TCP.Ex05.Server\\TCP_Server_Ex05.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27D9F2C9-673D-4F15-BF56-1AD99353CE46}|EX7\\EX7.vcxproj|C:\\Users\\Gouveia\\Downloads\\TCP_07\\TCP_Ex07_Proxy.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27D9F2C9-673D-4F15-BF56-1AD99353CE46}|EX7\\EX7.vcxproj|C:\\Users\\Gouveia\\Downloads\\TCP_07\\TCP_Ex07.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TCP_Server_Ex05.c",
+              "DocumentMoniker": "C:\\Users\\Gouveia\\Downloads\\TCP_56\\TCP.Ex05.Server\\TCP_Server_Ex05.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Downloads\\TCP_56\\TCP.Ex05.Server\\TCP_Server_Ex05.c",
+              "ToolTip": "C:\\Users\\Gouveia\\Downloads\\TCP_56\\TCP.Ex05.Server\\TCP_Server_Ex05.c",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Downloads\\TCP_56\\TCP.Ex05.Server\\TCP_Server_Ex05.c",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADEAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-28T15:52:32.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TCP_Ex07_Aux.c",
+              "DocumentMoniker": "C:\\Users\\Gouveia\\Downloads\\TCP_07\\TCP_Ex07_Aux.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Downloads\\TCP_07\\TCP_Ex07_Aux.c",
+              "ToolTip": "C:\\Users\\Gouveia\\Downloads\\TCP_07\\TCP_Ex07_Aux.c",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Downloads\\TCP_07\\TCP_Ex07_Aux.c",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-28T15:48:17.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TCP_Ex07_Proxy.c",
+              "DocumentMoniker": "C:\\Users\\Gouveia\\Downloads\\TCP_07\\TCP_Ex07_Proxy.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Downloads\\TCP_07\\TCP_Ex07_Proxy.c",
+              "ToolTip": "C:\\Users\\Gouveia\\Downloads\\TCP_07\\TCP_Ex07_Proxy.c",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Downloads\\TCP_07\\TCP_Ex07_Proxy.c",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAD8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-28T15:46:16.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TCP_Ex07.h",
+              "DocumentMoniker": "C:\\Users\\Gouveia\\Downloads\\TCP_07\\TCP_Ex07.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Downloads\\TCP_07\\TCP_Ex07.h",
+              "ToolTip": "C:\\Users\\Gouveia\\Downloads\\TCP_07\\TCP_Ex07.h",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Downloads\\TCP_07\\TCP_Ex07.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-28T15:46:12.158Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+C:/Users/Gouveia/Desktop/Trepa Colinas/cmake-build-debug/CMakeFiles/Trepa_Colinas.dir
+C:/Users/Gouveia/Desktop/Trepa Colinas/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Gouveia/Desktop/Trepa Colinas/cmake-build-debug/CMakeFiles/rebuild_cache.dir

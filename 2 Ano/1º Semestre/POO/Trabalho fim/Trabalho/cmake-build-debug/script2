@@ -1,0 +1,12 @@
+move 1
+comprac a
+comprac a 2
+comprac a C 1
+caravana 4
+areia 8 10 2
+caravana 4
+barbaro 4 9
+prox
+caravana 4
+dummy
+

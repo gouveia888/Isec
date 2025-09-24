@@ -1,0 +1,5 @@
+﻿  servidorTCPv1.c
+servidorTCPv1.obj : error LNK2019: símbolo externo não resolvido, atende_o_cliente, referenciado na função main
+servidorTCPv1.obj : error LNK2019: símbolo externo não resolvido, Abort, referenciado na função main
+servidorTCPv1.obj : error LNK2019: símbolo externo não resolvido, FileExists, referenciado na função main
+C:\Users\Gouveia\OneDrive - ISEC\Informática\2 ano\IRC\Aula 5\FichaTCP\x64\Debug\Servidor.exe : fatal error LNK1120: 3 externo não resolvidos

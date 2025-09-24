@@ -1,0 +1,8 @@
+﻿  proxy-incompleto.c
+C:\Users\tonic\Desktop\ISEC\Introdução às Redes de Comunicação\Prática\TCP\ex7\Proxy\proxy-incompleto.c(204,17): warning C4477: 'fprintf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'char *'
+C:\Users\tonic\Desktop\ISEC\Introdução às Redes de Comunicação\Prática\TCP\ex7\Proxy\proxy-incompleto.c(204,17): warning C4313: 'fprintf': '%d' in format string conflicts with argument 2 of type 'char *'
+C:\Users\tonic\Desktop\ISEC\Introdução às Redes de Comunicação\Prática\TCP\ex7\Proxy\proxy-incompleto.c(204,78): warning C4474: 'fprintf' : too many arguments passed for format string
+      C:\Users\tonic\Desktop\ISEC\Introdução às Redes de Comunicação\Prática\TCP\ex7\Proxy\proxy-incompleto.c(204,78):
+      placeholders and their parameters expect 2 variadic arguments, but 3 were provided
+  
+  Proxy.vcxproj -> C:\Users\tonic\Desktop\ISEC\Introdução às Redes de Comunicação\Prática\TCP\ex7\x64\Debug\Proxy.exe
