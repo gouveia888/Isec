@@ -1,0 +1,15 @@
+D:\Isec\3 Ano\1º Semestre\PWEB\Ficha1\ex2\bin\Debug\net8.0\ex2.exe
+D:\Isec\3 Ano\1º Semestre\PWEB\Ficha1\ex2\bin\Debug\net8.0\ex2.deps.json
+D:\Isec\3 Ano\1º Semestre\PWEB\Ficha1\ex2\bin\Debug\net8.0\ex2.runtimeconfig.json
+D:\Isec\3 Ano\1º Semestre\PWEB\Ficha1\ex2\bin\Debug\net8.0\ex2.dll
+D:\Isec\3 Ano\1º Semestre\PWEB\Ficha1\ex2\bin\Debug\net8.0\ex2.pdb
+D:\Isec\3 Ano\1º Semestre\PWEB\Ficha1\ex2\obj\Debug\net8.0\ex2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Isec\3 Ano\1º Semestre\PWEB\Ficha1\ex2\obj\Debug\net8.0\ex2.AssemblyInfoInputs.cache
+D:\Isec\3 Ano\1º Semestre\PWEB\Ficha1\ex2\obj\Debug\net8.0\ex2.AssemblyInfo.cs
+D:\Isec\3 Ano\1º Semestre\PWEB\Ficha1\ex2\obj\Debug\net8.0\ex2.csproj.CoreCompileInputs.cache
+D:\Isec\3 Ano\1º Semestre\PWEB\Ficha1\ex2\obj\Debug\net8.0\ex2.sourcelink.json
+D:\Isec\3 Ano\1º Semestre\PWEB\Ficha1\ex2\obj\Debug\net8.0\ex2.dll
+D:\Isec\3 Ano\1º Semestre\PWEB\Ficha1\ex2\obj\Debug\net8.0\refint\ex2.dll
+D:\Isec\3 Ano\1º Semestre\PWEB\Ficha1\ex2\obj\Debug\net8.0\ex2.pdb
+D:\Isec\3 Ano\1º Semestre\PWEB\Ficha1\ex2\obj\Debug\net8.0\ex2.genruntimeconfig.cache
+D:\Isec\3 Ano\1º Semestre\PWEB\Ficha1\ex2\obj\Debug\net8.0\ref\ex2.dll

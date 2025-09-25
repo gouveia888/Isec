@@ -1,0 +1,15 @@
+D:\Isec\3 Ano\1º Semestre\PWEB\Ficha1\Aula1\bin\Debug\net8.0\ex1.exe
+D:\Isec\3 Ano\1º Semestre\PWEB\Ficha1\Aula1\bin\Debug\net8.0\ex1.deps.json
+D:\Isec\3 Ano\1º Semestre\PWEB\Ficha1\Aula1\bin\Debug\net8.0\ex1.runtimeconfig.json
+D:\Isec\3 Ano\1º Semestre\PWEB\Ficha1\Aula1\bin\Debug\net8.0\ex1.dll
+D:\Isec\3 Ano\1º Semestre\PWEB\Ficha1\Aula1\bin\Debug\net8.0\ex1.pdb
+D:\Isec\3 Ano\1º Semestre\PWEB\Ficha1\Aula1\obj\Debug\net8.0\ex1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Isec\3 Ano\1º Semestre\PWEB\Ficha1\Aula1\obj\Debug\net8.0\ex1.AssemblyInfoInputs.cache
+D:\Isec\3 Ano\1º Semestre\PWEB\Ficha1\Aula1\obj\Debug\net8.0\ex1.AssemblyInfo.cs
+D:\Isec\3 Ano\1º Semestre\PWEB\Ficha1\Aula1\obj\Debug\net8.0\ex1.csproj.CoreCompileInputs.cache
+D:\Isec\3 Ano\1º Semestre\PWEB\Ficha1\Aula1\obj\Debug\net8.0\ex1.sourcelink.json
+D:\Isec\3 Ano\1º Semestre\PWEB\Ficha1\Aula1\obj\Debug\net8.0\ex1.dll
+D:\Isec\3 Ano\1º Semestre\PWEB\Ficha1\Aula1\obj\Debug\net8.0\refint\ex1.dll
+D:\Isec\3 Ano\1º Semestre\PWEB\Ficha1\Aula1\obj\Debug\net8.0\ex1.pdb
+D:\Isec\3 Ano\1º Semestre\PWEB\Ficha1\Aula1\obj\Debug\net8.0\ex1.genruntimeconfig.cache
+D:\Isec\3 Ano\1º Semestre\PWEB\Ficha1\Aula1\obj\Debug\net8.0\ref\ex1.dll
