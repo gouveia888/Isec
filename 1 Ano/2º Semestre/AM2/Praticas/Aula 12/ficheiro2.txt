@@ -1,0 +1,32 @@
+
+
+syms y(x)
+
+% Leitura dos dados
+strFx = app.eFx.Value;
+f=@(x) eval(vectorize(strFx));
+a = app.eA_2.Value; 
+h = app.eH.Value; 
+b = app.eB_2.Value;
+
+try
+	dydxSym = diff(f,x);
+        dfdx = @(x) eval(vectorize(char(dydxSym)));
+
+        [x,y,dydxDFP] = NDerivadaDFP(app,f,a,b,h);
+        dydxExata = dfdx(x);
+        erroDFP = abs(dydxExata-dydxDFP);
+
+        tabelaResultados = table([x.',y.',dydxExata.',dydxDFP.',erroDFP.']);
+        plot(app.UIAxes2,x,y,"-r*");
+        hold(app.UIAxes2,"on");
+        plot(app.UIAxes2,x,dydxExata,"-bo");
+        plot(app.UIAxes2,x,dydxDFP,"-g+");
+        hold(app.UIAxes2,"off");
+        legend(app.UIAxes2,["f(x)","dydxExata","dydxDFP"]);
+
+catch Me
+	errordlg(Me.message,"ERRO","modal")
+end
+
+

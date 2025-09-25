@@ -1,0 +1,65 @@
+mesa curva
+taça no frigorifico com curva 
+laranja
+alexa
+coluna
+tapete (criar curva fechar a curva converter para mesh e fazer transformaçoes)
+
+playstation
+comando
+frigorifico
+caminho da cozinha ate a sala
+
+
+na tv apresentar os creditos
+https://www.youtube.com/watch?v=9xAumJRKV6A&pp=ygUWaHVtYW4gYmxlbmRlciB0dXRvcmlhbA%3D%3D
+https://www.youtube.com/watch?v=zlpZC2392Gg&pp=ygUUcHM1IGJsZW5kZXIgdHV0b3JpYWw%3D
+
+
+add planos a espaço (cubo e passa para o modifier) 
+merge (ctrl+j)
+selecionar arestar extrude+z+2.5 para fazer as paredes
+addicionar modifier solidify  0.05m offset 0
+
+sofa
+cubo e scales
+modifier subdivison 
+loop cuts para ajustar as bordas
+ajustar o modifier
+adicionar um cubo em edit mode mover e fazer scales e utilizar o subdivison para fazer o apoio de braço depois usar o mirror Y
+para adicionar os pes a mesma coisa
+adicionar shade smoth utilizando o botao esquerdo
+
+armario debaixo da tv bavel e boolean modifier diferença com um retangulo de um lado ao outro
+
+taça desenhar metade da tava e depois aplicar o screw
+
+https://www.google.com/search?q=change+center+point+object+blender&oq=change+center+point+object+blender&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhge0gEJMTIwMTBqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8#kpvalbx=_W9_1ZanrBb6P9u8P-tevmAc_37
+
+https://www.youtube.com/watch?v=9DLhAiHuRWA&ab_channel=3DnaRevo
+
+
+The leaves are done with an array modifier driven by an empty a bit scaled down, rotated and shifted down.
+
+enter image description here
+
+The body is an hexagon inside of which the pineapple skin is modeled. It is a bit stretched as will need to make it more oblong later.
+
+Then use 3 arrays to have an hexagonal map:
+
+enter image description here
+
+Now we need to make that spherical, and we can use this answer to do it.
+
+This is two simple deforms and a lattice to make it more tubular/oblong:
+
+enter image description here
+
+
+
+The sequence of modifiers:
+
+enter image description here
+
+PS: I know there is a gap at the edges of the second simple deform modifier. That will be possible to join it with the weld modifier in 2.83, using a vertex group. For now in 2.82 the weld modifier does not take the vertex group into account.
+	

@@ -1,0 +1,42 @@
+Menu modeling -> Object modeling
+
+telca g para mover objetos
+translaçao segundo um eixo g+x ou g+y ou g+z
+r para rotaçao
+s para escalonamento
+alt+g coloca na origem ou alt+r ou alt+s
+
+adicionar elementos
+juntar peças ate formar um objeto
+
+edit mode tab para mudar entre obejct mode e edit mode
+
+nova coleçao para cada objeto
+tecla f para ligar dois vertices
+alt+f ou f com todos os vertices selecionados cria uma face
+merge
+
+s+z+3 escalonamento de 3 unidades em z
+adicao de um elemento no modo edit fica tudo no mesmo objeto
+
+ctrl+j juntar elementos num so
+E+enter uma face por cima de outra e depois S na face e depois uma e na face interior
+
+selecionar o objeto tecla M move entre coleçao
+
+
+
+
+
+
+
+LS
+
+let variavel dentro do bloco (pode ser redeclarada)
+var variavel global ou funçao (nao devee ser utilizado)
+const s nivel di bloco
+
+== comparaçao de variaveis
+=== comparaçao de variaveis e do seu tipo !==
+
+hosting permite utilizara funçao antes da declaraçao e passa-a para o inicio do programa
