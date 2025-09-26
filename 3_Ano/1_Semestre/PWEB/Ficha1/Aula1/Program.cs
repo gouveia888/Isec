@@ -108,6 +108,58 @@ class Utilizador
     {
         Tarefas.RemoveAll(t => t.Estado == TipoEstado.Concluida);
     }
+
+    public void Ficha2Ex3A(string Opcao, bool crescente=true) {
+
+        switch (Opcao.ToLower())
+        {
+            case "prioridade":
+                if (crescente)
+                    Tarefas = Tarefas.OrderBy(t => t.Prioridade).ToList();
+                else
+                    Tarefas = Tarefas.OrderByDescending(t => t.Prioridade).ToList();
+                break;
+            case "categoria":
+                if (crescente)
+                    Tarefas = Tarefas.OrderBy(t => t.Categoria).ToList();
+                else
+                    Tarefas = Tarefas.OrderByDescending(t => t.Categoria).ToList();
+                break;
+            case "estado":
+                if (crescente)
+                    Tarefas = Tarefas.OrderBy(t => t.Estado).ToList();
+                else
+                    Tarefas = Tarefas.OrderByDescending(t => t.Estado).ToList();
+                break;
+            case "dataregisto":
+                if (crescente)
+                    Tarefas = Tarefas.OrderBy(t => t.DataRegisto).ToList();
+                else
+                    Tarefas = Tarefas.OrderByDescending(t => t.DataRegisto).ToList();
+                break;
+            case "datalimite":
+                if (crescente)
+                    Tarefas = Tarefas.OrderBy(t => t.DataLimite).ToList();
+                else
+                    Tarefas = Tarefas.OrderByDescending(t => t.DataLimite).ToList();
+                break;
+            case "nome":
+                if (crescente)
+                    Tarefas = Tarefas.OrderBy(t => t.Nome).ToList();
+                else
+                    Tarefas = Tarefas.OrderByDescending(t => t.Nome).ToList();
+                break;
+             default:
+                Console.WriteLine("Opção inválida.\n Opções: nome, prioridade, categoria, estado, dataregisto, datalimite");
+                break;
+        }
+    }
+
+    public void Ficha2Ex3B() { 
+        Tarefas = Tarefas.OrderBy(d => d.DataLimite).ThenBy(p => p.Prioridade).ToList();
+        foreach(var t in Tarefas)
+            Console.WriteLine(t.ToString() + "\n");
+    }
 }
 
 class Program
@@ -121,6 +173,8 @@ class Program
         user.AddTarefa(t1);
         user.AddTarefa(t2);
         user.AddTarefa(t3);
+        Console.WriteLine("\nFicha 2 Ex3 b): ");
+        user.Ficha2Ex3B();
         Console.WriteLine("Tarefas: ");
         user.TarefasEmAtraso();
         Console.WriteLine("\nLista por prioridade: ");
@@ -140,5 +194,6 @@ class Program
         user.RemoveBaixa();
         Console.WriteLine("Tarefas: ");
         user.TarefasEmAtraso();
+
     }
 }

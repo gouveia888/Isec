@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Isec\\3 Ano\\1º Semestre\\PWEB\\Ficha1\\Aula1\\ex1.csproj": {}
+    "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha1\\Aula1\\ex1.csproj": {}
   },
   "projects": {
-    "D:\\Isec\\3 Ano\\1º Semestre\\PWEB\\Ficha1\\Aula1\\ex1.csproj": {
+    "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha1\\Aula1\\ex1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Isec\\3 Ano\\1º Semestre\\PWEB\\Ficha1\\Aula1\\ex1.csproj",
+        "projectUniqueName": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha1\\Aula1\\ex1.csproj",
         "projectName": "ex1",
-        "projectPath": "D:\\Isec\\3 Ano\\1º Semestre\\PWEB\\Ficha1\\Aula1\\ex1.csproj",
+        "projectPath": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha1\\Aula1\\ex1.csproj",
         "packagesPath": "C:\\Users\\tiago\\.nuget\\packages\\",
-        "outputPath": "D:\\Isec\\3 Ano\\1º Semestre\\PWEB\\Ficha1\\Aula1\\obj\\",
+        "outputPath": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha1\\Aula1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Isec\\3 Ano\\1º Semestre\\PWEB\\Ficha1\\ex3\\ex3.csproj",
+      "projectUniqueName": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha1\\ex3\\ex3.csproj",
       "projectName": "ex3",
-      "projectPath": "D:\\Isec\\3 Ano\\1º Semestre\\PWEB\\Ficha1\\ex3\\ex3.csproj",
+      "projectPath": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha1\\ex3\\ex3.csproj",
       "packagesPath": "C:\\Users\\tiago\\.nuget\\packages\\",
-      "outputPath": "D:\\Isec\\3 Ano\\1º Semestre\\PWEB\\Ficha1\\ex3\\obj\\",
+      "outputPath": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha1\\ex3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
