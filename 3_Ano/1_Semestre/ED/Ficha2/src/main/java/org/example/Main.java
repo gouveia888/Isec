@@ -29,19 +29,25 @@ public class Main {
     static void imprime(int array[]) {
         for (int i = 0; i < array.length; i++)
             System.out.print(array[i] + " ");
+        System.out.println();
     }
 
-    static boolean ex1(int array[], int x) {
+    static boolean ex1(int []array, int a){
+
         int start = 0;
-        int end = array.length;
+        int end = array.length - 1;
         int meio = (start + end) / 2;
-        if (array[meio] > x)
+
+        if(end < start)
+            return false;
+        if (array[meio] == a)
+            return true;
+        if (array[meio] > a)
             end = meio - 1;
-        else
+        if (array[meio] < a)
             start = meio + 1;
-        if (end < array.length)
-            end++;
-        return ex1(Arrays.copyOfRange(array, start, end), x);
+
+        return ex1(Arrays.copyOfRange(array, start, end), a);
     }
 
     static boolean ex2(int array[], int x) {
@@ -93,19 +99,18 @@ public class Main {
                 end = meio - 1;
         }
         if (array[meio] < x)
-            return -meio - 2;
+            return -meio - 2; //x deveria ser inserido à direita daquele elemento
 
-        return -meio - 1;
+        return -meio - 1; //x deveria ser inserido antes daquele elemento
     }
 
     static double ex5(int array[], int x) {
 
-        int res = ex4(array, x);
+        int pos = ex4(array, x);
 
-        if (res >= 0)
-            return (double) res / array.length;
-        int posInsert = -res - 1;
-        return posInsert / (double) array.length;
+        if (pos >= 0)
+            return (double) pos / array.length;
+        return (-pos - 1) / (double) array.length; //como nao existe no array converter para positivo e remover  a posiçao de 0
 
     }
 
@@ -120,7 +125,7 @@ public class Main {
         if (x2 < 0)
             x2 = -x2 - 1;
         else
-            x2++;
+            x2++;  //caso o limite superior seja igual a um numero deve inclui-lo
         return x2 - x1;
     }
 
@@ -131,14 +136,14 @@ public class Main {
         if (pos < 0)
             return false;
 
-        if (pos == array.length - 1)
-            if (array[pos - 1] == x)
+        if (pos == array.length - 1)//se for a ultima posiçao
+            if (array[pos - 1] == x) //verifica com o penultimo numero
                 return true;
             else
                 return false;
 
-        if (pos == 0)
-            if (array[pos + 1] == x)
+        if (pos == 0) //sendo o primeiro numero
+            if (array[pos + 1] == x) //verifica com o 2 numero
                 return true;
 
         if (array[pos - 1] == x || array[pos + 1] == x)
@@ -146,23 +151,73 @@ public class Main {
         return false;
     }
 
+    static int ex8(int array[], int x) {
+        int pos = ex4(array, x);
+        if(array[0] > x)
+            return x;
+        if(pos > 0)
+            return array[pos-1];
+        if(pos==0)
+            return array[0];
+        return array[-pos-2];
+    }
+
+    static int ex9(int array[], int x) {
+        int start = 0;
+        int end = array.length - 1;
+        int meio = (start + end) / 2;
+        int pos;
+        while (start < array[meio]) {
+            meio = (start + end) / 2;
+            if (array[meio] < 0) {
+                end = meio - 1;
+            } else {
+                start = meio + 1;
+            }
+        }
+
+        if (x < 0) {
+            pos = ex4(Arrays.copyOfRange(array, meio, array.length), x);
+            if (pos >= 0)
+                return meio + pos; // corrigir índice para o array original
+        } else {
+            pos = ex4(Arrays.copyOfRange(array, 0, meio), x);
+            if (pos >= 0)
+                return pos; // já está no início
+        }
+        return -1;
+    }
+
+    public static int ex10(int array[]){
+
+        int pos = ex10(array);
+        if (pos >= 0)
+            if(array[pos] > pos)
+                return pos;
+        return -1;
+    }
+
     public static void main(String[] args) {
 
         int a[] = criaArrayCom(3, 10, true);
         int b[] = {3, 7, 12, 15};
         int c[] = {3, 3, 7, 12, 12, 15};
+        int d[] = {3,6,8, -10,-3,-2,-1};
 
-        /*if(ex1(a,10))
+        if(ex1(a,60))
             System.out.println("O numero existe");
-        System.out.println("O numero nao existe");
-
+        else
+            System.out.println("O numero nao existe");
 
         if(ex2(a,10))
             System.out.println("O numero existe");
-        System.out.println("O numero nao existe");
+        else
+            System.out.println("O numero nao existe");
 
-        int res = ex3(a,10);
+
+        int res = ex3(a,30);
         System.out.println("Numero na posicao " + res);
+
 
         System.out.println(ex4(b,15));
         System.out.println(ex4(b,3));
@@ -185,13 +240,26 @@ public class Main {
         System.out.println(ex6(b,4,14));
         System.out.println(ex6(b,4,5));
         System.out.println(ex6(b,0,100));
-        */
+
 
         System.out.println(ex7(c, 15));
         System.out.println(ex7(c, 14));
         System.out.println(ex7(c, 12));
         System.out.println(ex7(c, 3));
 
+        System.out.println(ex8(b, 15));
+        System.out.println(ex8(b, 14));
+        System.out.println(ex8(b, 3));
+        System.out.println(ex8(b, 1));
+        System.out.println(ex8(b, 100));
+
+        System.out.println("Ex9\n" + ex9(d, 0));
+        System.out.println(ex9(d, 3));
+        System.out.println(ex9(d, 8));
+        System.out.println(ex9(d, 9));
+        System.out.println(ex9(d, -10));
+        System.out.println(ex9(d, -1));
+        System.out.println(ex9(d, -15));
     }
 
 
