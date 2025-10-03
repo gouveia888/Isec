@@ -84,6 +84,26 @@ public class Main {
         return -1;
     }
 
+    static int ex3(int array[]) {
+        int start = 0;
+        int end = array.length - 1;
+        int meio;
+
+        if(array[0]>0)
+            return 0;
+
+        while (end >= start) {
+            meio = (start + end) / 2;
+            if (array[meio] > meio)
+                return meio;
+            if (array[meio] < meio)
+                start = meio + 1;
+            else
+                end = meio; //pode encontrar um valor igual ao indice
+        }
+        return -1;
+    }
+
     static int ex4(int array[], int x) {
         int start = 0;
         int end = array.length - 1;
@@ -167,6 +187,7 @@ public class Main {
         int end = array.length - 1;
         int meio = (start + end) / 2;
         int pos;
+
         while (start < array[meio]) {
             meio = (start + end) / 2;
             if (array[meio] < 0) {
@@ -183,18 +204,57 @@ public class Main {
         } else {
             pos = ex4(Arrays.copyOfRange(array, 0, meio), x);
             if (pos >= 0)
-                return pos; // já está no início
+                return pos; //nao precisa de correçao de indice
+        }
+        return -1;
+    }
+
+    static int ex9_v2(int array[], int x) {
+        int start = 0;
+        int end = array.length - 1;
+        int meio = (start + end) / 2;
+        int pos;
+
+        while (end >= start) {
+            meio = (start + end) / 2;
+            if (array[meio] == x)
+                return meio;
+            if (array[meio] * x >=0) //meio e chave tem sinais iguais
+                if(array[meio] < x)
+                    end = meio + 1;
+                else
+                    start = meio - 1;
+            else //meio e chave tem sinais contrario
+                if(array[meio] < x)
+                    end = meio - 1;
+                else
+                    start = meio + 1;
         }
         return -1;
     }
 
     public static int ex10(int array[]){
 
-        int pos = ex10(array);
-        if (pos >= 0)
-            if(array[pos] > pos)
-                return pos;
-        return -1;
+        return ex3(array); //versao adaptada do ex3
+    }
+
+    static int ex10_v2(int array[]) {
+        int start = 0;
+        int end = array.length - 1;
+        int meio=(start + end) / 2;
+
+        do {
+            if (array[meio] > meio)
+                end = meio;
+            else
+                start = meio + 1;
+            meio = (start + end) / 2;
+        }while (start < end);
+
+        if (array[meio] > meio)
+            return  meio;
+        else
+            return-1;
     }
 
     public static void main(String[] args) {
@@ -203,8 +263,10 @@ public class Main {
         int b[] = {3, 7, 12, 15};
         int c[] = {3, 3, 7, 12, 12, 15};
         int d[] = {3,6,8, -10,-3,-2,-1};
+        int e[] =  {-3,1,7,12,15};
+        int f[] =  {-15,-14,1,2,3,4};
 
-        if(ex1(a,60))
+      /*  if(ex1(a,60))
             System.out.println("O numero existe");
         else
             System.out.println("O numero nao existe");
@@ -260,6 +322,10 @@ public class Main {
         System.out.println(ex9(d, -10));
         System.out.println(ex9(d, -1));
         System.out.println(ex9(d, -15));
+*/
+        System.out.println("Ex10\n" + ex10(d));
+        System.out.println(ex10(e));
+        System.out.println(ex10(f));
     }
 
 

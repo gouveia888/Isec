@@ -1,11 +1,24 @@
 ﻿namespace GestaoFuncionario;
 class Funcionario
 {
+    //nao deveria ter salario nem vendas??
+    //colocar a class funcionario como abstract e vencimento como abstract tambem
     public double salario { get; set; }
     public string nome { get; }
     public string apelido { get; }
     public int nif { get; }
     public double vendas { get; set; }
+    //definir sets e gets manuais para validaçoes de dados
+    /*public double vendas {
+        get { return vendas; }
+        set { 
+            if(value < 0)
+                throw new ArgumentOutOfRangeException("Salario nao pode ser negativo");
+            else
+                vendas = value; 
+        }
+
+    }*/
 
     public Funcionario(string nome, string apelido, int nif, double vendas, double salario = 0)
     {
@@ -60,11 +73,20 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Funcionario f1 = new Funcionario("Joao", "Silva", 123456789, 10000);
+        List<Funcionario> funcionarios = new List<Funcionario>();
+
+        Funcionario f1 = new Funcionario("Joao", "Silva", 123456789,10000);
         FuncionarioComissao f2 = new FuncionarioComissao("Maria", "Santos", 987654321, 5000, 0.06, 600);
-        FuncionarioHora f3 = new FuncionarioHora("Ana", "Costa", 192837465, 00, 20, 180, 10);
-        Console.WriteLine(f1.ToString() + "\n");
-        Console.WriteLine(f2.ToString() + "\n");
-        Console.WriteLine(f3.ToString() + "\n");
+        FuncionarioHora f3 = new FuncionarioHora("Ana", "Costa", 192837465, 0.04, 20, 180, 10);
+        
+        funcionarios.Add(f1);
+        funcionarios.Add(f2);
+        funcionarios.Add(f3);
+
+        foreach (var f in funcionarios)
+        {
+            Console.WriteLine(f.ToString());
+            Console.WriteLine("--------------------");
+        }   
     }
 }

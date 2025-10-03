@@ -194,6 +194,11 @@ class Program
         user.RemoveBaixa();
         Console.WriteLine("Tarefas: ");
         user.TarefasEmAtraso();
+        /*user.AdicionarTarefas("Exame", categoria: TipoCategoria.pessoal); podemos dizer a que campo pertence um parametro fora de ordem indicando o campo com a tag seguida de :
 
+        foreach(TipoCategoria tipo in Enum.GetValues(typeof(TipoCategoria))){
+            Console.WriteLine("Categoria: {0} - Valor: {1}", tipo, (int)tipo);
+        }
+        */
     }
 }

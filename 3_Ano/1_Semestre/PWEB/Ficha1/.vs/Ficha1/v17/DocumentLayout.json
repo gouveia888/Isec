@@ -1,13 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha1\\",
+  "WorkspaceRootPath": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{401A5836-00BD-447A-AD22-6AF25910D303}|Aula1\\ex1.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha1\\aula1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{401A5836-00BD-447A-AD22-6AF25910D303}|Aula1\\ex1.csproj|solutionrelative:aula1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37E89802-CE6C-4E40-8E6B-BBB3893056BB}|ex2\\ex2.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha1\\ex2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37E89802-CE6C-4E40-8E6B-BBB3893056BB}|ex2\\ex2.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha1\\ex2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37E89802-CE6C-4E40-8E6B-BBB3893056BB}|ex2\\ex2.csproj|solutionrelative:ex2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,28 +58,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha1\\ex2\\Program.cs",
-              "RelativeDocumentMoniker": "ex2\\Program.cs",
-              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha1\\ex2\\Program.cs",
-              "RelativeToolTip": "ex2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T09:39:03.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha1\\Aula1\\Program.cs",
-              "RelativeDocumentMoniker": "Aula1\\Program.cs",
-              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha1\\Aula1\\Program.cs",
-              "RelativeToolTip": "Aula1\\Program.cs",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAAAJAAAAAWAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha1\\ex2\\Program.cs",
+              "RelativeDocumentMoniker": "ex2\\Program.cs",
+              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha1\\ex2\\Program.cs",
+              "RelativeToolTip": "ex2\\Program.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAqwFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T14:45:46.662Z",
+              "WhenOpened": "2025-09-25T09:39:03.535Z",
               "EditorCaption": ""
             }
           ]
