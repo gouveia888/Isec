@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="#000000"
     android:orientation="vertical"
     android:padding="8dp"
@@ -25,12 +25,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#E6DC73"
+        android:textColor="@color/black"
         android:text="0,0"
         android:textSize="30dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
 
@@ -66,7 +67,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
 
@@ -102,7 +103,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
 
@@ -138,7 +139,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
 
@@ -174,7 +175,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
 

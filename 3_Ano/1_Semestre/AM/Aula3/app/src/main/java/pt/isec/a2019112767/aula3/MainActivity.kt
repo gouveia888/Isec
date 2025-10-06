@@ -35,6 +35,26 @@ class MainActivity : AppCompatActivity() {
         setContentView(view)
 
         binding.limpar.setOnClickListener(::methodOnAC)
+        binding.resultado.setOnClickListener(::methodOnAC)
+        binding.percentagem.setOnClickListener(::methodOnAC)
+        binding.virgula.setOnClickListener(::methodOnAC)
+        binding.igual.setOnClickListener(::methodOnAC)
+        binding.n0.setOnClickListener(::methodOnAC)
+        binding.n1.setOnClickListener(::methodOnAC)
+        binding.n2.setOnClickListener(::methodOnAC)
+        binding.n3.setOnClickListener(::methodOnAC)
+        binding.n4.setOnClickListener(::methodOnAC)
+        binding.n5.setOnClickListener(::methodOnAC)
+        binding.n6.setOnClickListener(::methodOnAC)
+        binding.n7.setOnClickListener(::methodOnAC)
+        binding.n8.setOnClickListener(::methodOnAC)
+        binding.n9.setOnClickListener(::methodOnAC)
+        binding.divisao.setOnClickListener(::methodOnAC)
+        binding.mais.setOnClickListener(::methodOnAC)
+        binding.maismenos.setOnClickListener(::methodOnAC)
+        binding.menos.setOnClickListener(::methodOnAC)
+        binding.multiplicacao.setOnClickListener(::methodOnAC)
+
 
         /*binding.tvMsg.text = "DEIS-AMOV"
         binding.tvMsg.textSize = 20F
@@ -47,13 +67,15 @@ class MainActivity : AppCompatActivity() {
             binding.tvMsg.text = "Clicou"
         }
         binding.btnOk.setOnClickListener(::methodOnClick1) //dois-pontos duplos :: são usados para criar referências a membros
-    }
+    }//fim onCreate
     fun methodOnClick1(v : View){
         binding.tvMsg.text="Clicou forma 2"
     }
 
     fun methodOnClick2(v : View){
         binding.tvMsg.text="DEIS-AMOV"*/
+
+
     }
 
     fun methodOnAC(v : View){

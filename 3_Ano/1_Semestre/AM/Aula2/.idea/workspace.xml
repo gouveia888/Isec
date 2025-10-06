@@ -16,57 +16,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f2c1aeb-e740-46fe-b915-0be0c587c701" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/AndroidProjectSystem.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/.idea/AndroidProjectSystem.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/.idea/deploymentTargetSelector.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/migrations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/.idea/migrations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/.idea/runConfigurations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/app/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/app/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/app/proguard-rules.pro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/pt/isec/a2019112767/Aula2/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/app/src/androidTest/java/pt/isec/a2019112767/Aula2/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/pt/isec/a2019112767/Aula2/MyActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/app/src/main/java/pt/isec/a2019112767/Aula2/MyActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/pt/isec/a2019112767/Aula2/MyApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/app/src/main/java/pt/isec/a2019112767/Aula2/MyApp.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/my_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/app/src/main/res/layout/my_activity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/backup_rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/pt/isec/a2019112767/Aula2/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/app/src/test/java/pt/isec/a2019112767/Aula2/ExampleUnitTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/gradle/libs.versions.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/settings.gradle.kts" afterDir="false" />
-    </list>
+    <list default="true" id="5f2c1aeb-e740-46fe-b915-0be0c587c701" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +57,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
