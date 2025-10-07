@@ -17,6 +17,8 @@ public class ex2
 
         var ListaA = new List<string>(ListaUm);
 
+        //Demos usar Extension Methods 
+
         //ex A)
         Console.Write("Ex A)\n");
         var str = ListaA.Order();
@@ -33,16 +35,20 @@ public class ex2
         //ex C)
         Console.Write("\nEx C)\n");
         var ListaC = new List<string>(ListaUm);
-        var str3 = ListaC.Where(s => s.Contains("C#"));
-        Console.WriteLine(str3.Count() + "\n");
+        var str3 = ListaC.Where(s => s.Contains("C#")).OrderBy(w => w);
+        Console.WriteLine(str3.Count() + " versão 1");
+        var str3_1 = ListaC.Count(x => x.Contains("C#"));
+        Console.WriteLine(str3_1 + " versão 2\n");
 
         //ex D)
         Console.Write("\nEx D)\n");
         var num = ListaUm.Select(s => s.Split(' ', StringSplitOptions.RemoveEmptyEntries).Length);
+        var num_v2d = ListaUm.Select(x => x.Trim().Split(' ').Count()); //Em cada string da ListaUm, remove os espaços em branco no início e no fim (Trim), divide a string em palavras com base nos espaços (Split(' ')) e conta o número de palavras resultantes (Count()).
         foreach (var item in num)
         {
             Console.WriteLine(item);
         }
+
         //ex E)
         Console.Write("\nEx E)\n");
         var num2 = Numeros.Average();

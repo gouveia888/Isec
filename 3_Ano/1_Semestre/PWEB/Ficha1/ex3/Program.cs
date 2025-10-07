@@ -10,7 +10,7 @@ namespace ex3
         string ToString();
     }
 
-    abstract class FiguraPlana : IFiguraPlana
+    abstract partial class FiguraPlana : IFiguraPlana  //partial parte da class
     {
         public abstract double Area();
         public abstract double Perimetro();
@@ -26,7 +26,7 @@ namespace ex3
         private double Largura { get; set; }
 
         public Retangulo(double comprimento, double largura) { 
-            this.Comprimento = comprimento;
+            this.Comprimento = comprimento; //validaçao de dados
             this.Largura = largura;
         }
 
@@ -54,14 +54,14 @@ namespace ex3
 
         public Tringulo(double ladoA, double ladoB, double ladoC)
         {
-            this.LadoA = ladoA;
+            this.LadoA = ladoA;//validaçao de dados de definiçao de um triangulo
             this.LadoB = ladoB;
             this.LadoC = ladoC;
         }
 
-        public override double Area()
+        public override double Area() //Formula de Heron
         {
-            double s = (LadoA + LadoB + LadoC) / 2;
+            double s = Perimetro() / 2;
             return Math.Sqrt(s * (s - LadoA) * (s - LadoB) * (s - LadoC));
         }
         public override double Perimetro()
@@ -81,7 +81,7 @@ namespace ex3
 
         public Circulo(double raio)
         {
-            this.Raio = raio;
+            this.Raio = raio;//validaçao de dados
         }
 
         public override double Area()
