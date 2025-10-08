@@ -4,9 +4,9 @@ package Ex4;
 
 public class Ex4 {
 
-    static <T extends Comparable<T>>boolean ex4(T []a, T b){
+    static <T> boolean ex4(T []a, Comparable<? super T> b){
         for( var x : a)
-            if(x.compareTo(b)>0) // x maior que b
+            if(b.compareTo(x)>0) // x maior que b
                 return true;
         return false;
     }

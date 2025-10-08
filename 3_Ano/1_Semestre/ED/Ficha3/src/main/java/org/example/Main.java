@@ -5,7 +5,7 @@ public class Main {
     public static <T,E extends T> boolean ex1(T[] array, E x) {
         int cont = 0;
         for (T a : array) {
-            if (a == x) {
+            if (a == x) { //comparar referencias
                 cont++;
             }
             if(cont >1)
@@ -17,7 +17,7 @@ public class Main {
     public static <T extends Comparable > boolean ex2(T[] array, T x) {
         int cont = 0;
         for (T a : array) {
-            if (a.compareTo(x) == 0) {
+            if (a.compareTo(x) == 0) { //comparar valores
                 cont++;
             }
             if(cont >1)
