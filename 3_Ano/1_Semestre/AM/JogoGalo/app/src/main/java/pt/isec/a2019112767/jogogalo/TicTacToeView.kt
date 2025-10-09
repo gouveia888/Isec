@@ -6,6 +6,7 @@ import android.util.AttributeSet
 import android.view.View
 
 class TicTacToeView : View {
+
     constructor(context : Context) : super(context)
     constructor(context : Context,
                 attrs : AttributeSet?) :
@@ -19,6 +20,7 @@ class TicTacToeView : View {
     init {
         paint.style = Paint.Style.STROKE
         paint.strokeWidth = 10f
+        invalidate() //obrigatorio para desenhar
     }
 
     //fazer as linhas do tabuleiro com o paint

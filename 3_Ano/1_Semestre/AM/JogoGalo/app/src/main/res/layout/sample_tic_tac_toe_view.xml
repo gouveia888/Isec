@@ -8,9 +8,10 @@
         android:layout_width="378dp"
         android:layout_height="323dp"
         android:layout_gravity="center_horizontal"
-        android:background="#FFFFFF"
-        android:paddingLeft="20dp"
-        android:paddingBottom="40dp"
+        android:layout_marginTop="270dp"
+        android:background="#F5E427"
+        android:paddingStart="20dp"
+        android:paddingEnd="40dp"
         app:exampleDimension="24sp"
         app:exampleDrawable="@android:drawable/ic_menu_add"
         app:exampleString="Jogo" />
