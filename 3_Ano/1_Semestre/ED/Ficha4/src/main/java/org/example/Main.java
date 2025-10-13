@@ -66,15 +66,30 @@ class IteratorDezReais implements Iterator{
 public class Main {
     public static void main(String[] args) {
         DezReais n = new DezReais();
-        IteratorDezReais it = new IteratorDezReais();
+        DezReaisMutavel nm = new DezReaisMutavel();
+        IteratorDezReais it = new IteratorDezReais(n);
+        IteradorDezReaisMutavel ipm = new IteradorDezReaisMutavel(nm);
         int j;
 
-        for (j = 0; j < 10; j++)
-            n.add(j*0.1);
 
+        for (j = 0; j < 9; j++) { //com 10 vamos ver a exceção
+            n.add(j * 0.1);
+            nm.add(j * 0.2);
+        }
         while(it.hasNext()){
-            System.out.println("Ultimo" + it.next());
+            System.out.println("DezReais " + it.next() + "\nDezReaisMutavel " + ipm.next());
+        }
+        while(ipm.hasNext()){
+            System.out.println("\nDezReaisMutavel " + ipm.next());
         }
 
+        nm.remover(0.2);
+
+        System.out.println("\nDepois de remover 0.2\n");
+
+        ipm = new IteradorDezReaisMutavel(nm);
+        while(ipm.hasNext()){
+            System.out.println("DezReaisMutavel " + ipm.next());
+        }
     }
 }
