@@ -1,0 +1,332 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\pages\\energiacomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\data\\pages\\energiacomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\services\\temperaturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\data\\services\\temperaturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\services\\noticiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\data\\services\\noticiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\services\\eventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\data\\services\\eventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\services\\energiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\data\\services\\energiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\interfaces\\itemperaturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\data\\interfaces\\itemperaturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\interfaces\\inoticiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\data\\interfaces\\inoticiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\interfaces\\ieventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\data\\interfaces\\ieventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\interfaces\\ienergiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\data\\interfaces\\ienergiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\dto\\temperatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\data\\dto\\temperatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\dto\\noticia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\data\\dto\\noticia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\dto\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\data\\dto\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\dto\\energia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\data\\dto\\energia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\rclutilidades.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\rclutilidades.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\wwwroot\\examplejsinterop.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\wwwroot\\examplejsinterop.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\areas\\myfeature\\pages\\page1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB4BDF9D-31FF-4B1B-A9EC-639042819CAE}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\areas\\myfeature\\pages\\page1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnergiaComponent.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Pages\\EnergiaComponent.razor",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Data\\Pages\\EnergiaComponent.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Pages\\EnergiaComponent.razor",
+              "RelativeToolTip": "RCLUtilidades\\Data\\Pages\\EnergiaComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T01:19:18.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TemperaturaService.cs",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Services\\TemperaturaService.cs",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Data\\Services\\TemperaturaService.cs",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Services\\TemperaturaService.cs",
+              "RelativeToolTip": "RCLUtilidades\\Data\\Services\\TemperaturaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T01:13:17.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NoticiaService.cs",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Services\\NoticiaService.cs",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Data\\Services\\NoticiaService.cs",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Services\\NoticiaService.cs",
+              "RelativeToolTip": "RCLUtilidades\\Data\\Services\\NoticiaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T01:11:35.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EventoService.cs",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Services\\EventoService.cs",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Data\\Services\\EventoService.cs",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Services\\EventoService.cs",
+              "RelativeToolTip": "RCLUtilidades\\Data\\Services\\EventoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T01:11:22.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnergiaService.cs",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Services\\EnergiaService.cs",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Data\\Services\\EnergiaService.cs",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Services\\EnergiaService.cs",
+              "RelativeToolTip": "RCLUtilidades\\Data\\Services\\EnergiaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T01:11:12.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ITemperaturaService.cs",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Interfaces\\ITemperaturaService.cs",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Data\\Interfaces\\ITemperaturaService.cs",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Interfaces\\ITemperaturaService.cs",
+              "RelativeToolTip": "RCLUtilidades\\Data\\Interfaces\\ITemperaturaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T01:09:45.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "INoticiaService.cs",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Interfaces\\INoticiaService.cs",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Data\\Interfaces\\INoticiaService.cs",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Interfaces\\INoticiaService.cs",
+              "RelativeToolTip": "RCLUtilidades\\Data\\Interfaces\\INoticiaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T01:08:48.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IEventoService.cs",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Interfaces\\IEventoService.cs",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Data\\Interfaces\\IEventoService.cs",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Interfaces\\IEventoService.cs",
+              "RelativeToolTip": "RCLUtilidades\\Data\\Interfaces\\IEventoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T01:07:40.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IEnergiaService.cs",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Interfaces\\IEnergiaService.cs",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Data\\Interfaces\\IEnergiaService.cs",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Interfaces\\IEnergiaService.cs",
+              "RelativeToolTip": "RCLUtilidades\\Data\\Interfaces\\IEnergiaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T01:07:26.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Temperatura.cs",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\DTO\\Temperatura.cs",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Data\\DTO\\Temperatura.cs",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\DTO\\Temperatura.cs",
+              "RelativeToolTip": "RCLUtilidades\\Data\\DTO\\Temperatura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T01:06:53.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Noticia.cs",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\DTO\\Noticia.cs",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Data\\DTO\\Noticia.cs",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\DTO\\Noticia.cs",
+              "RelativeToolTip": "RCLUtilidades\\Data\\DTO\\Noticia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T01:06:43.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Evento.cs",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\DTO\\Evento.cs",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Data\\DTO\\Evento.cs",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\DTO\\Evento.cs",
+              "RelativeToolTip": "RCLUtilidades\\Data\\DTO\\Evento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T01:06:34.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Energia.cs",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\DTO\\Energia.cs",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Data\\DTO\\Energia.cs",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\DTO\\Energia.cs",
+              "RelativeToolTip": "RCLUtilidades\\Data\\DTO\\Energia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T01:06:25.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RCLUtilidades",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\RCLUtilidades.csproj",
+              "RelativeDocumentMoniker": "RCLUtilidades\\RCLUtilidades.csproj",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\RCLUtilidades.csproj",
+              "RelativeToolTip": "RCLUtilidades\\RCLUtilidades.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-14T01:05:46.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "exampleJsInterop.js",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\wwwroot\\exampleJsInterop.js",
+              "RelativeDocumentMoniker": "RCLUtilidades\\wwwroot\\exampleJsInterop.js",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\wwwroot\\exampleJsInterop.js",
+              "RelativeToolTip": "RCLUtilidades\\wwwroot\\exampleJsInterop.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-14T01:03:15.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Page1.cshtml",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Areas\\MyFeature\\Pages\\Page1.cshtml",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Areas\\MyFeature\\Pages\\Page1.cshtml",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Areas\\MyFeature\\Pages\\Page1.cshtml",
+              "RelativeToolTip": "RCLUtilidades\\Areas\\MyFeature\\Pages\\Page1.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-13T23:56:35.573Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

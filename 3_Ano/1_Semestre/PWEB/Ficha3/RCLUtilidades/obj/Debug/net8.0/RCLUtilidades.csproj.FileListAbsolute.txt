@@ -1,0 +1,8 @@
+D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\obj\Debug\net8.0\RCLUtilidades.GeneratedMSBuildEditorConfig.editorconfig
+D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\obj\Debug\net8.0\RCLUtilidades.AssemblyInfoInputs.cache
+D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\obj\Debug\net8.0\RCLUtilidades.AssemblyInfo.cs
+D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\obj\Debug\net8.0\RCLUtilidades.csproj.CoreCompileInputs.cache
+D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\obj\Debug\net8.0\RCLUtilidades.RazorAssemblyInfo.cache
+D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\obj\Debug\net8.0\RCLUtilidades.RazorAssemblyInfo.cs
+D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\obj\Debug\net8.0\RCLUtilidades.sourcelink.json

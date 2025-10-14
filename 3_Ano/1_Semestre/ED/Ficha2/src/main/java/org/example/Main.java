@@ -118,7 +118,7 @@ public class Main {
             else
                 end = meio - 1;
         }
-        if (array[meio] < x)
+        if (array[meio] > x)
             return -meio - 2; //x deveria ser inserido à direita daquele elemento
 
         return -meio - 1; //x deveria ser inserido antes daquele elemento
@@ -280,7 +280,7 @@ public class Main {
         int res = ex3(a,30);
         System.out.println("Numero na posicao " + res);
 
-
+*/
         System.out.println(ex4(b,15));
         System.out.println(ex4(b,3));
         System.out.println(ex4(b,1));
@@ -289,7 +289,7 @@ public class Main {
         System.out.println(ex4(b,13));
         System.out.println(ex4(b,16));
 
-
+/*
         System.out.println(ex5(b,15));
         System.out.println(ex5(b,14));
         System.out.println(ex5(b,3));
