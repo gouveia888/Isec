@@ -1,77 +1,110 @@
-package org.example;
+package DezReais;
 
+import java.util.ConcurrentModificationException;
 import java.util.Iterator;
+import java.util.NoSuchElementException;
 
-class DezReaisMutavel implements Iterable<Double>{
+public class DezReaisMutavel implements Iterable<Double> {
     private final int MAX = 10;
     private Double[] num;
     protected int last = 0;
+    int alteracoes = 0; //ideal seria private com metedo get
 
-    public DezReaisMutavel(){
+
+    public DezReaisMutavel() {
         num = new Double[MAX];
     }
 
-    public Double get(int i){
+    public Double get(int i) {
         return num[i];
     }
 
-    public int size(){return last;}
+    public int size() {
+        return last;
+    }
 
-    public boolean add(Double n){
-        if(size() >= MAX) throw new RuntimeException();
+    public boolean add(Double n) {
+        if (size() >= MAX) throw new RuntimeException();
         num[last++] = n;
+        alteracoes++;
         return true;
     }
 
-    public boolean remover(Double n){
-
-        for(int i = 0; i < last; i++){
-            if (num[i].equals(n)) { //estamos a usar equals para comparar valores de objetos Double
-                num[i] = num[last-1];
-                num[last-1] = null;
-                last--;
-                return true;
-            }
+    void remover (int pos) {
+        int i=0;
+        for(i=pos; i<last-1; i++){
+            num[i] = num[i+1];
         }
-        return false;
+        if(last>-1)
+            last--;
+        alteracoes++;
     }
 
-    public void mostra(){
-        for(int i = 0; i < num.length; i++){
-            if(num[i] != null){
+    public void mostra() {
+        for (int i = 0; i < num.length; i++) {
+            if (num[i] != null) {
                 System.out.println(num[i]);
             }
         }
     }
 
-    @Override
-    public Iterator <Double> iterator() {
-        return new IteradorDezReaisMutavel(this);
-    }
-}
-
-class IteradorDezReaisMutavel implements Iterator{
-    DezReaisMutavel m;
-    private int counter = 0;
-
-    public IteradorDezReaisMutavel (){
-
-    }
-
-    public IteradorDezReaisMutavel (DezReaisMutavel n){
-        this.m=n;
-    }
-
-    @Override
-    public boolean hasNext() {
-        if(counter < m.size()){
-            return true;
+    public int nextPos(int pos){
+        if(pos < 0 || pos >= last) throw new IndexOutOfBoundsException();
+        while(num[pos] < 0){
+            pos++;
+            if (pos >= last)
+                return -1;
         }
-        return false;
+        return pos;
     }
+
     @Override
-    public Object next() {
-        return m.get(counter++);
+    public Iterator<Double> iterator() {
+
+        //return new IteradorDezReaisMutavel(this);
+        return new ItDezReaisMutaveisPos(this); //falta testar
     }
+
 }
+    class IteradorDezReaisMutavel implements Iterator{
+        DezReaisMutavel m;
+        private int pos = 0;
+        boolean poderemover = false;
+        int alteracoes = 0;
+        public IteradorDezReaisMutavel (){
+
+        }
+
+        public IteradorDezReaisMutavel (DezReaisMutavel n){
+            this.m=n;
+            this.alteracoes = n.alteracoes;
+        }
+
+        @Override
+        public boolean hasNext() {
+            if(m.alteracoes != alteracoes)
+                throw new ConcurrentModificationException(); //pode estar num metedo
+            if(pos <= m.size()){
+                return true;
+            }
+            return false;
+        }
+
+        @Override
+        public Object next() {
+            if(!hasNext()) throw new NoSuchElementException();
+            poderemover = true;
+            return m.get(pos++);
+        }
+
+        @Override
+        public void remove() {
+            if(!poderemover)
+                throw new IllegalStateException();           poderemover = false;
+            m.remover(pos); // remove the last element returned by next()
+            pos--;
+            alteracoes++;
+        }
+    }
+
 

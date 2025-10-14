@@ -1,4 +1,0 @@
-D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\UtilidadesBlazor\wwwroot\app.css
-D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\UtilidadesBlazor\wwwroot\bootstrap\bootstrap.min.css
-D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\UtilidadesBlazor\wwwroot\bootstrap\bootstrap.min.css.map
-D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\UtilidadesBlazor\wwwroot\favicon.png

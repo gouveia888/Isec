@@ -1,6 +1,7 @@
 package DezReais;
 
 import java.util.Iterator;
+import java.util.NoSuchElementException;
 
 class DezReais implements Iterable<Double>{
     private final int MAX = 10;
@@ -51,7 +52,7 @@ class IteratorDezReais implements Iterator{
 
     @Override
     public boolean hasNext() {
-        if(counter <= dr.size()){
+        if(counter < dr.size()){
             return true;
         }
         return false;
@@ -59,11 +60,42 @@ class IteratorDezReais implements Iterator{
 
     @Override
     public Object next() {
+        if(!hasNext()) throw new NoSuchElementException();
         return dr.get(counter++);
+    }
+
+    public Object previous() {
+        if(counter-1 < 0) throw new NoSuchElementException();
+        return dr.get(--counter);
     }
 }
 
 public class Main {
+        //ex7
+    public Double maiorNum (Iterable <Double> m){
+        Iterator<Double> it = m.iterator();
+        Double maior, temp;
+        maior = it.next();
+        while(it.hasNext()){
+            temp = it.next();
+            if(temp > maior)
+                maior = temp;
+        }
+    return maior;
+    }
+
+    public <T extends Comparable <? super T>> T maiorNumGen (Iterable <T> m){
+        Iterator<T> it = m.iterator();
+        T maior, temp;
+        maior = it.next();
+        while(it.hasNext()){
+            temp = it.next();
+            if(temp.compareTo(maior) > 0) //compareTo devido a estarmos a comparar objetos
+                maior = temp;
+        }
+        return maior;
+    }
+
     public static void main(String[] args) {
         DezReais n = new DezReais();
         DezReaisMutavel nm = new DezReaisMutavel();
@@ -71,25 +103,26 @@ public class Main {
         IteradorDezReaisMutavel ipm = new IteradorDezReaisMutavel(nm);
         int j;
 
-
         for (j = 0; j < 9; j++) { //com 10 vamos ver a exceção
             n.add(j * 0.1);
             nm.add(j * 0.2);
         }
         while(it.hasNext()){
-            System.out.println("DezReais " + it.next() + "\nDezReaisMutavel " + ipm.next());
-        }
-        while(ipm.hasNext()){
-            System.out.println("\nDezReaisMutavel " + ipm.next());
+            System.out.println("DezReais " + it.next()); // + "\nDezReaisMutavel " + ipm.next()
         }
 
-        nm.remover(0.2);
-
-        System.out.println("\nDepois de remover 0.2\n");
-
-        ipm = new IteradorDezReaisMutavel(nm);
         while(ipm.hasNext()){
             System.out.println("DezReaisMutavel " + ipm.next());
         }
+        System.out.println("Apos remoção de DezReaisMutavel ");
+
+        ipm = new IteradorDezReaisMutavel(nm);  //reiniciando o iterador
+        ipm.next();
+        ipm.next();
+        ipm.remove();
+        while(ipm.hasNext()){
+            System.out.println("DezReaisMutavel " + ipm.next());
+        }
+
     }
 }
