@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Gouveia\\Desktop\\Ficha3\\RCLUtilidades\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RCLUtilidades.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RCLUtilidades.1uokcydnfx.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Gouveia\\Desktop\\Ficha3\\RCLUtilidades\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Gouveia\\Desktop\\Ficha3\\RCLUtilidades\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Gouveia\\Desktop\\Ficha3\\RCLUtilidades\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Gouveia\\Desktop\\Ficha3\\RCLUtilidades\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Gouveia\\Desktop\\Ficha3\\RCLUtilidades\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Gouveia\\Desktop\\Ficha3\\RCLUtilidades\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Gouveia\\Desktop\\Ficha3\\RCLUtilidades\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RCLUtilidades.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RCLUtilidades.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.RCLUtilidades.props",
+      "PackagePath": "build\\RCLUtilidades.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.RCLUtilidades.props",
+      "PackagePath": "buildMultiTargeting\\RCLUtilidades.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.RCLUtilidades.props",
+      "PackagePath": "buildTransitive\\RCLUtilidades.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
