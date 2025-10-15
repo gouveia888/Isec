@@ -4,11 +4,12 @@ plugins {
 }
 
 android {
-    namespace = "pt.isec.a2019112767.jogogalo"
+    buildFeatures  { viewBinding= true}
+    namespace = "pt.isec.amov.JogoGalo"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "pt.isec.a2019112767.jogogalo"
+        applicationId = "pt.isec.amov.ttt"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -45,4 +46,5 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation ("androidx.core:core-ktx:1.9.0")
 }

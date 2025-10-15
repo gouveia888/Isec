@@ -1,5 +1,7 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v8.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
 build_property.ProjectTypeGuids = 
@@ -9,21 +11,21 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RCLUtilidades
 build_property.RootNamespace = RCLUtilidades
-build_property.ProjectDir = C:\Users\Gouveia\Desktop\Ficha3\RCLUtilidades\
+build_property.ProjectDir = C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Gouveia\Desktop\Ficha3\RCLUtilidades
+build_property.MSBuildProjectDirectory = C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Gouveia/Desktop/Ficha3/RCLUtilidades/shared/NavMenu.razor]
+[C:/ISEC/Isec/3_Ano/1_Semestre/PWEB/Ficha3/RCLUtilidades/shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = c2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-c5292jc66r
 
-[C:/Users/Gouveia/Desktop/Ficha3/RCLUtilidades/Areas/MyFeature/Pages/Page1.cshtml]
+[C:/ISEC/Isec/3_Ano/1_Semestre/PWEB/Ficha3/RCLUtilidades/Areas/MyFeature/Pages/Page1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlGZWF0dXJlXFBhZ2VzXFBhZ2UxLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

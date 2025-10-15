@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gouveia\\Desktop\\Ficha3\\UtilidadesBlazor\\UtilidadesBlazor.csproj": {}
+    "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\UtilidadesBlazor\\UtilidadesBlazor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gouveia\\Desktop\\Ficha3\\RCLUtilidades\\RCLUtilidades.csproj": {
+    "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\RCLUtilidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gouveia\\Desktop\\Ficha3\\RCLUtilidades\\RCLUtilidades.csproj",
+        "projectUniqueName": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\RCLUtilidades.csproj",
         "projectName": "RCLUtilidades",
-        "projectPath": "C:\\Users\\Gouveia\\Desktop\\Ficha3\\RCLUtilidades\\RCLUtilidades.csproj",
+        "projectPath": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\RCLUtilidades.csproj",
         "packagesPath": "C:\\Users\\Gouveia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gouveia\\Desktop\\Ficha3\\RCLUtilidades\\obj\\",
+        "outputPath": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -69,18 +69,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.1.25451.107/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Gouveia\\Desktop\\Ficha3\\UtilidadesBlazor\\UtilidadesBlazor.csproj": {
+    "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\UtilidadesBlazor\\UtilidadesBlazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gouveia\\Desktop\\Ficha3\\UtilidadesBlazor\\UtilidadesBlazor.csproj",
+        "projectUniqueName": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\UtilidadesBlazor\\UtilidadesBlazor.csproj",
         "projectName": "UtilidadesBlazor",
-        "projectPath": "C:\\Users\\Gouveia\\Desktop\\Ficha3\\UtilidadesBlazor\\UtilidadesBlazor.csproj",
+        "projectPath": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\UtilidadesBlazor\\UtilidadesBlazor.csproj",
         "packagesPath": "C:\\Users\\Gouveia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gouveia\\Desktop\\Ficha3\\UtilidadesBlazor\\obj\\",
+        "outputPath": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\UtilidadesBlazor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -102,8 +102,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Gouveia\\Desktop\\Ficha3\\RCLUtilidades\\RCLUtilidades.csproj": {
-                "projectPath": "C:\\Users\\Gouveia\\Desktop\\Ficha3\\RCLUtilidades\\RCLUtilidades.csproj"
+              "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\RCLUtilidades.csproj": {
+                "projectPath": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\RCLUtilidades.csproj"
               }
             }
           }
@@ -118,7 +118,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -142,7 +142,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.1.25451.107/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
