@@ -1,6 +1,8 @@
-﻿<Router AppAssembly="typeof(Program).Assembly">
+﻿<Router AppAssembly="typeof(Program).Assembly"
+        AdditionalAssemblies="new[] { typeof(RCLUtilidades.Pages.Home).Assembly }">
+    @* adicionar *@
     <Found Context="routeData">
-        <RouteView RouteData="routeData" DefaultLayout="typeof(Layout.MainLayout)" />
+        <RouteView RouteData="routeData" DefaultLayout="typeof(MainLayout)" /> @* sai layout *@
         <FocusOnNavigate RouteData="routeData" Selector="h1" />
     </Found>
 </Router>

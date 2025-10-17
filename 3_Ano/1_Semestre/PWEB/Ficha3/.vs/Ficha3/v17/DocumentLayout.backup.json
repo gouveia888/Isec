@@ -1,26 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Gouveia\\Desktop\\Ficha3\\",
+  "WorkspaceRootPath": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8009380-BE24-4B40-BF03-609A05A430E0}|UtilidadesMaui\\UtilidadesMaui.csproj|c:\\users\\gouveia\\desktop\\ficha3\\utilidadesmaui\\utilidadesmaui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{A8009380-BE24-4B40-BF03-609A05A430E0}|UtilidadesMaui\\UtilidadesMaui.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\utilidadesmaui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A8009380-BE24-4B40-BF03-609A05A430E0}|UtilidadesMaui\\UtilidadesMaui.csproj|solutionrelative:utilidadesmaui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8009380-BE24-4B40-BF03-609A05A430E0}|UtilidadesMaui\\UtilidadesMaui.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\utilidadesmaui\\utilidadesmaui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A8009380-BE24-4B40-BF03-609A05A430E0}|UtilidadesMaui\\UtilidadesMaui.csproj|solutionrelative:utilidadesmaui\\utilidadesmaui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B989763-8035-4483-A3A9-6E2CEADC4CCA}|RCLUtilidades\\RCLUtilidades.csproj|c:\\users\\gouveia\\desktop\\ficha3\\rclutilidades\\rclutilidades.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6B989763-8035-4483-A3A9-6E2CEADC4CCA}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\rclutilidades.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{396360DC-32C7-48B5-BCF7-6D09B7DEE224}|UtilidadesBlazor\\UtilidadesBlazor.csproj|c:\\users\\gouveia\\desktop\\ficha3\\utilidadesblazor\\utilidadesblazor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{396360DC-32C7-48B5-BCF7-6D09B7DEE224}|UtilidadesBlazor\\UtilidadesBlazor.csproj|solutionrelative:utilidadesblazor\\utilidadesblazor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B989763-8035-4483-A3A9-6E2CEADC4CCA}|RCLUtilidades\\RCLUtilidades.csproj|c:\\users\\gouveia\\desktop\\ficha3\\rclutilidades\\areas\\myfeature\\pages\\page1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6B989763-8035-4483-A3A9-6E2CEADC4CCA}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\areas\\myfeature\\pages\\page1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8009380-BE24-4B40-BF03-609A05A430E0}|UtilidadesMaui\\UtilidadesMaui.csproj|c:\\users\\gouveia\\desktop\\ficha3\\utilidadesmaui\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A8009380-BE24-4B40-BF03-609A05A430E0}|UtilidadesMaui\\UtilidadesMaui.csproj|solutionrelative:utilidadesmaui\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6B989763-8035-4483-A3A9-6E2CEADC4CCA}|RCLUtilidades\\RCLUtilidades.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6B989763-8035-4483-A3A9-6E2CEADC4CCA}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,47 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 10,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RCLUtilidades",
-              "DocumentMoniker": "C:\\Users\\Gouveia\\Desktop\\Ficha3\\RCLUtilidades\\RCLUtilidades.csproj",
-              "RelativeDocumentMoniker": "RCLUtilidades\\RCLUtilidades.csproj",
-              "ToolTip": "C:\\Users\\Gouveia\\Desktop\\Ficha3\\RCLUtilidades\\RCLUtilidades.csproj",
-              "RelativeToolTip": "RCLUtilidades\\RCLUtilidades.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-14T19:47:32.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UtilidadesMaui",
-              "DocumentMoniker": "C:\\Users\\Gouveia\\Desktop\\Ficha3\\UtilidadesMaui\\UtilidadesMaui.csproj",
-              "RelativeDocumentMoniker": "UtilidadesMaui\\UtilidadesMaui.csproj",
-              "ToolTip": "C:\\Users\\Gouveia\\Desktop\\Ficha3\\UtilidadesMaui\\UtilidadesMaui.csproj",
-              "RelativeToolTip": "UtilidadesMaui\\UtilidadesMaui.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-14T19:46:42.292Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UtilidadesBlazor",
-              "DocumentMoniker": "C:\\Users\\Gouveia\\Desktop\\Ficha3\\UtilidadesBlazor\\UtilidadesBlazor.csproj",
-              "RelativeDocumentMoniker": "UtilidadesBlazor\\UtilidadesBlazor.csproj",
-              "ToolTip": "C:\\Users\\Gouveia\\Desktop\\Ficha3\\UtilidadesBlazor\\UtilidadesBlazor.csproj",
-              "RelativeToolTip": "UtilidadesBlazor\\UtilidadesBlazor.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-14T19:45:56.801Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -113,29 +66,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Page1.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gouveia\\Desktop\\Ficha3\\RCLUtilidades\\Areas\\MyFeature\\Pages\\Page1.cshtml",
-              "RelativeDocumentMoniker": "RCLUtilidades\\Areas\\MyFeature\\Pages\\Page1.cshtml",
-              "ToolTip": "C:\\Users\\Gouveia\\Desktop\\Ficha3\\RCLUtilidades\\Areas\\MyFeature\\Pages\\Page1.cshtml",
-              "RelativeToolTip": "RCLUtilidades\\Areas\\MyFeature\\Pages\\Page1.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-14T19:46:18.65Z",
+              "DocumentIndex": 0,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\UtilidadesMaui\\App.xaml",
+              "RelativeDocumentMoniker": "UtilidadesMaui\\App.xaml",
+              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\UtilidadesMaui\\App.xaml",
+              "RelativeToolTip": "UtilidadesMaui\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-17T17:17:07.879Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\Gouveia\\Desktop\\Ficha3\\UtilidadesMaui\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "UtilidadesMaui\\Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\Gouveia\\Desktop\\Ficha3\\UtilidadesMaui\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "UtilidadesMaui\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-14T19:44:22.017Z",
-              "EditorCaption": ""
+              "DocumentIndex": 1,
+              "Title": "UtilidadesMaui.csproj",
+              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\UtilidadesMaui\\UtilidadesMaui.csproj",
+              "RelativeDocumentMoniker": "UtilidadesMaui\\UtilidadesMaui.csproj",
+              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\UtilidadesMaui\\UtilidadesMaui.csproj",
+              "RelativeToolTip": "UtilidadesMaui\\UtilidadesMaui.csproj",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-17T16:00:36.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "RCLUtilidades\\wwwroot\\css\\app.css",
+              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "RCLUtilidades\\wwwroot\\css\\app.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-16T15:55:06.982Z"
             }
           ]
         }

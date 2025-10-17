@@ -22,6 +22,7 @@ app.UseStaticFiles();
 app.UseAntiforgery();
 
 app.MapRazorComponents<App>()
+    .AddAdditionalAssemblies([typeof(RCLUtilidades.Pages.Home).Assembly]) //adicionar
     .AddInteractiveServerRenderMode();
 
 app.Run();
