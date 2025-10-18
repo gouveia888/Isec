@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RCLUtilidades")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f6c57125f8339cb87382cd875ca21ba70905765")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0fac0e65b7365a3cccb1c66107525067e45ab109")]
 [assembly: System.Reflection.AssemblyProductAttribute("RCLUtilidades")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RCLUtilidades")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

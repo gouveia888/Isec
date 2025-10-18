@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\MauiUtilidades\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\MauiUtilidades.styles.css",
+      "PackagePath": "staticwebassets\\MauiUtilidades.styles.css"
+    },
+    {
+      "Id": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\MauiUtilidades\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.MauiUtilidades.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.MauiUtilidades.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.build.MauiUtilidades.props",
+      "PackagePath": "build\\MauiUtilidades.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildMultiTargeting.MauiUtilidades.props",
+      "PackagePath": "buildMultiTargeting\\MauiUtilidades.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildTransitive.MauiUtilidades.props",
+      "PackagePath": "buildTransitive\\MauiUtilidades.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

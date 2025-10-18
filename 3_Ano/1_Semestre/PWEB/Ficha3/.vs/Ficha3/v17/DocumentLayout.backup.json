@@ -1,18 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\",
+  "WorkspaceRootPath": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8009380-BE24-4B40-BF03-609A05A430E0}|UtilidadesMaui\\UtilidadesMaui.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\utilidadesmaui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A8009380-BE24-4B40-BF03-609A05A430E0}|UtilidadesMaui\\UtilidadesMaui.csproj|solutionrelative:utilidadesmaui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{1ACF4D35-DFE7-4A5C-9F58-D95E0E5038B3}|MauiUtilidades\\MauiUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\mauiutilidades\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1ACF4D35-DFE7-4A5C-9F58-D95E0E5038B3}|MauiUtilidades\\MauiUtilidades.csproj|solutionrelative:mauiutilidades\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8009380-BE24-4B40-BF03-609A05A430E0}|UtilidadesMaui\\UtilidadesMaui.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\utilidadesmaui\\utilidadesmaui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A8009380-BE24-4B40-BF03-609A05A430E0}|UtilidadesMaui\\UtilidadesMaui.csproj|solutionrelative:utilidadesmaui\\utilidadesmaui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{1ACF4D35-DFE7-4A5C-9F58-D95E0E5038B3}|MauiUtilidades\\MauiUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\mauiutilidades\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1ACF4D35-DFE7-4A5C-9F58-D95E0E5038B3}|MauiUtilidades\\MauiUtilidades.csproj|solutionrelative:mauiutilidades\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B989763-8035-4483-A3A9-6E2CEADC4CCA}|RCLUtilidades\\RCLUtilidades.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{6B989763-8035-4483-A3A9-6E2CEADC4CCA}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{1ACF4D35-DFE7-4A5C-9F58-D95E0E5038B3}|MauiUtilidades\\MauiUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\mauiutilidades\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1ACF4D35-DFE7-4A5C-9F58-D95E0E5038B3}|MauiUtilidades\\MauiUtilidades.csproj|solutionrelative:mauiutilidades\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF4D35-DFE7-4A5C-9F58-D95E0E5038B3}|MauiUtilidades\\MauiUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\mauiutilidades\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1ACF4D35-DFE7-4A5C-9F58-D95E0E5038B3}|MauiUtilidades\\MauiUtilidades.csproj|solutionrelative:mauiutilidades\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF4D35-DFE7-4A5C-9F58-D95E0E5038B3}|MauiUtilidades\\MauiUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\mauiutilidades\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1ACF4D35-DFE7-4A5C-9F58-D95E0E5038B3}|MauiUtilidades\\MauiUtilidades.csproj|solutionrelative:mauiutilidades\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF4D35-DFE7-4A5C-9F58-D95E0E5038B3}|MauiUtilidades\\MauiUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\mauiutilidades\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF4D35-DFE7-4A5C-9F58-D95E0E5038B3}|MauiUtilidades\\MauiUtilidades.csproj|solutionrelative:mauiutilidades\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726A5E18-8F43-4249-A59E-966F2A4BEB52}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{726A5E18-8F43-4249-A59E-966F2A4BEB52}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726A5E18-8F43-4249-A59E-966F2A4BEB52}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{726A5E18-8F43-4249-A59E-966F2A4BEB52}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726A5E18-8F43-4249-A59E-966F2A4BEB52}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{726A5E18-8F43-4249-A59E-966F2A4BEB52}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF4D35-DFE7-4A5C-9F58-D95E0E5038B3}|MauiUtilidades\\MauiUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\mauiutilidades\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1ACF4D35-DFE7-4A5C-9F58-D95E0E5038B3}|MauiUtilidades\\MauiUtilidades.csproj|solutionrelative:mauiutilidades\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,40 +94,133 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\UtilidadesMaui\\App.xaml",
-              "RelativeDocumentMoniker": "UtilidadesMaui\\App.xaml",
-              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\UtilidadesMaui\\App.xaml",
-              "RelativeToolTip": "UtilidadesMaui\\App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-17T17:17:07.879Z",
+              "DocumentIndex": 1,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\MauiUtilidades\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "MauiUtilidades\\wwwroot\\index.html",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\MauiUtilidades\\wwwroot\\index.html",
+              "RelativeToolTip": "MauiUtilidades\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-10-18T01:56:53.865Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UtilidadesMaui.csproj",
-              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\UtilidadesMaui\\UtilidadesMaui.csproj",
-              "RelativeDocumentMoniker": "UtilidadesMaui\\UtilidadesMaui.csproj",
-              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\UtilidadesMaui\\UtilidadesMaui.csproj",
-              "RelativeToolTip": "UtilidadesMaui\\UtilidadesMaui.csproj",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-17T16:00:36.959Z"
+              "DocumentIndex": 4,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\MauiUtilidades\\App.xaml",
+              "RelativeDocumentMoniker": "MauiUtilidades\\App.xaml",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\MauiUtilidades\\App.xaml",
+              "RelativeToolTip": "MauiUtilidades\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-18T01:54:36.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\MauiUtilidades\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MauiUtilidades\\MainPage.xaml",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\MauiUtilidades\\MainPage.xaml",
+              "RelativeToolTip": "MauiUtilidades\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-18T01:54:30.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\MauiUtilidades\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiUtilidades\\MauiProgram.cs",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\MauiUtilidades\\MauiProgram.cs",
+              "RelativeToolTip": "MauiUtilidades\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T01:54:22.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Shared\\NavMenu.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "RCLUtilidades\\Shared\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T01:54:04.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Shared\\MainLayout.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "RCLUtilidades\\Shared\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T01:46:50.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\_Imports.razor",
+              "RelativeDocumentMoniker": "RCLUtilidades\\_Imports.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\_Imports.razor",
+              "RelativeToolTip": "RCLUtilidades\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T01:46:40.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\MauiUtilidades\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "MauiUtilidades\\Components\\Routes.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\MauiUtilidades\\Components\\Routes.razor",
+              "RelativeToolTip": "MauiUtilidades\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T01:46:24.456Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "app.css",
-              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\wwwroot\\css\\app.css",
-              "RelativeDocumentMoniker": "RCLUtilidades\\wwwroot\\css\\app.css",
-              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\wwwroot\\css\\app.css",
-              "RelativeToolTip": "RCLUtilidades\\wwwroot\\css\\app.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-10-16T15:55:06.982Z"
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\MauiUtilidades\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "MauiUtilidades\\Components\\_Imports.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\MauiUtilidades\\Components\\_Imports.razor",
+              "RelativeToolTip": "MauiUtilidades\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T01:46:23.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\MauiUtilidades\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MauiUtilidades\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\MauiUtilidades\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MauiUtilidades\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-18T01:46:21.151Z",
+              "EditorCaption": ""
             }
           ]
         }
