@@ -1,7 +1,0 @@
-D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\obj\Debug\net8.0\staticwebassets.build.json
-D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\obj\Debug\net8.0\staticwebassets.build.json
-D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\obj\Debug\net8.0\staticwebassets.build.json
-D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\obj\Debug\net8.0\staticwebassets.build.json
-D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\obj\Debug\net8.0\staticwebassets.build.json
-D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\obj\Debug\net8.0\staticwebassets.build.json
-D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\obj\Debug\net8.0\staticwebassets.build.json
