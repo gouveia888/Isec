@@ -44,3 +44,14 @@ D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\BlazorUtilidades\bin\Debug\net8.0\RCLUtilid
 D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\BlazorUtilidades\bin\Debug\net8.0\RCLUtilidades.pdb
 D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\BlazorUtilidades\obj\Debug\net8.0\BlazorUtilidades.csproj.AssemblyReference.cache
 D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\BlazorUtilidades\obj\Debug\net8.0\BlazorUt.F3F83083.Up2Date
+C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\BlazorUtilidades\obj\Debug\net8.0\BlazorUtilidades.csproj.AssemblyReference.cache
+C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\BlazorUtilidades\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\BlazorUtilidades\obj\Debug\net8.0\BlazorUtilidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\BlazorUtilidades\obj\Debug\net8.0\BlazorUtilidades.AssemblyInfoInputs.cache
+C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\BlazorUtilidades\obj\Debug\net8.0\BlazorUtilidades.AssemblyInfo.cs
+C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\BlazorUtilidades\obj\Debug\net8.0\BlazorUtilidades.csproj.CoreCompileInputs.cache
+C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\BlazorUtilidades\obj\Debug\net8.0\BlazorUtilidades.MvcApplicationPartsAssemblyInfo.cache
+C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\BlazorUtilidades\obj\Debug\net8.0\BlazorUtilidades.sourcelink.json
+C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\BlazorUtilidades\obj\Debug\net8.0\BlazorUtilidades.dll
+C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\BlazorUtilidades\obj\Debug\net8.0\refint\BlazorUtilidades.dll
+C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\BlazorUtilidades\obj\Debug\net8.0\BlazorUtilidades.pdb

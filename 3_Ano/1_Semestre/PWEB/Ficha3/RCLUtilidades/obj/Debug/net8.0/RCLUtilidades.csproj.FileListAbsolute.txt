@@ -32,3 +32,13 @@ D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\obj\Debug\net8.0\RCLUtilidade
 D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\obj\Debug\net8.0\refint\RCLUtilidades.dll
 D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\obj\Debug\net8.0\RCLUtilidades.pdb
 D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\obj\Debug\net8.0\ref\RCLUtilidades.dll
+C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\obj\Debug\net8.0\RCLUtilidades.csproj.AssemblyReference.cache
+C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\obj\Debug\net8.0\RCLUtilidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\obj\Debug\net8.0\RCLUtilidades.AssemblyInfoInputs.cache
+C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\obj\Debug\net8.0\RCLUtilidades.AssemblyInfo.cs
+C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\obj\Debug\net8.0\RCLUtilidades.csproj.CoreCompileInputs.cache
+C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\obj\Debug\net8.0\RCLUtilidades.sourcelink.json
+C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\obj\Debug\net8.0\RCLUtilidades.dll
+C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\obj\Debug\net8.0\refint\RCLUtilidades.dll
+C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\obj\Debug\net8.0\RCLUtilidades.pdb

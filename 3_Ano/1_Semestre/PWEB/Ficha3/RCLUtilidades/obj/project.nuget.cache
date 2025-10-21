@@ -1,22 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "R6nih4ZBRsw=",
+  "dgSpecHash": "kLjQ9B4ON5Q=",
   "success": true,
-  "projectFilePath": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\RCLUtilidades.csproj",
+  "projectFilePath": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\RCLUtilidades.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\tiago\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.20\\microsoft.aspnetcore.authorization.8.0.20.nupkg.sha512",
-    "C:\\Users\\tiago\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.20\\microsoft.aspnetcore.components.8.0.20.nupkg.sha512",
-    "C:\\Users\\tiago\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.20\\microsoft.aspnetcore.components.analyzers.8.0.20.nupkg.sha512",
-    "C:\\Users\\tiago\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\8.0.20\\microsoft.aspnetcore.components.forms.8.0.20.nupkg.sha512",
-    "C:\\Users\\tiago\\.nuget\\packages\\microsoft.aspnetcore.components.web\\8.0.20\\microsoft.aspnetcore.components.web.8.0.20.nupkg.sha512",
-    "C:\\Users\\tiago\\.nuget\\packages\\microsoft.aspnetcore.metadata\\8.0.20\\microsoft.aspnetcore.metadata.8.0.20.nupkg.sha512",
-    "C:\\Users\\tiago\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.1\\microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
-    "C:\\Users\\tiago\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
-    "C:\\Users\\tiago\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.3\\microsoft.extensions.logging.abstractions.8.0.3.nupkg.sha512",
-    "C:\\Users\\tiago\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
-    "C:\\Users\\tiago\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
-    "C:\\Users\\tiago\\.nuget\\packages\\microsoft.jsinterop\\8.0.20\\microsoft.jsinterop.8.0.20.nupkg.sha512",
-    "C:\\Users\\tiago\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512"
+    "C:\\Users\\Gouveia\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.20\\microsoft.aspnetcore.authorization.8.0.20.nupkg.sha512",
+    "C:\\Users\\Gouveia\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.20\\microsoft.aspnetcore.components.8.0.20.nupkg.sha512",
+    "C:\\Users\\Gouveia\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.20\\microsoft.aspnetcore.components.analyzers.8.0.20.nupkg.sha512",
+    "C:\\Users\\Gouveia\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\8.0.20\\microsoft.aspnetcore.components.forms.8.0.20.nupkg.sha512",
+    "C:\\Users\\Gouveia\\.nuget\\packages\\microsoft.aspnetcore.components.web\\8.0.20\\microsoft.aspnetcore.components.web.8.0.20.nupkg.sha512",
+    "C:\\Users\\Gouveia\\.nuget\\packages\\microsoft.aspnetcore.metadata\\8.0.20\\microsoft.aspnetcore.metadata.8.0.20.nupkg.sha512",
+    "C:\\Users\\Gouveia\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.1\\microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
+    "C:\\Users\\Gouveia\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\Gouveia\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.3\\microsoft.extensions.logging.abstractions.8.0.3.nupkg.sha512",
+    "C:\\Users\\Gouveia\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
+    "C:\\Users\\Gouveia\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Gouveia\\.nuget\\packages\\microsoft.jsinterop\\8.0.20\\microsoft.jsinterop.8.0.20.nupkg.sha512",
+    "C:\\Users\\Gouveia\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

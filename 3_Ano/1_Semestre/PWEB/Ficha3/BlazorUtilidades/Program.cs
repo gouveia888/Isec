@@ -8,6 +8,9 @@ builder.Services.AddRazorComponents()
 
 var app = builder.Build();
 
+//adicionar as interfaces e services
+//builder.Services.AddScope <IEnergia, EnergiaServices>();
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
