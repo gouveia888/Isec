@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace RCLUtilidades.Data.DTO
 {
-    internal class Temperatura
+    public class Temperatura
     {
+        public DateTime DataHora { get; set; }
+        public decimal ValorCelsius { get; set; }
+        public decimal ValorFahrenheit { get; set; }
+        public decimal ValorKelvin { get; set; }
+
     }
 }

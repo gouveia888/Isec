@@ -1,0 +1,126 @@
+@* Define que esta página será acedida através da rota /todo *@
+@page "/eventos"
+
+@* Imports:
+    Permitem usar directamente as classes da RCL (o ITodoService e o TodoItemDto), 
+    sem precisar escrever o namespace completo. 
+    *@
+
+@using RCLUtilidades.Data.Interfaces
+@using RCLUtilidades.Data.DTO
+@inject IEventoService EventoService
+
+@* Estrutura da interface (HTML + Razor) *@
+
+<div class="container py-4">
+    <div class="row mb-4">
+        <div class="col">
+            <h1 class="display-6 mb-3">Gestão de Eventos</h1>
+            <p class="text-muted">PWEB - simple example dto, interface, services...</p>
+        </div>
+    </div>
+
+    <div class="row g-2 align-items-center mb-4">
+        <div class="col-md-8 col-sm-12">
+
+            @*  Ligação de dados (data binding) com reactividade em tempo real    
+
+            @bind="novoTitulo" 
+
+            cria uma ligação (binding) entre o campo de texto e a variável novoTitulo.
+            Por defeito, o valor só é actualizado quando o utilizador sai do campo (evento onchange).
+
+            Ao acrescentar @bind:event="oninput", 
+            dizemos ao Blazor para actualizar a variável a cada tecla pressionada, 
+            tornando o campo reactivo em tempo real. 
+
+            *@
+
+            <input @bind="novoNome"
+                   @bind:event="oninput"
+                   placeholder="Novo evento..."
+                   class="form-control form-control-lg"
+                   aria-label="Novo ecento" />
+        </div>
+        <div class="col-md-4 col-sm-12 d-grid">
+            <button class="btn btn-lg btn-primary" @onclick="Adicionar">Adicionar</button>
+        </div>
+    </div>
+
+    @if (eventos is null)
+    {
+        <div class="text-center text-secondary mt-4">
+            <div class="spinner-border" role="status">
+                <span class="visually-hidden">A carregar...</span>
+            </div>
+            <p class="mt-3">A carregar...</p>
+        </div>
+    }
+    else if (!eventos.Any())
+    {
+        <div class="alert alert-info text-center mt-4">
+            <em>Sem tarefas ainda. Adiciona a tua primeira acima!</em>
+        </div>
+    }
+    else
+    {
+        <ul class="list-group shadow-sm">
+            @foreach (var evento in eventos)
+            {
+                <li class="list-group-item d-flex justify-content-between align-items-center py-3">
+                    <div class="d-flex align-items-center flex-grow-1">
+                        <input type="checkbox"
+                               class="form-check-input me-3"
+                               checked="@evento.Concluido"
+                               @onchange="() => Alternar(evento.Id)" />
+                        <div class="flex-grow-1">
+                            <div class="fw-semibold @(evento.Concluido ? "text-decoration-line-through text-muted" : "")">
+                                @evento.Nome
+                            </div>
+                            <small class="text-muted">
+                                Criada em: @evento.Data.ToString("dd/MM/yyyy HH:mm")
+                            </small>
+                        </div>
+                    </div>
+                    <button class="btn btn-outline-danger btn-sm ms-3"
+                            title="Remover evento"
+                            @onclick="() => Remover(evento.Id)">
+                        <i class="bi bi-trash">X</i>
+                    </button>
+                </li>
+            }
+        </ul>
+    }
+</div>
+
+@code {
+    private IEnumerable<Evento>? eventos; //armazena a lista de eventos (o estado da lista). O ? permite que seja nula inicialmente
+    private string novoNome = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        eventos = await EventoService.GetAllAsync();
+    }
+
+    private async Task Adicionar()
+    {
+        if (!string.IsNullOrWhiteSpace(novoNome))
+        {
+			await EventoService.AddAsync(novoNome); //apenas e necessario o nome para criar um novo objeto evento
+            novoNome = string.Empty;
+            eventos = await EventoService.GetAllAsync();
+        }
+    }
+
+    private async Task Alternar(Guid id)
+    {
+        await EventoService.ToggleAsync(id);
+        eventos = await EventoService.GetAllAsync();
+    }
+
+    private async Task Remover(Guid id)
+    {
+        await EventoService.DeleteAsync(id);
+        eventos = await EventoService.GetAllAsync();
+    }
+}

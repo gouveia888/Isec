@@ -29,25 +29,25 @@
     <AppXManifest Include="D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\MauiUtilidades\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-10-18T11:15:41.076</Modified>
+      <Modified>2025-10-24T11:12:57.173</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\MauiUtilidades\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-10-18T11:11:00.494</Modified>
+      <Modified>2025-10-24T11:12:56.978</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\MauiUtilidades\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiUtilidades.runtimeconfig.json">
       <PackagePath>MauiUtilidades.runtimeconfig.json</PackagePath>
-      <Modified>2025-10-18T11:11:00.437</Modified>
+      <Modified>2025-10-24T11:12:56.715</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\MauiUtilidades\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiUtilidades.dll">
       <PackagePath>MauiUtilidades.dll</PackagePath>
-      <Modified>2025-10-18T11:11:00.231</Modified>
+      <Modified>2025-10-24T11:12:55.973</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\MauiUtilidades\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiUtilidades.exe</PackagePath>
-      <Modified>2025-10-18T11:11:00.244</Modified>
+      <Modified>2025-10-24T11:12:56.001</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\MauiUtilidades\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -303,7 +303,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\MauiUtilidades\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiUtilidades.deps.json">
       <PackagePath>MauiUtilidades.deps.json</PackagePath>
-      <Modified>2025-10-18T11:11:00.421</Modified>
+      <Modified>2025-10-24T11:12:56.699</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -659,7 +659,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\bin\Debug\net8.0\RCLUtilidades.dll">
       <PackagePath>RCLUtilidades.dll</PackagePath>
-      <Modified>2025-10-18T11:10:40.790</Modified>
+      <Modified>2025-10-24T11:12:10.736</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\obj\Debug\net8.0\staticwebassets.development.json">
       <PackagePath>RCLUtilidades.staticwebassets.runtime.json</PackagePath>

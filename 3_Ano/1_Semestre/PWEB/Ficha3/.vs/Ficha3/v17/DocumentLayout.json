@@ -1,30 +1,118 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\",
+  "WorkspaceRootPath": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C731288-75AC-441E-90B0-4579163FB3EC}|BlazorUtilidades\\BlazorUtilidades.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\blazorutilidades\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6C731288-75AC-441E-90B0-4579163FB3EC}|BlazorUtilidades\\BlazorUtilidades.csproj|solutionrelative:blazorutilidades\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\pages\\eventoview.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\pages\\eventoview.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C731288-75AC-441E-90B0-4579163FB3EC}|BlazorUtilidades\\BlazorUtilidades.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\blazorutilidades\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6C731288-75AC-441E-90B0-4579163FB3EC}|BlazorUtilidades\\BlazorUtilidades.csproj|solutionrelative:blazorutilidades\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\pages\\homecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\pages\\homecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\pages\\homecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\interaces\\ieventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\data\\interaces\\ieventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\data\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\interaces\\ienergiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\data\\interaces\\ienergiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\services\\eventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\data\\services\\eventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\interfaces\\ieventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\data\\interfaces\\ieventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8AADDF-AA78-C3FD-0291-B729AAD00C4F}|MauiUtilidades\\MauiUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\mauiutilidades\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B8AADDF-AA78-C3FD-0291-B729AAD00C4F}|MauiUtilidades\\MauiUtilidades.csproj|solutionrelative:mauiutilidades\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C731288-75AC-441E-90B0-4579163FB3EC}|BlazorUtilidades\\BlazorUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\blazorutilidades\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C731288-75AC-441E-90B0-4579163FB3EC}|BlazorUtilidades\\BlazorUtilidades.csproj|solutionrelative:blazorutilidades\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\services\\noticiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\data\\services\\noticiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8AADDF-AA78-C3FD-0291-B729AAD00C4F}|MauiUtilidades\\MauiUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\mauiutilidades\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B8AADDF-AA78-C3FD-0291-B729AAD00C4F}|MauiUtilidades\\MauiUtilidades.csproj|solutionrelative:mauiutilidades\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\dto\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\data\\dto\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\dto\\temperatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\data\\dto\\temperatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\interfaces\\ienergiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\data\\interfaces\\ienergiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\dto\\noticia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\data\\dto\\noticia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\dto\\energia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\data\\dto\\energia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C731288-75AC-441E-90B0-4579163FB3EC}|BlazorUtilidades\\BlazorUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\blazorutilidades\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C731288-75AC-441E-90B0-4579163FB3EC}|BlazorUtilidades\\BlazorUtilidades.csproj|solutionrelative:blazorutilidades\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8AADDF-AA78-C3FD-0291-B729AAD00C4F}|MauiUtilidades\\MauiUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\mauiutilidades\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8AADDF-AA78-C3FD-0291-B729AAD00C4F}|MauiUtilidades\\MauiUtilidades.csproj|solutionrelative:mauiutilidades\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C731288-75AC-441E-90B0-4579163FB3EC}|BlazorUtilidades\\BlazorUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\blazorutilidades\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C731288-75AC-441E-90B0-4579163FB3EC}|BlazorUtilidades\\BlazorUtilidades.csproj|solutionrelative:blazorutilidades\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C731288-75AC-441E-90B0-4579163FB3EC}|BlazorUtilidades\\BlazorUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\blazorutilidades\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C731288-75AC-441E-90B0-4579163FB3EC}|BlazorUtilidades\\BlazorUtilidades.csproj|solutionrelative:blazorutilidades\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\services\\temperaturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\data\\services\\temperaturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\services\\energiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\data\\services\\energiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\interfaces\\itemperaturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\data\\interfaces\\itemperaturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\interfaces\\inoticiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\data\\interfaces\\inoticiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +122,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,11 +166,297 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\MauiUtilidades\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "MauiUtilidades\\Components\\_Imports.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\MauiUtilidades\\Components\\_Imports.razor",
+              "RelativeToolTip": "MauiUtilidades\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T16:22:21.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Pages\\Weather.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Pages\\Weather.razor",
+              "RelativeToolTip": "RCLUtilidades\\Pages\\Weather.razor",
+              "ViewState": "AgIAACAAAAAAAAAAAAAEwDUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T15:18:29.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\BlazorUtilidades\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorUtilidades\\Program.cs",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\BlazorUtilidades\\Program.cs",
+              "RelativeToolTip": "BlazorUtilidades\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T15:10:52.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\MauiUtilidades\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiUtilidades\\MauiProgram.cs",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\MauiUtilidades\\MauiProgram.cs",
+              "RelativeToolTip": "MauiUtilidades\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T15:09:56.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EventoView.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Pages\\EventoView.razor",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Pages\\EventoView.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Pages\\EventoView.razor",
+              "RelativeToolTip": "RCLUtilidades\\Pages\\EventoView.razor",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAuwGsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T15:04:48.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Pages\\Counter.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Pages\\Counter.razor",
+              "RelativeToolTip": "RCLUtilidades\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T15:02:11.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\_Imports.razor",
+              "RelativeDocumentMoniker": "RCLUtilidades\\_Imports.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\_Imports.razor",
+              "RelativeToolTip": "RCLUtilidades\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T12:35:24.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\BlazorUtilidades\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "BlazorUtilidades\\Components\\_Imports.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\BlazorUtilidades\\Components\\_Imports.razor",
+              "RelativeToolTip": "BlazorUtilidades\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T12:35:09.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Data\\ServiceCollectionExtensions.cs",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "RCLUtilidades\\Data\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T11:55:58.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Shared\\NavMenu.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "RCLUtilidades\\Shared\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T11:14:45.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Shared\\MainLayout.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "RCLUtilidades\\Shared\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T11:14:35.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\MauiUtilidades\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "MauiUtilidades\\Components\\Routes.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\MauiUtilidades\\Components\\Routes.razor",
+              "RelativeToolTip": "MauiUtilidades\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T09:58:36.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TemperaturaService.cs",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Services\\TemperaturaService.cs",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Data\\Services\\TemperaturaService.cs",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Services\\TemperaturaService.cs",
+              "RelativeToolTip": "RCLUtilidades\\Data\\Services\\TemperaturaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T09:56:46.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NoticiaService.cs",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Services\\NoticiaService.cs",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Data\\Services\\NoticiaService.cs",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Services\\NoticiaService.cs",
+              "RelativeToolTip": "RCLUtilidades\\Data\\Services\\NoticiaService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADgvw8AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T09:49:58.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EventoService.cs",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Services\\EventoService.cs",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Data\\Services\\EventoService.cs",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Services\\EventoService.cs",
+              "RelativeToolTip": "RCLUtilidades\\Data\\Services\\EventoService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T09:45:42.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ITemperaturaService.cs",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Interfaces\\ITemperaturaService.cs",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Data\\Interfaces\\ITemperaturaService.cs",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Interfaces\\ITemperaturaService.cs",
+              "RelativeToolTip": "RCLUtilidades\\Data\\Interfaces\\ITemperaturaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T09:45:34.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "INoticiaService.cs",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Interfaces\\INoticiaService.cs",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Data\\Interfaces\\INoticiaService.cs",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Interfaces\\INoticiaService.cs",
+              "RelativeToolTip": "RCLUtilidades\\Data\\Interfaces\\INoticiaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T09:45:25.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EnergiaService.cs",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Services\\EnergiaService.cs",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Data\\Services\\EnergiaService.cs",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Services\\EnergiaService.cs",
+              "RelativeToolTip": "RCLUtilidades\\Data\\Services\\EnergiaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T09:29:20.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Temperatura.cs",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\DTO\\Temperatura.cs",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Data\\DTO\\Temperatura.cs",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\DTO\\Temperatura.cs",
+              "RelativeToolTip": "RCLUtilidades\\Data\\DTO\\Temperatura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T09:28:56.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Noticia.cs",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\DTO\\Noticia.cs",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Data\\DTO\\Noticia.cs",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\DTO\\Noticia.cs",
+              "RelativeToolTip": "RCLUtilidades\\Data\\DTO\\Noticia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T09:28:53.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Evento.cs",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\DTO\\Evento.cs",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Data\\DTO\\Evento.cs",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\DTO\\Evento.cs",
+              "RelativeToolTip": "RCLUtilidades\\Data\\DTO\\Evento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T09:28:51.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Energia.cs",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\DTO\\Energia.cs",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Data\\DTO\\Energia.cs",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\DTO\\Energia.cs",
+              "RelativeToolTip": "RCLUtilidades\\Data\\DTO\\Energia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T09:26:41.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "App.razor",
-              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\BlazorUtilidades\\Components\\App.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\BlazorUtilidades\\Components\\App.razor",
               "RelativeDocumentMoniker": "BlazorUtilidades\\Components\\App.razor",
-              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\BlazorUtilidades\\Components\\App.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\BlazorUtilidades\\Components\\App.razor",
               "RelativeToolTip": "BlazorUtilidades\\Components\\App.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -91,63 +465,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "IEventoService.cs",
-              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Interaces\\IEventoService.cs",
-              "RelativeDocumentMoniker": "RCLUtilidades\\Data\\Interaces\\IEventoService.cs",
-              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Interaces\\IEventoService.cs",
-              "RelativeToolTip": "RCLUtilidades\\Data\\Interaces\\IEventoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Interfaces\\IEventoService.cs",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Data\\Interfaces\\IEventoService.cs",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Interfaces\\IEventoService.cs",
+              "RelativeToolTip": "RCLUtilidades\\Data\\Interfaces\\IEventoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-21T12:01:14.956Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "IEnergiaService.cs",
-              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Interaces\\IEnergiaService.cs",
-              "RelativeDocumentMoniker": "RCLUtilidades\\Data\\Interaces\\IEnergiaService.cs",
-              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Interaces\\IEnergiaService.cs",
-              "RelativeToolTip": "RCLUtilidades\\Data\\Interaces\\IEnergiaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAATAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Interfaces\\IEnergiaService.cs",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Data\\Interfaces\\IEnergiaService.cs",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Interfaces\\IEnergiaService.cs",
+              "RelativeToolTip": "RCLUtilidades\\Data\\Interfaces\\IEnergiaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T12:01:07.374Z"
+              "WhenOpened": "2025-10-21T12:01:07.374Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Routes.razor",
-              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\BlazorUtilidades\\Components\\Routes.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\BlazorUtilidades\\Components\\Routes.razor",
               "RelativeDocumentMoniker": "BlazorUtilidades\\Components\\Routes.razor",
-              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\BlazorUtilidades\\Components\\Routes.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\BlazorUtilidades\\Components\\Routes.razor",
               "RelativeToolTip": "BlazorUtilidades\\Components\\Routes.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-21T11:54:22.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Home.razor",
-              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Pages\\Home.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "RCLUtilidades\\Pages\\Home.razor",
-              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Pages\\Home.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Pages\\Home.razor",
               "RelativeToolTip": "RCLUtilidades\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-21T11:49:26.461Z"
+              "WhenOpened": "2025-10-21T11:49:26.461Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "HomeComponent.razor",
-              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Pages\\HomeComponent.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Pages\\HomeComponent.razor",
               "RelativeDocumentMoniker": "RCLUtilidades\\Pages\\HomeComponent.razor",
-              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Pages\\HomeComponent.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Pages\\HomeComponent.razor",
               "RelativeToolTip": "RCLUtilidades\\Pages\\HomeComponent.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-21T11:49:22.387Z",
               "EditorCaption": ""

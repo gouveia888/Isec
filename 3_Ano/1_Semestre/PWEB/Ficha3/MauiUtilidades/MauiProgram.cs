@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using RCLUtilidades.Data;
 
 namespace MauiUtilidades
 {
@@ -15,9 +16,10 @@ namespace MauiUtilidades
                 });
 
             builder.Services.AddMauiBlazorWebView();
+            builder.Services.AddUtilidadddesServices(); //adicionar os serviços da RCL
 
 #if DEBUG
-    		builder.Services.AddBlazorWebViewDeveloperTools();
+            builder.Services.AddBlazorWebViewDeveloperTools();
     		builder.Logging.AddDebug();
 #endif
 
