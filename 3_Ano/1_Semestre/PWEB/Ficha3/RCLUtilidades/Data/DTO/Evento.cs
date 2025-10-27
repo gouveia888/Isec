@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace RCLUtilidades.Data.DTO
 {
-    internal class Evento
+    public class Evento
     {
+        public Guid Id { get; set; } = Guid.NewGuid();
+        public string Nome { get; set; } = string.Empty;
+        public DateTime Data { get; set; } = DateTime.Now;
+
+        public bool Concluido { get; set; }
+
     }
 }

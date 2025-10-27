@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MauiUtilidades")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+a65a90760ae3b52642b8ec12d798f54d9fb5959e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+604514dff35563d0c6dc7e6bfa2dd3ef45574a9a")]
 [assembly: System.Reflection.AssemblyProductAttribute("MauiUtilidades")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MauiUtilidades")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

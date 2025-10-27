@@ -1,4 +1,5 @@
 using BlazorUtilidades.Components;
+using RCLUtilidades.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -6,10 +7,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
-var app = builder.Build();
+builder.Services.AddUtilidadddesServices(); // adicionar os serviços da RCL
 
-//adicionar as interfaces e services
-//builder.Services.AddScope <IEnergia, EnergiaServices>();
+var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
