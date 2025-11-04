@@ -1,15 +1,6 @@
 @* Define que esta página será acedida através da rota /todo *@
 @page "/eventos"
 
-@* Imports:
-    Permitem usar directamente as classes da RCL (o ITodoService e o TodoItemDto), 
-    sem precisar escrever o namespace completo. 
-    *@
-
-@using RCLUtilidades.Data.Interfaces
-@using RCLUtilidades.Data.DTO
-@inject IEventoService EventoService
-
 @* Estrutura da interface (HTML + Razor) *@
 
 <div class="container py-4">
@@ -99,28 +90,28 @@
 
     protected override async Task OnInitializedAsync()
     {
-        eventos = await EventoService.GetAllAsync();
+        eventos = await eventoService.GetAllAsync();
     }
 
     private async Task Adicionar()
     {
         if (!string.IsNullOrWhiteSpace(novoNome))
         {
-			await EventoService.AddAsync(novoNome); //apenas e necessario o nome para criar um novo objeto evento
+			await eventoService.AddAsync(novoNome); //apenas e necessario o nome para criar um novo objeto evento
             novoNome = string.Empty;
-            eventos = await EventoService.GetAllAsync();
+            eventos = await eventoService.GetAllAsync();
         }
     }
 
     private async Task Alternar(Guid id)
     {
-        await EventoService.ToggleAsync(id);
-        eventos = await EventoService.GetAllAsync();
+        await eventoService.ToggleAsync(id);
+        eventos = await eventoService.GetAllAsync();
     }
 
     private async Task Remover(Guid id)
     {
-        await EventoService.DeleteAsync(id);
-        eventos = await EventoService.GetAllAsync();
+        await eventoService.DeleteAsync(id);
+        eventos = await eventoService.GetAllAsync();
     }
 }

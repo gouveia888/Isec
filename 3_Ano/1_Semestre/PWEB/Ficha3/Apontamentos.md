@@ -75,3 +75,15 @@ Link com a variavel novoNome
 A lógica implementada protege a aplicação porque a Interface limita o que a UI pode pedir (so tem acesso as metedos da interface), e os DTOs limitam o que a UI pode ver(so tem acesso as propriedades do DTO). A Camada de Services é o intermediário seguro que implementa os meteods e executa as operações necessárias na base de dados nao expondo dados sensiveis para a UI.
 
 O uso de uma ServiceCollectionExtensions serve para carregar todos os serviços necessarios para o funcionamento da App no Program ou MauiProgram (tem de ser adicionados nos ficheiros)
+
+Aula do Barbosa
+
+Arquitetura onde os serviços se concentram numa API que é a ponte de comunicaçao entre todas as aplicaçoes e a BD
+
+Componente HomeComponent deve ser aplicado em Home no MAUI e no Blazor, com alteraçao da string do componente dependendo da app que estamos a desenvolver
+
+Query sintax para chamar um component um dentro de outro [Query]?? confirmar
+
+namespace RCLUtilidades.Data.DTO cria uma dll com todas as classes que estejam no mesmo namespace
+
+Task é como se fosse uma thread que pode ser parado e retomado enquanto aguardamos pelos dados assincronos e pela chamada a BD com o await

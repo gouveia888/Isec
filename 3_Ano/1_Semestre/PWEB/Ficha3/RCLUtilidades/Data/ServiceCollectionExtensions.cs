@@ -16,6 +16,7 @@ namespace RCLUtilidades.Data
             services.AddScoped<ITemperaturaService, TemperaturaService>();
             services.AddScoped<IEventoService, EventoService>();
             services.AddScoped<INoticiaService, NoticiaService>();
+            services.AddScoped<IEnergiaService, EnergiaService>();
             return services;
         }
     }

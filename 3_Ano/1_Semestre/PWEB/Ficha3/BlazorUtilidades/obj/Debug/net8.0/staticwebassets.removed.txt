@@ -1,4 +1,4 @@
-D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\BlazorUtilidades\wwwroot\app.css
-D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\BlazorUtilidades\wwwroot\bootstrap\bootstrap.min.css
-D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\BlazorUtilidades\wwwroot\bootstrap\bootstrap.min.css.map
-D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\BlazorUtilidades\wwwroot\favicon.png
+C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\BlazorUtilidades\wwwroot\app.css
+C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\BlazorUtilidades\wwwroot\bootstrap\bootstrap.min.css
+C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\BlazorUtilidades\wwwroot\bootstrap\bootstrap.min.css.map
+C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\BlazorUtilidades\wwwroot\favicon.png

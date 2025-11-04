@@ -1,1 +1,1 @@
-D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\MauiUtilidades\MauiUtilidades.csproj;x64
+C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\MauiUtilidades\MauiUtilidades.csproj;x64

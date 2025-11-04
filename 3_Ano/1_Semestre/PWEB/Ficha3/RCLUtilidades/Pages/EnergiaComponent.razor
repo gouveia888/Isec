@@ -1,0 +1,39 @@
+﻿@page "/energias"
+@if (energias is null)
+{
+	<span> Preços medios semanais </span>
+}
+else
+{
+	<table>
+		<thead>
+			<tr>
+				<th width="40%" align="center">Data</th>
+				<th width="30%" align="center">Preço</th>
+				<th width="30%" align="center">Unidade</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var energia in energias)
+			{
+				<tr>
+					<td align="center">@energia.Tipo</td>
+					<td align="center">@energia.Preco</td>
+					<td align="center">@energia.Unidade</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+}
+
+@code{
+	
+	private IEnumerable<Energia>? energias;
+	protected override async Task OnInitializedAsync()
+	{
+		energias = await energiaService.LoadEnergiaAsync(); //vem do serviço injetado _Imports.razor
+	}
+
+	//adicionar ao ServicesCollerctionsExtensions.cs
+}
+
