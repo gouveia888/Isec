@@ -5,8 +5,14 @@ namespace GestaoLoja.Data
     // Add profile data for application users by adding properties to the ApplicationUser class
     public class ApplicationUser : IdentityUser
     {
-        public string NomeCompleto { get; set; } //definiçao das colunas a usar no Asp.NetUsers que vai adicionar a tabela users 
-        public string Morada { get; set; }
+        public string? Nome { get; set; }
+        public string? Apelido { get; set; }
+        public long? NIF { get; set; }
+        public string? Rua { get; set; }
+        public string? Localidade1 { get; set; }
+        public string? Localidade2 { get; set; }
+        public string? Pais { get; set; }
+        public byte[]? Fotografia { get; set; }
     }
 
 }

@@ -11,11 +11,11 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-GestaoLoja-6107eb89-39af-44b4-8104-822e03bd0b58")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-GestaoLoja-fe4620d2-15ac-4665-9b03-cfb6ccdad5d7")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("GestaoLoja")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51a37690e2b675f4427d1f3366e04c90e79e098f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("GestaoLoja")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GestaoLoja")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

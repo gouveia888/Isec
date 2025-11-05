@@ -1,14 +1,13 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using GestaoLoja.Entities;
 
 namespace GestaoLoja.Data
 {
     public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : IdentityDbContext<ApplicationUser>(options)
     {
-
-        public DbSet<GestaoLoja.Entities.Produtos> Produtos { get; set; } //definiçao das classes que vao virar tabelas na base de dados
-        public DbSet<GestaoLoja.Entities.Categorias> Categorias { get; set; }
-        public DbSet<GestaoLoja.Entities.ModoEntrega> ModoEntrega { get; set; }
+        public DbSet<Categoria> Categorias => Set<Categoria>();
+        public DbSet<Produto> Produtos => Set<Produto>();
+        public DbSet<ModoEntrega> ModosEntrega => Set<ModoEntrega>();
     }
-
 }
