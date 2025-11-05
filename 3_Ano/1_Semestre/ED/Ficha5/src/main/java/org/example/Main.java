@@ -109,6 +109,31 @@ public class Main {
         }
     }
 
+    public static <T> void ex7a(List<? super T> lista){
+        ListIterator it = lista.listIterator();
+        while(it.hasNext()){
+            it.next();
+            if(it.hasNext()){
+                it.next();
+                it.remove();
+            }
+        }
+    }
+
+    public static <T> void ex7b(List<? super T> lista){
+        ListIterator it = lista.listIterator();
+        List temp = new ArrayList(lista.size()/2);
+
+        while(it.hasNext()){
+            it.next();
+            if(it.hasNext()){
+                temp.add(it.next());
+            }
+        }
+        lista.clear();
+        lista.addAll(temp);
+    }
+
     public static void main(String[] args) {
         List list = new ArrayList();
         for(int i = 0; i < 10; i++)
@@ -116,22 +141,28 @@ public class Main {
         System.out.println(list);
         //ex1(list,1);
 
-        System.out.println("Ex1" + list);
+        //System.out.println("Ex1" + list);
         //ex2(list);
 
-        Ex3 ex3 = new Ex3(list);
-        System.out.println("Ex3 peek: " + ex3.peek());
-        System.out.println("Ex3 pop: " + ex3.pop());
+        //Ex3 ex3 = new Ex3(list);
+        //System.out.println("Ex3 peek: " + ex3.peek());
+        //System.out.println("Ex3 pop: " + ex3.pop());
         //System.out.println("Ex3 pop: " + ex3.pop());
 
         //TestaPilha(); //Ex3 - linear | linear
 
         //TestaFila();//Ex4 - Quadratico | Constante
 
-        ex5(list);
-        System.out.println("Ex5: " + list);
+        //ex5(list);
+        //System.out.println("Ex5: " + list);
 
-        ex6(list);
-        System.out.println("Ex6: " + list);
+        //ex6(list);
+        //System.out.println("Ex6: " + list);
+
+        //ex7a(list);
+        //System.out.println("Ex7: " + list);
+
+        ex7b(list);
+        System.out.println("Ex8: " + list);
     }
 }
