@@ -50,13 +50,13 @@ fun MainScreen(
             TopAppBar(
                 title = { Text("Contacts") },
                 colors = TopAppBarDefaults.topAppBarColors(
-                    containerColor = Color(0, 224, 255),
+                    containerColor = Color(255, 224, 255),
                     titleContentColor = Color(0, 0, 128),
                 ),
-                navigationIcon = {
+                navigationIcon = { //cada ecra tem uma rota
                     if (currentScreen?.destination?.route != "list" && currentScreen?.destination?.route != null) {
                         IconButton(
-                            onClick = { navController.navigateUp() }
+                            onClick = { navController.navigateUp() } //stack de rotas e ele guarda o historico dos ecras
                         ) {
                             Icon(
                                 Icons.AutoMirrored.Filled.ArrowBack,
@@ -117,7 +117,7 @@ fun MainScreen(
             )
         }
     ) { innerPadding ->
-        NavHost(
+        NavHost( //definiçao das routas
             navController = navController,
             startDestination = "list",
             modifier = Modifier.padding(innerPadding)

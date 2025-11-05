@@ -46,14 +46,15 @@ fun ListScreen(
 
 @Composable
 fun ContactCard(
-    contact: Contact, showExpanded: Boolean,
+    contact: Contact,
+    showExpanded: Boolean,
     onSelectContact: (Contact) -> Unit,
     modifier: Modifier = Modifier
 ){
     val formatter = SimpleDateFormat("yyyy.MM.dd", Locale.getDefault())
     Card(
         modifier = modifier.fillMaxWidth().padding(8.dp), elevation = CardDefaults.cardElevation(4.dp),
-        colors = CardDefaults.cardColors(containerColor = Color(255, 224, 192)),
+        colors = CardDefaults.cardColors(containerColor = Color(146, 120, 192)),
         onClick = { onSelectContact(contact) }
     ) {
 
@@ -61,22 +62,28 @@ fun ContactCard(
             modifier = Modifier.padding(16.dp),
             verticalArrangement = Arrangement.SpaceBetween
         ) {
-        }
+
         Text(text = contact.name, fontSize = 20.sp)
-        if (showExpanded) {
-            Row(
-                modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween
-            ) {
+            if (showExpanded) {
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceBetween
+                ) {
+                    Text(text = contact.email, fontSize = 14.sp)
+                    Text(text = contact.phone, fontSize = 14.sp)
+                }
+                contact.birthday?.let { birthday ->
+                    Text(
+                        modifier = Modifier.fillMaxWidth(),
+                        textAlign = TextAlign.Center,
+                        text = formatter.format(birthday),
+                        fontSize = 14.sp
+                    )
+                } ?: Text(modifier = Modifier.fillMaxWidth(),
+                    textAlign = TextAlign.Center,
+                    text = "----.--.--",
+                    fontSize = 14.sp)
             }
-            Text(text = contact.email, fontSize = 14.sp)
-            Text(text = contact.phone, fontSize = 14.sp)
-            contact.birthday?.let { birthday->
-                Text(
-                    modifier = Modifier.fillMaxWidth(), textAlign = TextAlign.Center,
-                    text = formatter.format(birthday), fontSize = 14.sp
-                )
-            } ?: Text(modifier = Modifier.fillMaxWidth(),
-                textAlign = TextAlign.Center, text = "----.--.--",fontSize = 14.sp)
         }
     }
 }

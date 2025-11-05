@@ -3,6 +3,7 @@ package pt.isec.a2019112767.aula8
 import android.app.Application
 import pt.isec.a2019112767.aula8.model.ContactsList
 
+//Regisstar a app no manifest
 class ContactsApp : Application() {
     companion object {
         private const val DATAFILE = "contacts.bin"
@@ -15,6 +16,7 @@ class ContactsApp : Application() {
         } ?: ContactsList()
     }
     val contactsList get() = _contactsList
+
     fun saveData() {
         try {
             contactsList.save(openFileOutput(DATAFILE, MODE_PRIVATE))

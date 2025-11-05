@@ -15,7 +15,7 @@ class ContactsList : Serializable {
     fun getContacts(): List<Contact> {
         val collator = Collator.getInstance(Locale.getDefault()).apply {
             strength = Collator.PRIMARY
-        }
+        } //orddenaçao tendo em conta o idioma da localizaçao
         return contacts.sortedWith { contact1, contact2 ->
             collator.compare(contact1.name, contact2.name)
         }
