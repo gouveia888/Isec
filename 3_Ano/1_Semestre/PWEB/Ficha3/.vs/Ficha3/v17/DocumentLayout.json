@@ -1,13 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\",
+  "WorkspaceRootPath": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\services\\energiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\pages\\energiacomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\pages\\energiacomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\pages\\homecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\pages\\homecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\services\\energiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\data\\services\\energiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\services\\eventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha3\\rclutilidades\\data\\services\\eventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D48110C8-5477-6BB3-786B-4FFAC1B66B93}|RCLUtilidades\\RCLUtilidades.csproj|solutionrelative:rclutilidades\\data\\services\\eventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,11 +70,37 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeComponent.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Pages\\HomeComponent.razor",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Pages\\HomeComponent.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Pages\\HomeComponent.razor",
+              "RelativeToolTip": "RCLUtilidades\\Pages\\HomeComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-06T11:14:43.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EnergiaComponent.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Pages\\EnergiaComponent.razor",
+              "RelativeDocumentMoniker": "RCLUtilidades\\Pages\\EnergiaComponent.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Pages\\EnergiaComponent.razor",
+              "RelativeToolTip": "RCLUtilidades\\Pages\\EnergiaComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-06T11:14:39.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "EnergiaService.cs",
-              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Services\\EnergiaService.cs",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Services\\EnergiaService.cs",
               "RelativeDocumentMoniker": "RCLUtilidades\\Data\\Services\\EnergiaService.cs",
-              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Services\\EnergiaService.cs",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Services\\EnergiaService.cs",
               "RelativeToolTip": "RCLUtilidades\\Data\\Services\\EnergiaService.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAkwAYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -75,16 +109,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "EventoService.cs",
-              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Services\\EventoService.cs",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Services\\EventoService.cs",
               "RelativeDocumentMoniker": "RCLUtilidades\\Data\\Services\\EventoService.cs",
-              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Services\\EventoService.cs",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha3\\RCLUtilidades\\Data\\Services\\EventoService.cs",
               "RelativeToolTip": "RCLUtilidades\\Data\\Services\\EventoService.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T13:58:45.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T13:58:45.142Z"
             }
           ]
         }

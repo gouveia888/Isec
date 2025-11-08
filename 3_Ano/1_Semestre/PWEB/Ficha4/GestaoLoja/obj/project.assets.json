@@ -4214,23 +4214,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gouveia\\.nuget\\packages\\": {},
+    "C:\\Users\\tiago\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gouveia\\Desktop\\GestaoLoja\\GestaoLoja\\GestaoLoja.csproj",
+      "projectUniqueName": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\GestaoLoja.csproj",
       "projectName": "GestaoLoja",
-      "projectPath": "C:\\Users\\Gouveia\\Desktop\\GestaoLoja\\GestaoLoja\\GestaoLoja.csproj",
-      "packagesPath": "C:\\Users\\Gouveia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gouveia\\Desktop\\GestaoLoja\\GestaoLoja\\obj\\",
+      "projectPath": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\GestaoLoja.csproj",
+      "packagesPath": "C:\\Users\\tiago\\.nuget\\packages\\",
+      "outputPath": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Gouveia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tiago\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4300,7 +4300,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
