@@ -22,4 +22,8 @@ class ContactsApp : Application() {
             contactsList.save(openFileOutput(DATAFILE, MODE_PRIVATE))
         } catch (_: Exception) {}
     }
+    override fun onCreate() {
+        super.onCreate()
+    }
+
 }

@@ -1,13 +1,15 @@
 package pt.isec.a2019112767.aula8.ui.viewmodels
 
-import androidx.compose.runtime.getValue
+import androidx.compose.material3.DatePickerState
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import pt.isec.a2019112767.aula8.model.Contact
 import pt.isec.a2019112767.aula8.model.ContactsList
 import java.util.Date
+import java.util.Locale
+
 
 class ContactsViewModelFactory(
     val contactsList : ContactsList
@@ -17,55 +19,59 @@ class ContactsViewModelFactory(
         return ContactsViewModel(contactsList) as T
     }
 }
+@OptIn(ExperimentalMaterial3Api::class)
 class ContactsViewModel(
-    val contactsList : ContactsList
+    val contactsList : ContactsList,
+    var currentContact : Contact? = null,
 
 ) : ViewModel() {
 
-    var currentContact : Contact? = null
-    var tempName by mutableStateOf("")
-    var tempEmail by mutableStateOf("")
-    var tempPhone by mutableStateOf("")
+    var name = mutableStateOf("")
+    var email = mutableStateOf("")
+    var phone = mutableStateOf("")
+    val birthdayDPState = DatePickerState(
+        Locale.getDefault(),
+        Date().time
+    )
+    val picture = mutableStateOf<String?>("")
 
-    fun selectContact(contact : Contact?) {
+    fun createContact() {
+        currentContact = null
+        name.value = ""
+        phone.value = ""
+        email.value = ""
+        birthdayDPState.selectedDateMillis = 0
+        picture.value = ""
+    }
+
+    fun selectContact(contact : Contact) {
         currentContact = contact
+        name.value = contact.name
+        phone.value = contact.phone
+        email.value = contact.email
+        birthdayDPState.selectedDateMillis = contact.birthday?.time ?: 0
+        picture.value = contact.picture!! //!!obriga a nao ser nulo
     }
 
-    fun addContact(
-        name: String,
-        email: String,
-        phone: String,
-        birthday: Date?
-    ) {
-        val newContact = Contact(name, email, phone, birthday)
-
-        contactsList.addContact(newContact)
-    }
-
-    fun prepareForEdit(contact: Contact?) {
-        if (contact != null) {
-            tempName = contact.name
-            tempEmail = contact.email
-            tempPhone = contact.phone
-            // ...
-        } else { // Novo Contacto
-            tempName = ""
-            tempEmail = ""
-            tempPhone = ""
+    fun saveContact() : Boolean {
+        if (name.value.isEmpty() || email.value.isEmpty() || phone.value.isEmpty()) {
+            return false
         }
-    }
-
-    fun saveEditedContact(birthday: Date?) {
-        // Lógica para salvar:
-        if (currentContact == null) {
-            // NOVO CONTACTO
-            addContact(tempName, tempEmail, tempPhone, birthday)
-        } else {
-            // EDIÇÃO DO CONTACTO ATUAL
-            currentContact!!.name = tempName
-            currentContact!!.email = tempEmail
-            currentContact!!.phone = tempPhone
-            // ...
-        }
+        currentContact?.let { contact ->
+            contact.name = name.value
+            contact.phone = phone.value
+            contact.email = email.value
+            contact.birthday = birthdayDPState.selectedDateMillis?.let { Date(it) }
+            contact.picture = picture.value
+        } ?: contactsList.addContact(
+            Contact(
+                name.value,
+                phone.value,
+                email.value,
+                birthdayDPState.selectedDateMillis?.let { Date(it) },
+                picture.value,
+            )
+        )
+        return true
     }
 }

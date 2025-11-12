@@ -77,8 +77,7 @@ fun MainScreen(
                                 )
                             }
                             IconButton(
-                                onClick = { viewModel.selectContact(null)
-                                            viewModel.prepareForEdit(null)
+                                onClick = { viewModel.createContact()
                                             navController.navigate("edit")
                                 }
                             ) {
@@ -102,10 +101,12 @@ fun MainScreen(
                         }
                         "edit" -> {
                             IconButton(
-                                onClick = { viewModel.saveEditedContact(null)
-                                            navController.popBackStack("list", inclusive = false)
+                                onClick = {
+                                    if (viewModel.saveContact()) {
+                                        navController.popBackStack("list", inclusive=false)
+                                    }
                                 }
-                            ) {
+                            )  {
                                 Icon(
                                     Icons.Filled.Done,
                                     contentDescription = "Save Contact"
@@ -139,7 +140,11 @@ fun MainScreen(
             }
             composable("edit") {
                 EditScreen(
-                    viewModel = viewModel
+                         viewModel.name,
+                        viewModel.email,
+                        viewModel.phone,
+                        viewModel.birthdayDPState,
+                        viewModel.picture
                 )
             }
         }
