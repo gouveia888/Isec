@@ -1,7 +1,6 @@
 package org.example;
 
-import java.util.Arrays;
-import java.util.Random;
+import java.util.*;
 
 public class Main {
 
@@ -328,5 +327,56 @@ public class Main {
         System.out.println(ex10(f));
     }
 
+    public class MinhaString implements Iterable<Character>{
+        String s;
+        public MinhaString(String s){
+            this.s = s;
+        }
+        public Iterator<Character> iterator() {
+            return new ItMinhaString(this);
+        }
+        public char getChar(int index){
+            return s.charAt(index);
+        }
+
+        public int getLength(){
+            return s.length();
+        }
+    }
+
+    public class ItMinhaString implements Iterator<Character>{
+        MinhaString m;
+        int size, pos =0;
+        boolean duplicado = false;
+
+        public ItMinhaString(MinhaString ms){
+            this.m = ms;
+            this.size = ms.getLength();
+        }
+
+        public boolean hasNext(){
+            return pos < size;
+        }
+
+        public Character next(){
+            if(pos==size)
+                throw new NoSuchElementException();
+
+            Character c = m.getChar(pos++);
+            if(c == ' ') {
+                if (!duplicado) {
+                    duplicado = true;
+                    return c;
+                }
+                while(c == ' ' && pos < size) {
+                    c = m.getChar(pos++);
+                }
+                if (pos > size) throw new NoSuchElementException();
+                return m.getChar(pos++);
+            }
+            duplicado = false;
+            return c;
+        }
+    }
 
 }

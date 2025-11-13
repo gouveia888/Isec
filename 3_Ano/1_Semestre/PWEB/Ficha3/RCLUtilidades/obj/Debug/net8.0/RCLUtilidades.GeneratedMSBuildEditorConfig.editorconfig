@@ -9,49 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows,browser
 build_property.RootNamespace = RCLUtilidades
 build_property.RootNamespace = RCLUtilidades
-build_property.ProjectDir = C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\
+build_property.ProjectDir = D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades
+build_property.MSBuildProjectDirectory = D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\RCLUtilidades
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/ISEC/Isec/3_Ano/1_Semestre/PWEB/Ficha3/RCLUtilidades/Pages/Counter.razor]
+[D:/Isec/3_Ano/1_Semestre/PWEB/Ficha3/RCLUtilidades/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ISEC/Isec/3_Ano/1_Semestre/PWEB/Ficha3/RCLUtilidades/Pages/EnergiaComponent.razor]
+[D:/Isec/3_Ano/1_Semestre/PWEB/Ficha3/RCLUtilidades/Pages/EnergiaComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5lcmdpYUNvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ISEC/Isec/3_Ano/1_Semestre/PWEB/Ficha3/RCLUtilidades/Pages/EventoView.razor]
+[D:/Isec/3_Ano/1_Semestre/PWEB/Ficha3/RCLUtilidades/Pages/EventoView.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRvVmlldy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ISEC/Isec/3_Ano/1_Semestre/PWEB/Ficha3/RCLUtilidades/Pages/Home.razor]
+[D:/Isec/3_Ano/1_Semestre/PWEB/Ficha3/RCLUtilidades/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ISEC/Isec/3_Ano/1_Semestre/PWEB/Ficha3/RCLUtilidades/Pages/HomeComponent.razor]
+[D:/Isec/3_Ano/1_Semestre/PWEB/Ficha3/RCLUtilidades/Pages/HomeComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZUNvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ISEC/Isec/3_Ano/1_Semestre/PWEB/Ficha3/RCLUtilidades/Pages/Weather.razor]
+[D:/Isec/3_Ano/1_Semestre/PWEB/Ficha3/RCLUtilidades/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ISEC/Isec/3_Ano/1_Semestre/PWEB/Ficha3/RCLUtilidades/_Imports.razor]
+[D:/Isec/3_Ano/1_Semestre/PWEB/Ficha3/RCLUtilidades/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ISEC/Isec/3_Ano/1_Semestre/PWEB/Ficha3/RCLUtilidades/Shared/MainLayout.razor]
+[D:/Isec/3_Ano/1_Semestre/PWEB/Ficha3/RCLUtilidades/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-jvvhy4qdsj
 
-[C:/ISEC/Isec/3_Ano/1_Semestre/PWEB/Ficha3/RCLUtilidades/Shared/NavMenu.razor]
+[D:/Isec/3_Ano/1_Semestre/PWEB/Ficha3/RCLUtilidades/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-c5292jc66r
