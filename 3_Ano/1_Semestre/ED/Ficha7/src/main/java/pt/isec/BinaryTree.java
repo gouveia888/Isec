@@ -25,7 +25,11 @@ public class BinaryTree<T extends Comparable<? super T>>{
 
     public void insere(T node) {
         Node n = new Node(node);
-        raiz = insere(raiz,n);
+        if (raiz == null) {
+            raiz = n;
+            return;
+        }
+        insere(raiz,n);
     }
 
     private Node<T> insere (Node <T> raiz, Node<T> node){
@@ -37,10 +41,17 @@ public class BinaryTree<T extends Comparable<? super T>>{
         if(cmp==0){
             throw new RuntimeException();
         }
-        if(cmp > 0)
-            raiz.setLeft(insere(raiz.getLeft(),node));
-        else
-            raiz.setRight(insere(raiz.getRight(),node));
+        if(cmp > 0) {
+            raiz.setLeft(insere(raiz.getLeft(), node));
+            if(raiz.getLeft()==null){
+                raiz.setLeft(node);
+            }
+        }else {
+            raiz.setRight(insere(raiz.getRight(), node));
+            if(raiz.getRight()==null){
+                raiz.setRight(node);
+            }
+        }
         return raiz;
     }
 

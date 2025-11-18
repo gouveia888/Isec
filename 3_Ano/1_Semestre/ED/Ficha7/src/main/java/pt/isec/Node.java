@@ -21,10 +21,10 @@ public class Node<T> {
         return right;
     }
     public void setRight(Node<T> node) {
-        right.node = node.getNode();
+        right = node;
     }
     public void setLeft(Node<T> node) {
-        left.node = node.getNode();
+        left = node;
     }
     public void setNode(Node<T> node) {
         this.node = node.getNode();
