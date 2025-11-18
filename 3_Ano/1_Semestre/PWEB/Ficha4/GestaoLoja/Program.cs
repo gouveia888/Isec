@@ -8,8 +8,16 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddRazorComponents()
-    .AddInteractiveServerComponents();
+builder.Services.AddRazorComponents(
+     options => {
+         options.DetailedErrors = true;
+     }
+    )
+    .AddInteractiveServerComponents()
+    .AddHubOptions(
+    options =>{
+        options.EnableDetailedErrors = true;
+    });
 
 builder.Services.AddCascadingAuthenticationState();
 builder.Services.AddScoped<IdentityUserAccessor>();
@@ -65,6 +73,8 @@ using (var scope = app.Services.CreateScope())
 if (app.Environment.IsDevelopment())
 {
     app.UseMigrationsEndPoint();
+    //pagina de erros detalhada
+    app.UseDeveloperExceptionPage();
 }
 else
 {

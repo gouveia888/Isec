@@ -73,12 +73,24 @@
             </div>        
             <div class="mb-3">
                 <label for="categoriaid" class="form-label">CategoriaId:</label> 
-                <InputNumber id="categoriaid" @bind-Value="Produto.CategoriaId" class="form-control" /> 
+                <InputSelect id="categoriaid" class="form-select" @bind-Value="@Produto.CategoriaId">
+                    <option value="-1">Escolha uma categoria</option>
+                    @foreach (var item in Categorias)
+                    {
+                        <option value="@item.Id"> @item.Nome </option>
+                    }
+                </InputSelect>
                 <ValidationMessage For="() => Produto.CategoriaId" class="text-danger" /> 
             </div>        
             <div class="mb-3">
                 <label for="modoentregaid" class="form-label">ModoEntregaId:</label> 
-                <InputNumber id="modoentregaid" @bind-Value="Produto.ModoEntregaId" class="form-control" /> 
+                <InputSelect id="modoentregaid" class="form-select" @bind-Value="@Produto.ModoEntregaId">
+                    <option value="-1">Escolha um modo de entrega</option>
+                    @foreach(var item in ModosdeEntrega)
+                    {
+                        <option value="@item.Id"> @item.Nome </option>
+                    }
+                </InputSelect>
                 <ValidationMessage For="() => Produto.ModoEntregaId" class="text-danger" /> 
             </div>        
             <button type="submit" class="btn btn-primary">Create</button>
@@ -93,6 +105,17 @@
 @code {
     [SupplyParameterFromForm]
     private Produto Produto { get; set; } = new();
+
+    //Criar variaveis auxiliares para a lista de categorias e de modods de entrega
+    List<Categoria> Categorias = new();
+    List<ModoEntrega> ModosdeEntrega = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+        Categorias = await context.Categorias.OrderBy(c=>c.Ordem).ToListAsync();
+        ModosdeEntrega = await context.ModosEntrega.ToListAsync();
+    }
 
     // To protect from overposting attacks, see https://learn.microsoft.com/aspnet/core/blazor/forms/#mitigate-overposting-attacks.
     private async Task AddProduto()
