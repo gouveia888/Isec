@@ -63,7 +63,9 @@
         await context.SaveChangesAsync();
         NavigationManager.NavigateTo("/categoria");
     }
+
     private string? previewUrl;
+
     private async Task OnImageChange(InputFileChangeEventArgs e)
     {
         var file = e.File;

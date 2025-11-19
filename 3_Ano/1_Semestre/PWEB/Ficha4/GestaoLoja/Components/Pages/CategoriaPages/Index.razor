@@ -8,7 +8,7 @@
 
 <PageTitle>Index</PageTitle>
 
-<h1>Index</h1>
+<h1>Lista de categorias</h1>
 
 <p>
     <a href="categoria/create">Create New</a>
@@ -18,12 +18,26 @@
     <PropertyColumn Property="categoria => categoria.Nome" />
     <PropertyColumn Property="categoria => categoria.Ordem" />
     <PropertyColumn Property="categoria => categoria.UrlImagem" />
-    <PropertyColumn Property="categoria => categoria.Imagem" />
+    <TemplateColumn Context="categoria">
+        @if(categoria.Imagem is not null && categoria.Imagem.Length>0)
+        {
+            <img src="@($"data:imagem/png;base64,{Convert.ToBase64String(categoria.Imagem)}")"
+            alt="@categoria.Nome" style="max-width: 100px; max-height: 100px;" />
+        }
+        else
+        {
+            <img src="img/placeholder.png" alt="@categoria.Nome" style="max-width: 100px; max-height: 100px;" />
+        }
+    </TemplateColumn>
+
+    @*  <PropertyColumn Property="categoria => categoria.Imagem" /> *@
 
     <TemplateColumn Context="categoria">
-        <a href="@($"categoria/edit?id={categoria.Id}")">Edit</a> |
-        <a href="@($"categoria/details?id={categoria.Id}")">Details</a> |
-        <a href="@($"categoria/delete?id={categoria.Id}")">Delete</a>
+        <a href="@($"categoria/edit?id={categoria.Id}")">
+            <input type="button" class="btn btn-dark btn-sm" name="name" value="Editar" />
+        </a>
+        <a href="@($"categoria/details?id={categoria.Id}")"><i class="bi bi-eye"></i></a> |
+        <a href="@($"categoria/delete?id={categoria.Id}")"><i class="bi bi-trash"></i></a>
     </TemplateColumn>
 </QuickGrid>
 

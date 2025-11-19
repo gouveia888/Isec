@@ -72,6 +72,7 @@ public string?  Nome { get; set; }
 
 produtos 
 inicialize definir 2 variaveis uma que define categorias outra modos de entrega e no formulaio consumir as listas
+campo ordem serve para ordenar no frontend os campos/listas 
 
 ---------------------------------------------------------------------------------------------------------------------
 Para mostrar erros detalhados adicionar o AddHubOptions (APENAS EM DEBUG)
@@ -103,7 +104,7 @@ List<ModoEntrega> ModosdeEntrega = new();
 protected override async Task OnInitializedAsync()
 {
     using var context = DbFactory.CreateDbContext();
-    Categorias = await context.Categorias.OrderBy(c=>c.Ordem).ToListAsync(); //ordenado pela ordem
+    Categorias = await context.Categorias.OrderBy(c=>c.Ordem).ToListAsync(); //ordenado pela ordem ThenBy para subordenar
     ModosdeEntrega = await context.ModosEntrega.ToListAsync();
 }
 
@@ -115,3 +116,45 @@ no formulario substituir o inputnumber por
             <option value="@item.Id"> @item.Nome </option>
         }
     </InputSelect>
+
+Os pedidos de informaçoes a base de dados sao feitos no OnInitializedAsync
+Uso de MarkupString para apresentar codigo no meio de uma string
+
+A utilizaçao de base64 para a preview das fotos deve ser utilizada para imagens pequenas
+substituir o <PropertyColumn Property="categoria => categoria.Imagem" /> por
+   <TemplateColumn Context="categoria">
+    @if(categoria.Imagem is not null && categoria.Imagem.Length>0)
+    {
+        <img src="@($"data:imagem/png;base64,{Convert.ToBase64String(categoria.Imagem)}")"
+        alt="@categoria.Nome" style="max-width: 100px; max-height: 100px;" />
+    }
+    else
+    {
+        <img src="img/placeholder.png" alt="@categoria.Nome" style="max-width: 100px; max-height: 100px;" />
+    }
+</TemplateColumn>
+para ver o preview da imagem o context e importante para saber a que dados aceder
+
+imagens localmente sem ser em base de dados
+    <TemplateColumn Context="produto">
+        @if(!string.IsNullOrEmpty(produto.UrlImagem) && produto.UrlImagem.Length>4)
+        {
+            <img src="@produto.UrlImagem"
+            alt="@produto.Nome" style="max-width: 100px; max-height: 100px;" />
+        }
+        else
+        {
+            <img src="img/placeholder.png" alt="@produto.Nome" style="max-width: 100px; max-height: 100px;" />
+        }
+    </TemplateColumn>
+
+Adicionar icons do bootstrap colocar o stylesheet no app razor
+
+Aceder a entidades atraves de outra
+IQueryable<Produto> produtos = default!;
+
+protected override void OnInitialized()
+{
+    context = DbFactory.CreateDbContext();
+	produtos = context.Produtos.Include(p => p.categoria).Include( p =>p.modoEntrega).ToList().AsQueryable();
+}

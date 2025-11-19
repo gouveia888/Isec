@@ -554,3 +554,4 @@ wwwroot\img\Frutas\user2.jpg
 wwwroot\img\Frutas\uvatransp220x120.png
 wwwroot\img\Frutas\waffles.png
 wwwroot\img\Frutas\wafflestransp220x120.png
+wwwroot\img\placeholder.png

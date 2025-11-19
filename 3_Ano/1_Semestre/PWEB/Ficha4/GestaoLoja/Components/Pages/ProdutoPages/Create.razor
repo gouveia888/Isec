@@ -72,7 +72,7 @@
                 <ValidationMessage For="() => Produto.Origem" class="text-danger" /> 
             </div>        
             <div class="mb-3">
-                <label for="categoriaid" class="form-label">CategoriaId:</label> 
+                <label for="categoriaid" class="form-label">Categoria:</label> 
                 <InputSelect id="categoriaid" class="form-select" @bind-Value="@Produto.CategoriaId">
                     <option value="-1">Escolha uma categoria</option>
                     @foreach (var item in Categorias)
@@ -83,7 +83,7 @@
                 <ValidationMessage For="() => Produto.CategoriaId" class="text-danger" /> 
             </div>        
             <div class="mb-3">
-                <label for="modoentregaid" class="form-label">ModoEntregaId:</label> 
+                <label for="modoentregaid" class="form-label">Modo de Entrega:</label> 
                 <InputSelect id="modoentregaid" class="form-select" @bind-Value="@Produto.ModoEntregaId">
                     <option value="-1">Escolha um dos modos de entrega</option>
                     @foreach(var item in ModosdeEntrega)
@@ -110,6 +110,8 @@
     List<Categoria> Categorias = new();
     List<ModoEntrega> ModosdeEntrega = new();
 
+
+	//  criar variavel de inicializacao de listas atraves do contexto da base de dados
     protected override async Task OnInitializedAsync()
     {
         using var context = DbFactory.CreateDbContext();

@@ -14,10 +14,20 @@
     <a href="produtos/create">Create New</a>
 </p>
 
-<QuickGrid Class="table" Items="context.Produtos">
+<QuickGrid Class="table" Items="produtos">
     <PropertyColumn Property="produto => produto.Nome" />
     <PropertyColumn Property="produto => produto.Detalhe" />
-    <PropertyColumn Property="produto => produto.UrlImagem" />
+    <TemplateColumn Context="produto">
+        @if(!string.IsNullOrEmpty(produto.UrlImagem) && produto.UrlImagem.Length>4)
+        {
+            <img src="@produto.UrlImagem"
+            alt="@produto.Nome" style="max-width: 100px; max-height: 100px;" />
+        }
+        else
+        {
+            <img src="img/placeholder.png" alt="@produto.Nome" style="max-width: 100px; max-height: 100px;" />
+        }
+    </TemplateColumn>
     <PropertyColumn Property="produto => produto.Imagem" />
     <PropertyColumn Property="produto => produto.Preco" />
     <PropertyColumn Property="produto => produto.Promocao" />
@@ -25,8 +35,8 @@
     <PropertyColumn Property="produto => produto.EmStock" />
     <PropertyColumn Property="produto => produto.Disponivel" />
     <PropertyColumn Property="produto => produto.Origem" />
-    <PropertyColumn Property="produto => produto.CategoriaId" />
-    <PropertyColumn Property="produto => produto.ModoEntregaId" />
+    <PropertyColumn Property="produto => produto.categoria.Nome" />
+    <PropertyColumn Property="produto => produto.modoEntrega.Nome"/>
 
     <TemplateColumn Context="produto">
         <a href="@($"produtos/edit?id={produto.Id}")">Edit</a> |
@@ -37,10 +47,12 @@
 
 @code {
     private ApplicationDbContext context = default!;
+	IQueryable<Produto> produtos = default!;
 
     protected override void OnInitialized()
     {
         context = DbFactory.CreateDbContext();
+		produtos = context.Produtos.Include(p => p.categoria).Include( p =>p.modoEntrega).ToList().AsQueryable();
     }
 
     public async ValueTask DisposeAsync() => await context.DisposeAsync();
