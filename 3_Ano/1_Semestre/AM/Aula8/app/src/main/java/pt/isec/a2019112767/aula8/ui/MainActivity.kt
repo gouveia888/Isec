@@ -24,9 +24,6 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Aula8Theme {
-                if (checkSelfPermission(android.Manifest.permission.CAMERA)!=PackageManager.PERMISSION_GRANTED) {
-                    askSinglePermission.launch(android.Manifest.permission.CAMERA)
-                }
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
                     if (checkSelfPermission(android.Manifest.permission.READ_MEDIA_IMAGES) !=
                         PackageManager.PERMISSION_GRANTED) {

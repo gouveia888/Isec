@@ -61,5 +61,9 @@ class FileUtils {
             }
             return newFilename
         }
+        fun createTempFile(context: Context, prefix: String = "image",
+                           suffix: String = ".img"): File {
+            return File.createTempFile(prefix, suffix, context.filesDir)
+        }
     }
 }

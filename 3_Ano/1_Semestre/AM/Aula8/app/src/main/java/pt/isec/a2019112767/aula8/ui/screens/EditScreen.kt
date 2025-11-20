@@ -1,9 +1,17 @@
 package pt.isec.a2019112767.aula8.ui.screens
 
+import android.R
+import android.app.Activity
+import android.net.Uri
+import android.content.Intent
+import android.content.pm.PackageManager
+import android.provider.MediaStore
+import android.util.Log
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.PickVisualMediaRequest
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -23,8 +31,12 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
+import androidx.core.app.ActivityCompat.requestPermissions
+import androidx.core.content.ContextCompat.checkSelfPermission
+import androidx.core.content.FileProvider
 import coil3.compose.AsyncImage
 import pt.isec.a2019112767.aula8.ui.utils.FileUtils
+import java.io.File
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -37,6 +49,7 @@ fun EditScreen(
     modifier: Modifier = Modifier
 ) {
     val context = LocalContext.current
+    //corresponde ao GetContent do pdf
     val pickImage = rememberLauncherForActivityResult(
         contract = ActivityResultContracts.PickVisualMedia(),
         onResult = { uri ->
@@ -46,7 +59,18 @@ fun EditScreen(
         }
     )
 
+    val imagePath = FileUtils.getTempFilename(context)
+
+    val takePicture = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.StartActivityForResult()
+    ) { activityResult->
+        if (activityResult.resultCode == Activity.RESULT_OK) {
+            picture.value = FileUtils.copyFile(context,imagePath)
+        }
+    }
+
     val scrollState = rememberScrollState()
+
     Column(
         modifier = modifier
             .fillMaxSize()
@@ -98,13 +122,51 @@ fun EditScreen(
             state = birthday,
         )
         Spacer(Modifier.height(16.dp))
-        Button(
-            onClick = {pickImage.launch(
-                PickVisualMediaRequest(ActivityResultContracts.PickVisualMedia.ImageOnly))
-            },
-            modifier = Modifier.align(Alignment.CenterHorizontally),
-        ) {
-            Text("Select picture")
+        Row(){
+            Button(
+                onClick = {pickImage.launch(
+                    PickVisualMediaRequest(ActivityResultContracts.PickVisualMedia.ImageOnly))
+                },
+                //modifier = Modifier.align(Alignment.CenterHorizontally),
+            ) {
+                Text("Select picture")
+            }
+
+            Button(
+                onClick = {
+                    //val fileUri = Uri.fromFile( File(imagePath))
+                    val fileUri = FileProvider.getUriForFile(
+                        context,
+                        "package pt.isec.a2019112767.aula8.fileprovider",
+                        File(imagePath)
+                    )
+                    //Permissoes
+                    if (checkSelfPermission(context,android.Manifest.permission.CAMERA)!= PackageManager.PERMISSION_GRANTED) {
+                        requestPermissions(
+                            context as Activity,
+                            arrayOf(android.Manifest.permission.CAMERA),
+                             1
+                        )
+                    }
+
+                    if(checkSelfPermission(context,android.Manifest.permission.WRITE_EXTERNAL_STORAGE)!= PackageManager.PERMISSION_GRANTED) {
+                        var result = takePicture.launch(
+                            Intent(MediaStore.ACTION_IMAGE_CAPTURE).apply {
+                                putExtra(MediaStore.EXTRA_OUTPUT, fileUri)
+                            }
+                        )
+                        Log.i("EditScreen", "result: $result")
+                    }else{
+                        takePicture.launch(
+                            Intent(MediaStore.ACTION_IMAGE_CAPTURE).apply {
+                                putExtra(MediaStore.EXTRA_OUTPUT, fileUri)
+                            })
+                    }
+                },
+                //modifier = Modifier.align(Alignment.CenterHorizontally),
+            ) {
+                Text("Take picture")
+            }
         }
         Spacer(Modifier.height(16.dp))
         picture.value?.let { path ->
@@ -118,3 +180,4 @@ fun EditScreen(
         }
     }
 }
+

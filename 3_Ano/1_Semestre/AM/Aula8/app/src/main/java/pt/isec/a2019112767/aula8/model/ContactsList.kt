@@ -2,10 +2,12 @@ package pt.isec.a2019112767.aula8.model
 
 import java.io.*
 import java.text.Collator
+import java.util.Date
 import java.util.Locale
 
 class ContactsList : Serializable {
     private val contacts = mutableListOf<Contact>()
+    val history:MutableList<MeetingPoint> = mutableListOf()
     fun addContact(contact: Contact) {
         contacts.add(contact)
     }
@@ -36,5 +38,22 @@ class ContactsList : Serializable {
                 }
             } catch (_: Exception){ return null }
         }
+    }
+    fun addMeetingPoint(
+        latitude: Double,
+        longitude: Double,
+        date: Date
+    ) {
+        history.add(MeetingPoint(latitude, longitude, date))
+    }
+
+    fun addMeetingPoint(
+        meetingPoint: MeetingPoint
+    ) {
+        history.add(meetingPoint)
+    }
+
+    fun getMeetingPoints(): List<MeetingPoint> {
+        return history.toList()
     }
 }

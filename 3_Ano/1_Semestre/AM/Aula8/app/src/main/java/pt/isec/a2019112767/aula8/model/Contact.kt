@@ -11,3 +11,9 @@ class Contact(
     var birthday: Date?=null,
     var picture: String?=null
 ) : Serializable
+
+data class MeetingPoint(
+    val latitude: Double,
+    val longitude: Double,
+    val date: Date
+) : Serializable

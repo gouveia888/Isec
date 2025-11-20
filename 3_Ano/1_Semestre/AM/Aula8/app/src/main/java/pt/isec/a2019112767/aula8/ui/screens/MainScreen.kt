@@ -70,7 +70,7 @@ fun MainScreen(
                 actions = {
                     when (currentScreen?.destination?.route) {
                         "list" -> {
-                            IconButton(onClick = { }) {
+                            IconButton(onClick = { showExpanded = !showExpanded }) {
                                 Icon(
                                     Icons.AutoMirrored.Filled.List,
                                     contentDescription = "Expand/Collapse"

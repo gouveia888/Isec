@@ -66,8 +66,8 @@ class ContactsViewModel(
         } ?: contactsList.addContact(
             Contact(
                 name.value,
-                phone.value,
                 email.value,
+                phone.value,
                 birthdayDPState.selectedDateMillis?.let { Date(it) },
                 picture.value,
             )
