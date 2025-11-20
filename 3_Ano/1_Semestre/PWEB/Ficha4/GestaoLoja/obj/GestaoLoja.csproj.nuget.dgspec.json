@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\GestaoLoja.csproj": {}
+    "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\GestaoLoja.csproj": {}
   },
   "projects": {
-    "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\GestaoLoja.csproj": {
+    "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\GestaoLoja.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\GestaoLoja.csproj",
+        "projectUniqueName": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\GestaoLoja.csproj",
         "projectName": "GestaoLoja",
-        "projectPath": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\GestaoLoja.csproj",
-        "packagesPath": "C:\\Users\\tiago\\.nuget\\packages\\",
-        "outputPath": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\obj\\",
+        "projectPath": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\GestaoLoja.csproj",
+        "packagesPath": "C:\\Users\\Gouveia\\.nuget\\packages\\",
+        "outputPath": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tiago\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gouveia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -95,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

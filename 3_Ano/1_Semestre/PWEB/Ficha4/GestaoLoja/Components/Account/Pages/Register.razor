@@ -82,6 +82,14 @@
 
         Logger.LogInformation("User created a new account with password.");
 
+        //Todos os users criados vao pertencer ao role Cliente por omissao
+        var add2Role = await UserManager.AddToRoleAsync(user, "User");
+
+        if (!add2Role.Succeeded)
+        {
+            Logger.LogInformation("Erro a adicionar o role ao utilizador.");
+        }
+
         var userId = await UserManager.GetUserIdAsync(user);
         var code = await UserManager.GenerateEmailConfirmationTokenAsync(user);
         code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
@@ -98,6 +106,7 @@
                 new() { ["email"] = Input.Email, ["returnUrl"] = ReturnUrl });
         }
 
+        //
         await SignInManager.SignInAsync(user, isPersistent: false);
         RedirectManager.RedirectTo(ReturnUrl);
     }

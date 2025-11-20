@@ -3,10 +3,17 @@
 @using Microsoft.AspNetCore.Components.QuickGrid
 @using GestaoLoja.Entities
 @using GestaoLoja.Data
+@using Microsoft.AspNetCore.Authorization
 @implements IAsyncDisposable
 @inject IDbContextFactory<GestaoLoja.Data.ApplicationDbContext> DbFactory
 
+@layout AdminLayout
+@using GestaoLoja.Components.Layout
+
 <PageTitle>Index</PageTitle>
+@attribute [Authorize(Roles="Admin")]
+
+@* //Adicionar layout do Admin *@
 
 <h1>Lista de categorias</h1>
 

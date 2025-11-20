@@ -158,3 +158,6 @@ protected override void OnInitialized()
     context = DbFactory.CreateDbContext();
 	produtos = context.Produtos.Include(p => p.categoria).Include( p =>p.modoEntrega).ToList().AsQueryable();
 }
+
+Na navbar tudo o que esta dentro do AuthorizeView necessita de o user esta logado para aparecer
+tudo o que tiver com o @attribute [Authorize] necessita do login para funcionar

@@ -1,13 +1,54 @@
 ﻿@inherits LayoutComponentBase
+@inject NavigationManager NavigationManager
+
+@code {
+    private string? currentUrl;
+
+    protected override void OnInitialized()
+    {
+        currentUrl = NavigationManager.ToBaseRelativePath(NavigationManager.Uri);
+        NavigationManager.LocationChanged += OnLocationChanged;
+    }
+
+    private void OnLocationChanged(object? sender, LocationChangedEventArgs e)
+    {
+        currentUrl = NavigationManager.ToBaseRelativePath(e.Location);
+        StateHasChanged();
+    }
+
+    public void Dispose()
+    {
+        NavigationManager.LocationChanged -= OnLocationChanged;
+    }
+}
 
 <div class="page">
     <div class="sidebar">
         <NavMenu />
     </div>
 
-    <main>
+    <main 
         <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
+             <AuthorizeView>
+                <Authorized>
+                <span class="bi bi-person-circle-nav-menu" aria-hidden="true">@context.User.Identity?.Name</span>
+                
+             <form action="Account/Logout" method="post">
+                 <AntiforgeryToken />
+                 <input type="hidden" name="ReturnUrl" value="@currentUrl" />
+                     <button type="submit" class="nav-link">
+                        <span class="bi bi-arrow-bar-left-nav-menu" aria-hidden="true"></span> Logout
+                     </button>
+               </form>
+            
+            </Authorized> 
+            <NotAuthorized>
+                
+                <a href="Account/Register">Register</a>
+                <a href="Account/Login">Login</a>
+            </NotAuthorized>
+            </AuthorizeView>
+
         </div>
 
         <article class="content px-4">
@@ -21,3 +62,5 @@
     <a href="" class="reload">Reload</a>
     <a class="dismiss">🗙</a>
 </div>
+
+@* NAO TEM O CODE AQUI *@
