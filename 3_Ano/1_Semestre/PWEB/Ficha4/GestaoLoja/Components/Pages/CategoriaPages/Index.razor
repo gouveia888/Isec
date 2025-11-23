@@ -7,24 +7,28 @@
 @implements IAsyncDisposable
 @inject IDbContextFactory<GestaoLoja.Data.ApplicationDbContext> DbFactory
 
-@layout AdminLayout
+@layout GestaoLoja.Components.Layout.AdminLayout
 @using GestaoLoja.Components.Layout
 
 <PageTitle>Index</PageTitle>
-@attribute [Authorize(Roles="Admin")]
-
+@attribute [Authorize(Roles="Admin,User")] 
+@* Como temos o role user no authorize vai aparecer o layout admins*@
 @* //Adicionar layout do Admin *@
 
 <h1>Lista de categorias</h1>
 
-<p>
-    <a href="categoria/create">Create New</a>
-</p>
+<AuthorizeView Roles="Admin">
+    <Authorized>
+        <p>
+            <a href="categoria/create">Create New</a>
+        </p>
+	</Authorized>
+</AuthorizeView>
 
 <QuickGrid Class="table" Items="context.Categorias">
     <PropertyColumn Property="categoria => categoria.Nome" />
-    <PropertyColumn Property="categoria => categoria.Ordem" />
-    <PropertyColumn Property="categoria => categoria.UrlImagem" />
+    @* <PropertyColumn Property="categoria => categoria.Ordem" />
+    <PropertyColumn Property="categoria => categoria.UrlImagem" /> *@
     <TemplateColumn Context="categoria">
         @if(categoria.Imagem is not null && categoria.Imagem.Length>0)
         {
@@ -40,11 +44,17 @@
     @*  <PropertyColumn Property="categoria => categoria.Imagem" /> *@
 
     <TemplateColumn Context="categoria">
-        <a href="@($"categoria/edit?id={categoria.Id}")">
-            <input type="button" class="btn btn-dark btn-sm" name="name" value="Editar" />
-        </a>
-        <a href="@($"categoria/details?id={categoria.Id}")"><i class="bi bi-eye"></i></a> |
-        <a href="@($"categoria/delete?id={categoria.Id}")"><i class="bi bi-trash"></i></a>
+        <AuthorizeView  Roles="Admin">
+			<Authorized>
+                <a href="@($"categoria/edit?id={categoria.Id}")">
+                    <input type="button" class="btn btn-dark btn-sm" name="name" value="Editar" />
+                </a>
+                <a href="@($"categoria/delete?id={categoria.Id}")"><i class="bi bi-trash"></i></a>
+            </Authorized>
+        </AuthorizeView>
+        
+        <a href="@($"categoria/details?id={categoria.Id}")"><i class="bi bi-eye"></i></a>
+        
     </TemplateColumn>
 </QuickGrid>
 

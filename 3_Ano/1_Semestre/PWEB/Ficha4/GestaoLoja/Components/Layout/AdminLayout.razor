@@ -1,15 +1,12 @@
 ﻿@inherits LayoutComponentBase
-@inject NavigationManager NavigationManager
-
 @using Microsoft.AspNetCore.Authorization
 
-@attribute [Authorize(Roles="Admin")]
-@* Adciona este layout ao Index das cateegorias *@
+@* Adciona este layout ao Index das categorias *@
 @layout MainLayout
 
 <h2>Layout dos Admin</h2>
 
-<div class="page">
+<div class="row">
 	@Body
 	<hr />
 	@xpto

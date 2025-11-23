@@ -21,8 +21,18 @@
             <dd class="col-sm-10">@produto.Nome</dd>
             <dt class="col-sm-2">Detalhe</dt>
             <dd class="col-sm-10">@produto.Detalhe</dd>
-            <dt class="col-sm-2">UrlImagem</dt>
-            <dd class="col-sm-10">@produto.UrlImagem</dd>
+            <dt class="col-sm-2">Imagem</dt>
+            <dd class="col-sm-10">
+                    @if (!string.IsNullOrEmpty(produto.UrlImagem) && produto.UrlImagem.Length > 4)
+                    {
+                        <img src="@produto.UrlImagem"
+                             alt="@produto.Nome" style="max-width: 100px; max-height: 100px;" />
+                    }
+                    else
+                    {
+                        <img src="img/placeholder.png" alt="@produto.Nome" style="max-width: 100px; max-height: 100px;" />
+                    }
+            </dd>
             <dt class="col-sm-2">Imagem</dt>
             <dd class="col-sm-10">@produto.Imagem</dd>
             <dt class="col-sm-2">Preco</dt>
@@ -38,12 +48,16 @@
             <dt class="col-sm-2">Origem</dt>
             <dd class="col-sm-10">@produto.Origem</dd>
             <dt class="col-sm-2">CategoriaId</dt>
-            <dd class="col-sm-10">@produto.CategoriaId</dd>
+            <dd class="col-sm-10">@produto.categoria.Nome</dd>
             <dt class="col-sm-2">ModoEntregaId</dt>
-            <dd class="col-sm-10">@produto.ModoEntregaId</dd>
+            <dd class="col-sm-10">@produto.modoEntrega.Nome</dd>
         </dl>
         <div>
-            <a href="@($"/produtos/edit?id={produto.Id}")">Edit</a> |
+            <AuthorizeView Roles="Admin">
+                <Authorized>
+                    <a href="@($"/produtos/edit?id={produto.Id}")">Edit</a> |
+				</Authorized>
+            </AuthorizeView>
             <a href="@($"/produtos")">Back to List</a>
         </div>
     }
@@ -58,7 +72,7 @@
     protected override async Task OnInitializedAsync()
     {
         using var context = DbFactory.CreateDbContext();
-        produto = await context.Produtos.FirstOrDefaultAsync(m => m.Id == Id);
+        produto = await context.Produtos.Include(p=>p.categoria).Include(p=>p.modoEntrega).FirstOrDefaultAsync(m => m.Id == Id);
 
         if (produto is null)
         {

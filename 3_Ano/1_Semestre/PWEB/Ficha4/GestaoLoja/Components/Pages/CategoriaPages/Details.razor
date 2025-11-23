@@ -19,10 +19,10 @@
         <dl class="row">
             <dt class="col-sm-2">Nome</dt>
             <dd class="col-sm-10">@categoria.Nome</dd>
-            <dt class="col-sm-2">Ordem</dt>
+            @* <dt class="col-sm-2">Ordem</dt>
             <dd class="col-sm-10">@categoria.Ordem</dd>
             <dt class="col-sm-2">UrlImagem</dt>
-            <dd class="col-sm-10">@categoria.UrlImagem</dd>
+            <dd class="col-sm-10">@categoria.UrlImagem</dd> *@
             <dt class="col-sm-2">Imagem</dt>
             @* <dd class="col-sm-10">@categoria.Imagem</dd> *@
             <TemplateColumn Context="categoria">
@@ -38,7 +38,11 @@
         </TemplateColumn>
         </dl>
         <div>
-            <a href="@($"/categoria/edit?id={categoria.Id}")">Edit</a> |
+            <AuthorizeView Roles="Admin">
+                <Authorized>
+                    <a href="@($"/categoria/edit?id={categoria.Id}")">Edit</a> |
+                </Authorized>
+            </AuthorizeView>
             <a href="@($"/categoria")">Back to List</a>
         </div>
     }

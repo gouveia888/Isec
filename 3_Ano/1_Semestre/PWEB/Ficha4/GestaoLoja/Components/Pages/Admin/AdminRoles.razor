@@ -1,0 +1,96 @@
+﻿@page "/admin/roles"
+@using Microsoft.AspNetCore.Identity	
+@using GestaoLoja.Data
+
+@inject UserManager<ApplicationUser> UserManager
+@inject RoleManager<IdentityRole> RoleManager
+
+<h3>Gestao de Roles</h3>
+
+<div class="row">
+    @* <div class="col-4">
+        <strong>Id</strong>
+    </div> *@
+    <div class="col-4">
+        <strong>Nome</strong>
+    </div>
+    @* <div class="col-4">
+        <strong>Nome Normalizado</strong>
+	</div> *@
+</div>
+<!-- Lista de roles que existem -->
+@if (roles == null)
+{
+  <p>A carregar Roles</p>
+}
+else
+{
+    <div class="row">
+        @foreach(var role in roles)
+        {
+
+            <div class="col-8">
+                <p>@role.ToString()</p> @* ou .role.Name *@
+            </div>
+            <div class="col-8">
+				<button class="btn btn-link">Editar</button>
+                <button class="btn btn-link">Apagar</button>
+            </div>
+	    }
+    </div>
+}
+<!-- Form para criar Role -->
+
+<div class="row card mt-4">
+    <div class="card-body">
+        <div class="mb-3">
+            <div class="form-group">
+                <label for="nomeDaRole" class="form-label">Nome da Role</label>
+                <input type="text" class="form-control" id="nomeDaRole" @bind="newRole" placeholder="Nome da categoria">
+            </div>
+            <input type="button" class="btn btn-primary mt-2" @onclick="CriarRole" value="Criar" />
+        </div>
+        <div>
+			<p>@mensagem</p>
+        </div>
+    </div>
+</div>
+
+
+@code {
+
+    string newRole = string.Empty;
+    string mensagem = string.Empty;
+    List<IdentityRole>? roles = new();
+
+    protected async Task CarregarDados()
+    {
+		roles = RoleManager.Roles.ToList();
+	}
+
+    protected override async Task OnInitializedAsync()
+    {
+        base.OnInitialized(); //Sistema de inicializacao base
+		await CarregarDados(); //Carregar dados iniciais
+    }
+
+    protected async Task CriarRole()
+    {
+        if (!string.IsNullOrWhiteSpace(newRole)) // Verificar se o nome da role nao esta vazio
+        {
+            if (!await RoleManager.RoleExistsAsync(newRole)) //Verificar se a role existe
+            {
+                var role = new IdentityRole(newRole);
+                await RoleManager.CreateAsync(role);
+				await CarregarDados(); //Atualizar a lista de roles
+                mensagem = $"Role {newRole} criada com sucesso.";
+            }
+            else
+            {
+				mensagem = $"Role {newRole} ja existe.";
+            }
+        }else{
+		    mensagem = "Nome da Role nao pode estar vazio.";
+        }
+	}
+}
