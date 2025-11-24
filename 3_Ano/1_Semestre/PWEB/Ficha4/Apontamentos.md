@@ -161,3 +161,31 @@ protected override void OnInitialized()
 
 Na navbar tudo o que esta dentro do AuthorizeView necessita de o user esta logado para aparecer
 tudo o que tiver com o @attribute [Authorize] necessita do login para funcionar
+
+@layout GestaoLoja.Components.Layout.AdminLayout Isso faz com que o conteúdo do Index seja renderizado dentro do AdminLayout.
+O AdminLayout.razor por sua vez declara:
+@layout MainLayout e contém o HTML do layout de admin. Ou seja a cadeia de renderização é: MainLayout → AdminLayout → conteúdo do Index (Body).
+
+--------------------------------------------------------------------------------
+
+Para protejer o Create Edit e Delete do CRUD
+
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize (Roles = "Admin")]
+
+e para aplicar a items (esconde)
+
+<AuthorizeView  Roles="Admin">
+	<Authorized>
+        <a href="@($"categoria/edit?id={categoria.Id}")">
+            <input type="button" class="btn btn-dark btn-sm" name="name" value="Editar" />
+        </a>
+        <a href="@($"categoria/delete?id={categoria.Id}")"><i class="bi bi-trash"></i></a>
+    </Authorized>
+</AuthorizeView>
+
+AdminRoles e AdminUsers sao componentes razor   
+
+diferença entre @bind = "newRole" e @bind-Value = "Nome"
+    bind e uma forma simplificada e automatica de ligar o input com a variavel
+    o bind-value serve para quando queremos uma forma explicita do valor associado atraves de um evento

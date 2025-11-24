@@ -6,42 +6,52 @@
 @implements IAsyncDisposable
 @inject IDbContextFactory<GestaoLoja.Data.ApplicationDbContext> DbFactory
 
-<PageTitle>Index</PageTitle>
+<PageTitle>Produtos</PageTitle>
 
-<h1>Index</h1>
+<h1>Lista de Produtos</h1>
 
-<p>
-    <a href="produtos/create">Create New</a>
-</p>
+@* So protege o botao de criar novos produtos para Admins *@
+<AuthorizeView Roles="Admin">
+    <Authorized>
+        <p>
+            <a href="produtos/create">Create New</a>
+        </p>
+    </Authorized>
+</AuthorizeView>
+
 
 <QuickGrid Class="table" Items="produtos">
-    <PropertyColumn Property="produto => produto.Nome" />
-    <PropertyColumn Property="produto => produto.Detalhe" />
-    <TemplateColumn Context="produto">
-        @if(!string.IsNullOrEmpty(produto.UrlImagem) && produto.UrlImagem.Length>4)
+    <TemplateColumn Context="produto" Title="Imagem">
+        @if (!string.IsNullOrEmpty(produto.UrlImagem) && produto.UrlImagem.Length > 4)
         {
             <img src="@produto.UrlImagem"
-            alt="@produto.Nome" style="max-width: 100px; max-height: 100px;" />
+                 alt="@produto.Nome" style="max-width: 100px; max-height: 100px;" />
         }
         else
         {
             <img src="img/placeholder.png" alt="@produto.Nome" style="max-width: 100px; max-height: 100px;" />
         }
     </TemplateColumn>
-    <PropertyColumn Property="produto => produto.Imagem" />
+    <PropertyColumn Property="produto => produto.Nome" />
+    @* <PropertyColumn Property="produto => produto.Detalhe" /> *@
+    @* <PropertyColumn Property="produto => produto.Imagem" /> *@
     <PropertyColumn Property="produto => produto.Preco" />
-    <PropertyColumn Property="produto => produto.Promocao" />
+   @*  <PropertyColumn Property="produto => produto.Promocao" />
     <PropertyColumn Property="produto => produto.MaisVendido" />
-    <PropertyColumn Property="produto => produto.EmStock" />
+    <PropertyColumn Property="produto => produto.EmStock" /> *@
     <PropertyColumn Property="produto => produto.Disponivel" />
-    <PropertyColumn Property="produto => produto.Origem" />
-    <PropertyColumn Property="produto => produto.categoria.Nome" /> @* Alterar o nome da coluna *@
-    <PropertyColumn Property="produto => produto.modoEntrega.Nome"/>
+   @*  <PropertyColumn Property="produto => produto.Origem" /> *@
+    <PropertyColumn Property="produto => produto.categoria.Nome" Title="Categoria"/> @* Alterar o nome da coluna *@
+    @* <PropertyColumn Property="produto => produto.modoEntrega.Nome"/> *@
 
     <TemplateColumn Context="produto">
-        <a href="@($"produtos/edit?id={produto.Id}")">Edit</a> |
-        <a href="@($"produtos/details?id={produto.Id}")">Details</a> |
-        <a href="@($"produtos/delete?id={produto.Id}")">Delete</a>
+        <AuthorizeView Roles="Admin">
+            <Authorized>
+                | <a href="@($"produtos/edit?id={produto.Id}")" class="btn btn-warning btn-sm">Edit</a> |
+                <a href="@($"produtos/delete?id={produto.Id}")" class="btn btn-danger btn-sm">Delete</a>
+			</Authorized>
+        </AuthorizeView>
+        <a href="@($"produtos/details?id={produto.Id}")" class="btn btn-info btn-sm">Details</a> 
     </TemplateColumn>
 </QuickGrid>
 

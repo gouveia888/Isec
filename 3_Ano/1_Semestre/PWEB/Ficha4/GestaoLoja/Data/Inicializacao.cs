@@ -41,6 +41,14 @@ namespace GestaoLoja.Data
                     await userManager.AddToRoleAsync(defaultUser, "Admin");
                 }
             }
+
+            var existingUser = await userManager.FindByEmailAsync(defaultUser.Email);
+
+            if (existingUser != null)
+            {
+                if (!await userManager.IsInRoleAsync(existingUser, "Admin"))
+                    await userManager.AddToRoleAsync(existingUser, "Admin");
+            }
         }
     }
 }

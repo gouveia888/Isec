@@ -551,3 +551,4 @@ C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha4\GestaoLoja\obj\Debug\net8.0\GestaoLoja
 C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha4\GestaoLoja\obj\Debug\net8.0\GestaoLoja.genruntimeconfig.cache
 C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha4\GestaoLoja\obj\Debug\net8.0\ref\GestaoLoja.dll
 C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha4\GestaoLoja\obj\Debug\net8.0\scopedcss\Components\Layout\AdminLayout.razor.rz.scp.css
+D:\Isec\3_Ano\1_Semestre\PWEB\Ficha4\GestaoLoja\obj\Debug\net8.0\scopedcss\Components\Layout\AdminLayout.razor.rz.scp.css
