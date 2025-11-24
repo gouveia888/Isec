@@ -1,78 +1,78 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\",
+  "WorkspaceRootPath": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\data\\inicializacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\data\\inicializacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\admin\\adminusers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\data\\inicializacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\data\\inicializacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\admin\\adminusers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\admin\\adminusers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\admin\\adminroles.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\admin\\adminroles.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\admin\\adminroles.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\admin\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\admin\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\admin\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\categoriapages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\categoriapages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\categoriapages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\categoriapages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\categoriapages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\categoriapages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\categoriapages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\categoriapages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\categoriapages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\categoriapages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\categoriapages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\categoriapages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\categoriapages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\categoriapages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\categoriapages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\produtopages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\produtopages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\produtopages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\produtopages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\produtopages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\produtopages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\produtopages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\produtopages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\produtopages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\produtopages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\produtopages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\produtopages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\produtopages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\produtopages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\produtopages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\layout\\adminlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\layout\\adminlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\layout\\adminlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\produtopages\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\produtopages\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\produtopages\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 27,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,11 +126,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Inicializacao.cs",
-              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Data\\Inicializacao.cs",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Data\\Inicializacao.cs",
               "RelativeDocumentMoniker": "GestaoLoja\\Data\\Inicializacao.cs",
-              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Data\\Inicializacao.cs",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Data\\Inicializacao.cs",
               "RelativeToolTip": "GestaoLoja\\Data\\Inicializacao.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAAADEAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -139,11 +139,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AdminRoles.razor",
-              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\Admin\\AdminRoles.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\Admin\\AdminRoles.razor",
               "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\Admin\\AdminRoles.razor",
-              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\Admin\\AdminRoles.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\Admin\\AdminRoles.razor",
               "RelativeToolTip": "GestaoLoja\\Components\\Pages\\Admin\\AdminRoles.razor",
               "ViewState": "AgIAADoAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -151,11 +151,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AdminUsers.razor",
-              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\Admin\\AdminUsers.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\Admin\\AdminUsers.razor",
               "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\Admin\\AdminUsers.razor",
-              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\Admin\\AdminUsers.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\Admin\\AdminUsers.razor",
               "RelativeToolTip": "GestaoLoja\\Components\\Pages\\Admin\\AdminUsers.razor",
               "ViewState": "AgIAAC8AAAAAAAAAAAAewEAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -163,11 +163,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\Admin\\_Imports.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\Admin\\_Imports.razor",
               "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\Admin\\_Imports.razor",
-              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\Admin\\_Imports.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\Admin\\_Imports.razor",
               "RelativeToolTip": "GestaoLoja\\Components\\Pages\\Admin\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -175,11 +175,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Delete.razor",
-              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Delete.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Delete.razor",
               "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\CategoriaPages\\Delete.razor",
-              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Delete.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Delete.razor",
               "RelativeToolTip": "GestaoLoja\\Components\\Pages\\CategoriaPages\\Delete.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -187,11 +187,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Edit.razor",
-              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Edit.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Edit.razor",
               "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\CategoriaPages\\Edit.razor",
-              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Edit.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Edit.razor",
               "RelativeToolTip": "GestaoLoja\\Components\\Pages\\CategoriaPages\\Edit.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -199,11 +199,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Create.razor",
-              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Create.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Create.razor",
               "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\CategoriaPages\\Create.razor",
-              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Create.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Create.razor",
               "RelativeToolTip": "GestaoLoja\\Components\\Pages\\CategoriaPages\\Create.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -211,11 +211,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Details.razor",
-              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Details.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Details.razor",
               "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\CategoriaPages\\Details.razor",
-              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Details.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Details.razor",
               "RelativeToolTip": "GestaoLoja\\Components\\Pages\\CategoriaPages\\Details.razor",
               "ViewState": "AgIAAA4AAAAAAAAAAAAhwBgAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -223,11 +223,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Details.razor",
-              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Details.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Details.razor",
               "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\ProdutoPages\\Details.razor",
-              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Details.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Details.razor",
               "RelativeToolTip": "GestaoLoja\\Components\\Pages\\ProdutoPages\\Details.razor",
               "ViewState": "AgIAAAUAAAAAAAAAAAArwCEAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -235,11 +235,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Delete.razor",
-              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Delete.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Delete.razor",
               "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\ProdutoPages\\Delete.razor",
-              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Delete.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Delete.razor",
               "RelativeToolTip": "GestaoLoja\\Components\\Pages\\ProdutoPages\\Delete.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -247,11 +247,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Edit.razor",
-              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Edit.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Edit.razor",
               "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\ProdutoPages\\Edit.razor",
-              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Edit.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Edit.razor",
               "RelativeToolTip": "GestaoLoja\\Components\\Pages\\ProdutoPages\\Edit.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -259,11 +259,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Create.razor",
-              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Create.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Create.razor",
               "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\ProdutoPages\\Create.razor",
-              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Create.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Create.razor",
               "RelativeToolTip": "GestaoLoja\\Components\\Pages\\ProdutoPages\\Create.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -271,11 +271,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Index.razor",
-              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Index.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Index.razor",
               "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\ProdutoPages\\Index.razor",
-              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Index.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Index.razor",
               "RelativeToolTip": "GestaoLoja\\Components\\Pages\\ProdutoPages\\Index.razor",
               "ViewState": "AgIAABsAAAAAAAAAAAAowB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -285,21 +285,22 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Layout\\NavMenu.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "GestaoLoja\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Layout\\NavMenu.razor",
               "RelativeToolTip": "GestaoLoja\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAewBcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T20:33:07.949Z"
+              "WhenOpened": "2025-11-22T20:33:07.949Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Index.razor",
-              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Index.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Index.razor",
               "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\CategoriaPages\\Index.razor",
-              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Index.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Index.razor",
               "RelativeToolTip": "GestaoLoja\\Components\\Pages\\CategoriaPages\\Index.razor",
               "ViewState": "AgIAAB4AAAAAAAAAAAAewC4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -307,11 +308,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\_Imports.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\_Imports.razor",
               "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\ProdutoPages\\_Imports.razor",
-              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\_Imports.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\_Imports.razor",
               "RelativeToolTip": "GestaoLoja\\Components\\Pages\\ProdutoPages\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -319,11 +320,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "AdminLayout.razor",
-              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Layout\\AdminLayout.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Layout\\AdminLayout.razor",
               "RelativeDocumentMoniker": "GestaoLoja\\Components\\Layout\\AdminLayout.razor",
-              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Layout\\AdminLayout.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Layout\\AdminLayout.razor",
               "RelativeToolTip": "GestaoLoja\\Components\\Layout\\AdminLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -331,15 +332,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 0,
               "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Layout\\MainLayout.razor",
+              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "GestaoLoja\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Layout\\MainLayout.razor",
               "RelativeToolTip": "GestaoLoja\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACsAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T20:21:17.008Z"
+              "WhenOpened": "2025-11-22T20:21:17.008Z",
+              "EditorCaption": ""
             }
           ]
         }
