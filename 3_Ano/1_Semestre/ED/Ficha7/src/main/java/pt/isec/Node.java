@@ -5,7 +5,9 @@ public class Node<T> {
     private Node<T> left,right;
 
     public Node() {
+
     }
+
     public Node(T node) {
         this.node = node;
     }
@@ -26,8 +28,9 @@ public class Node<T> {
     public void setLeft(Node<T> node) {
         left = node;
     }
-    public void setNode(Node<T> node) {
-        this.node = node.getNode();
+
+    public void setNode(T node) {
+        this.node = node;
     }
 
 }

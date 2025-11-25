@@ -1,9 +1,6 @@
 package pt.isec;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 public class BinaryTree<T extends Comparable<? super T>>{
     private Node<T> raiz;
@@ -158,6 +155,105 @@ public class BinaryTree<T extends Comparable<? super T>>{
              if(node.getRight()!=null)
                  storageList.add(node.getRight());
          }
+    }
+
+    public void imprimeNivel(Node <T> t, List<T> ist , int i){
+        T item;
+
+        System.out.print("----- Nivel " +i+" -----");
+        ListIterator li = ist.listIterator();
+        while(li.hasNext()){
+            item = (T) li.next();
+           if(profundidade(raiz,item) == i){
+               System.out.print( "["+i+"]"+item);
+           }
+        }
+    }
+
+    public void imprimePorNiveis(){
+        int j,l = profundidadeDe(raiz);
+        List<T> ist = new ArrayList<>();
+        imprimeOrdem(raiz,ist);
+        System.out.print("----- Conteudo da arvore ----");
+        for(j=1;j<=l;j++)
+            imprimeNivel(raiz,ist,j);
+        System.out.println("===================");
+    }
+
+    public void remove(T value) {
+        remove(raiz, value);
+    }
+
+    private Node<T> remove(Node<T>  node, T value) {
+
+        if(node == null)
+            return null;
+
+        int cmp = comp.compare(value, node.getNode());
+
+        if(cmp < 0) {
+            node.setLeft(remove(node.getLeft(), value));
+            return node;
+        }
+
+        if(cmp > 0) {
+            node.setRight(remove(node.getRight(), value));
+            return node;
+        }
+
+        //cmp == 0
+        if(node.getLeft()==null && node.getRight()==null){
+            node = null;
+        }
+
+        if(node.getRight()==null){
+            return node.getLeft();
+        }
+
+        if(node.getLeft()==null){
+            return node.getRight();
+        }
+
+        //se tem 2 filhos
+
+        Node<T> temp = minimumElement(node.getRight());
+        node.setNode(temp.getNode());
+        node.setRight(remove(node.getRight(), temp.getNode()));
+
+        return node;
+    }
+
+    public Node<T> minimumElement(Node<T> root) {
+        if(root.getLeft() == null)
+            return root;
+        else
+            return minimumElement(root.getLeft());
+    }
+
+    public void removeSoComUmDescedente() {
+        removeSoComUmDescedente(raiz);
+    }
+
+    private Node<T> removeSoComUmDescedente(Node<T>  node) {
+
+        if(node == null)
+            return null;
+
+        if(node.getLeft()==null && node.getRight()==null){
+            return node;
+        }
+
+        if(node.getRight()!=null&&node.getLeft()!=null){
+            node.setRight(removeSoComUmDescedente(node.getRight()));
+            node.setLeft(removeSoComUmDescedente(node.getLeft()));
+            return node;
+        }
+
+        if(node.getLeft()==null){
+            return removeSoComUmDescedente(node.getRight());
+        }
+
+        return removeSoComUmDescedente(node.getLeft());
     }
 
 
