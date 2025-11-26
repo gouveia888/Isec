@@ -1,78 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\",
+  "WorkspaceRootPath": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C85FA534-8C47-460E-AC86-E78AD84D032E}|RESTfulAPI\\RESTfulAPI.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\restfulapi\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C85FA534-8C47-460E-AC86-E78AD84D032E}|RESTfulAPI\\RESTfulAPI.csproj|solutionrelative:restfulapi\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C85FA534-8C47-460E-AC86-E78AD84D032E}|RESTfulAPI\\RESTfulAPI.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\restfulapi\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C85FA534-8C47-460E-AC86-E78AD84D032E}|RESTfulAPI\\RESTfulAPI.csproj|solutionrelative:restfulapi\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\data\\inicializacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\data\\inicializacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C85FA534-8C47-460E-AC86-E78AD84D032E}|RESTfulAPI\\RESTfulAPI.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\restfulapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C85FA534-8C47-460E-AC86-E78AD84D032E}|RESTfulAPI\\RESTfulAPI.csproj|solutionrelative:restfulapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\admin\\adminusers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\admin\\adminusers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\admin\\adminroles.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\admin\\adminroles.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\admin\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\admin\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\categoriapages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\categoriapages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\categoriapages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\categoriapages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\categoriapages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\categoriapages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\categoriapages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\categoriapages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\categoriapages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\categoriapages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\produtopages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\produtopages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\produtopages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\produtopages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\produtopages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\produtopages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\produtopages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\produtopages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\produtopages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\produtopages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\layout\\adminlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\layout\\adminlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|d:\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\gestaoloja\\components\\pages\\produtopages\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D10679B-432D-451D-8D66-E74A23E3FD0D}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\produtopages\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C85FA534-8C47-460E-AC86-E78AD84D032E}|RESTfulAPI\\RESTfulAPI.csproj|c:\\isec\\isec\\3_ano\\1_semestre\\pweb\\ficha4\\restfulapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C85FA534-8C47-460E-AC86-E78AD84D032E}|RESTfulAPI\\RESTfulAPI.csproj|solutionrelative:restfulapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,8 +26,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 27,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\RESTfulAPI\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "RESTfulAPI\\Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\RESTfulAPI\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "RESTfulAPI\\Controllers\\CategoriasController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T22:51:04.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProdutosController.cs",
+              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\RESTfulAPI\\Controllers\\ProdutosController.cs",
+              "RelativeDocumentMoniker": "RESTfulAPI\\Controllers\\ProdutosController.cs",
+              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\RESTfulAPI\\Controllers\\ProdutosController.cs",
+              "RelativeToolTip": "RESTfulAPI\\Controllers\\ProdutosController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T22:44:14.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProdutoRepository.cs",
+              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\RESTfulAPI\\Repositories\\ProdutoRepository.cs",
+              "RelativeDocumentMoniker": "RESTfulAPI\\Repositories\\ProdutoRepository.cs",
+              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\RESTfulAPI\\Repositories\\ProdutoRepository.cs",
+              "RelativeToolTip": "RESTfulAPI\\Repositories\\ProdutoRepository.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T22:30:08.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\RESTfulAPI\\Program.cs",
+              "RelativeDocumentMoniker": "RESTfulAPI\\Program.cs",
+              "ToolTip": "C:\\ISEC\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\RESTfulAPI\\Program.cs",
+              "RelativeToolTip": "RESTfulAPI\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T22:12:36.083Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -123,225 +119,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Inicializacao.cs",
-              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Data\\Inicializacao.cs",
-              "RelativeDocumentMoniker": "GestaoLoja\\Data\\Inicializacao.cs",
-              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Data\\Inicializacao.cs",
-              "RelativeToolTip": "GestaoLoja\\Data\\Inicializacao.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAAADEAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T23:39:18.027Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AdminRoles.razor",
-              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\Admin\\AdminRoles.razor",
-              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\Admin\\AdminRoles.razor",
-              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\Admin\\AdminRoles.razor",
-              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\Admin\\AdminRoles.razor",
-              "ViewState": "AgIAADoAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T21:52:34.237Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AdminUsers.razor",
-              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\Admin\\AdminUsers.razor",
-              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\Admin\\AdminUsers.razor",
-              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\Admin\\AdminUsers.razor",
-              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\Admin\\AdminUsers.razor",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAewEAAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T21:51:46.147Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\Admin\\_Imports.razor",
-              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\Admin\\_Imports.razor",
-              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\Admin\\_Imports.razor",
-              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\Admin\\_Imports.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T21:50:02.175Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Delete.razor",
-              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Delete.razor",
-              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\CategoriaPages\\Delete.razor",
-              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Delete.razor",
-              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\CategoriaPages\\Delete.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T21:36:42.339Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Edit.razor",
-              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Edit.razor",
-              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\CategoriaPages\\Edit.razor",
-              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Edit.razor",
-              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\CategoriaPages\\Edit.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T21:36:14.482Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Create.razor",
-              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Create.razor",
-              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\CategoriaPages\\Create.razor",
-              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Create.razor",
-              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\CategoriaPages\\Create.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T21:35:20.159Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Details.razor",
-              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Details.razor",
-              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\CategoriaPages\\Details.razor",
-              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Details.razor",
-              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\CategoriaPages\\Details.razor",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAhwBgAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T21:22:55.723Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Details.razor",
-              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Details.razor",
-              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\ProdutoPages\\Details.razor",
-              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Details.razor",
-              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\ProdutoPages\\Details.razor",
-              "ViewState": "AgIAAAUAAAAAAAAAAAArwCEAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T21:06:14.337Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Delete.razor",
-              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Delete.razor",
-              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\ProdutoPages\\Delete.razor",
-              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Delete.razor",
-              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\ProdutoPages\\Delete.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T20:57:52.535Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Edit.razor",
-              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Edit.razor",
-              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\ProdutoPages\\Edit.razor",
-              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Edit.razor",
-              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\ProdutoPages\\Edit.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T20:55:54.044Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Create.razor",
-              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Create.razor",
-              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\ProdutoPages\\Create.razor",
-              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Create.razor",
-              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\ProdutoPages\\Create.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T20:54:12.202Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.razor",
-              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Index.razor",
-              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\ProdutoPages\\Index.razor",
-              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Index.razor",
-              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\ProdutoPages\\Index.razor",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowB4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T20:36:08.074Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "GestaoLoja\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAewBcAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T20:33:07.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.razor",
-              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Index.razor",
-              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\CategoriaPages\\Index.razor",
-              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Index.razor",
-              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\CategoriaPages\\Index.razor",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAewC4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T20:31:30.888Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\_Imports.razor",
-              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\ProdutoPages\\_Imports.razor",
-              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Pages\\ProdutoPages\\_Imports.razor",
-              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\ProdutoPages\\_Imports.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T20:22:39.104Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AdminLayout.razor",
-              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Layout\\AdminLayout.razor",
-              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Layout\\AdminLayout.razor",
-              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Layout\\AdminLayout.razor",
-              "RelativeToolTip": "GestaoLoja\\Components\\Layout\\AdminLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T20:21:30.25Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "D:\\Isec\\3_Ano\\1_Semestre\\PWEB\\Ficha4\\GestaoLoja\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "GestaoLoja\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACsAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T20:21:17.008Z",
-              "EditorCaption": ""
             }
           ]
         }

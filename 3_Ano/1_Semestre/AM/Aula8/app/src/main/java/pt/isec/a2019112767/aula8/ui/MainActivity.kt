@@ -17,7 +17,7 @@ import pt.isec.a2019112767.aula8.ui.viewmodels.ContactsViewModelFactory
 
 class MainActivity : ComponentActivity() {
     private val app by lazy { application as ContactsApp }
-    private val viewModel : ContactsViewModel by viewModels { ContactsViewModelFactory(app.contactsList) }
+    private val viewModel : ContactsViewModel by viewModels { ContactsViewModelFactory(app.contactsList, app.locationHandler) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -40,6 +40,22 @@ class MainActivity : ComponentActivity() {
                     )
                 }
 
+                if (checkSelfPermission(android.Manifest.permission.ACCESS_COARSE_LOCATION)
+                    != PackageManager.PERMISSION_GRANTED ||
+                    checkSelfPermission(android.Manifest.permission.ACCESS_FINE_LOCATION)
+                    != PackageManager.PERMISSION_GRANTED
+                ) {
+                    askLocationPermissions.launch(
+                        arrayOf(
+                            android.Manifest.permission.ACCESS_COARSE_LOCATION,
+                            android.Manifest.permission.ACCESS_FINE_LOCATION
+                        )
+                    )
+                }else{
+                    viewModel.hasLocationPermission = true
+                    viewModel.startLocationUpdates()
+                }
+
 
                 MainScreen(viewModel) //MainScreen já é um scaffold
             }
@@ -56,4 +72,11 @@ class MainActivity : ComponentActivity() {
     private val askMultiplePermission = registerForActivityResult(
         ActivityResultContracts.RequestMultiplePermissions()
     ) { map -> /* TODO */}
+
+    private val askLocationPermissions = registerForActivityResult(
+        ActivityResultContracts.RequestMultiplePermissions()
+    ) { map -> viewModel.hasLocationPermission =
+        map[android.Manifest.permission.ACCESS_COARSE_LOCATION] == true ||
+                map[android.Manifest.permission.ACCESS_FINE_LOCATION] == true
+    }
 }

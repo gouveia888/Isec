@@ -1,6 +1,7 @@
 package pt.isec.a2019112767.aula8.ui.screens
 
 import android.content.res.Configuration
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -10,6 +11,8 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -23,6 +26,12 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil3.compose.AsyncImage
+import com.google.android.gms.maps.model.CameraPosition
+import com.google.android.gms.maps.model.LatLng
+import com.google.maps.android.compose.GoogleMap
+import com.google.maps.android.compose.Marker
+import com.google.maps.android.compose.MarkerState
+import com.google.maps.android.compose.rememberCameraPositionState
 import pt.isec.a2019112767.aula8.model.Contact
 import pt.isec.a2019112767.aula8.R
 import java.text.SimpleDateFormat
@@ -90,6 +99,34 @@ private fun ShowScreenPortrait(
             fontSize = 16.sp,
             modifier = Modifier.padding(start = 16.dp)
         )
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        LazyColumn{
+            items(items = contact.getMeetingPoints()){ meeting ->
+                Row(horizontalArrangement = Arrangement.SpaceEvenly){
+                    Text(meeting.latitude.toString())
+                    Text(meeting.longitude.toString())
+                    Text(dateFormatter.format(meeting.date))
+                }
+            }
+            item {
+                val deisisec = LatLng(40.1925, -8.4128)
+                val cameraPositionState = rememberCameraPositionState {
+                    position = CameraPosition.fromLatLngZoom(deisisec, 13f)
+                }
+                GoogleMap(
+                    modifier = Modifier.fillMaxSize(),
+                    cameraPositionState = cameraPositionState
+                ) {
+                    Marker(
+                        state = MarkerState(position = deisisec),
+                        title = "DEIS-ISEC",
+                        snippet = "Dep. Informatics Engineering"
+                    )
+                }
+            }
+        }
     }
 }
 

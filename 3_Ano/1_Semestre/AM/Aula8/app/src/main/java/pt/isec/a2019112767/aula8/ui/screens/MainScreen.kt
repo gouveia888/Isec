@@ -9,6 +9,10 @@ import androidx.compose.material.icons.automirrored.filled.List
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Done
 import androidx.compose.material.icons.filled.Edit
+import androidx.compose.material.icons.filled.LocationOn
+import androidx.compose.material.icons.filled.Warning
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.Button
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -41,6 +45,7 @@ fun MainScreen(
     val currentScreen by navController.currentBackStackEntryAsState()
     var showExpanded by remember { mutableStateOf(false) }
     val route = currentScreen?.destination?.route
+    var showConfirmationDialog by remember { mutableStateOf(false) }
 
     Log.i("MainScreen", "Recomposing. Current route is: '$route'")
 
@@ -98,6 +103,11 @@ fun MainScreen(
                                 )
                             }
 
+                            IconButton(
+                                onClick = { showConfirmationDialog = true } )
+                            {
+                                Icon(Icons.Filled.LocationOn, contentDescription = "Store Location")
+                            }
                         }
                         "edit" -> {
                             IconButton(
@@ -148,5 +158,37 @@ fun MainScreen(
                 )
             }
         }
+        if (showConfirmationDialog) {
+            ConfirmationDialog(
+                actionDescription = "Store meeting location" ,
+                onConfirm = {
+                    showConfirmationDialog = false
+                    viewModel.storeCurrentLocation()
+                },
+                onDismiss = { showConfirmationDialog = false }
+            )
+        }
     }
+}
+
+@Composable
+fun ConfirmationDialog(
+    actionDescription : String,
+    onConfirm : () -> Unit,
+    onDismiss : () -> Unit,
+    modifier: Modifier = Modifier
+) {
+    AlertDialog(
+        icon = {
+            Icon(
+                Icons.Default.Warning,
+                contentDescription = "Confirmation dialog"
+            )
+        },
+        title = { Text("Confirm operation") },
+        text  = { Text("$actionDescription?") },
+        onDismissRequest = onDismiss,
+        confirmButton = { Button(onClick = onConfirm) { Text("Confirm")} },
+        dismissButton = { Button(onClick = onDismiss) { Text("Cancel") } }
+    )
 }

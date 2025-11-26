@@ -17,16 +17,24 @@ import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.focus.focusModifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil3.compose.AsyncImage
+import com.google.android.gms.maps.CameraUpdateFactory
+import com.google.android.gms.maps.model.CameraPosition
+import com.google.android.gms.maps.model.LatLng
+import com.google.android.gms.maps.model.LatLngBounds
+import com.google.maps.android.compose.GoogleMap
+import com.google.maps.android.compose.Marker
+import com.google.maps.android.compose.MarkerState
+import com.google.maps.android.compose.rememberCameraPositionState
 import pt.isec.a2019112767.aula8.R
 import pt.isec.a2019112767.aula8.model.Contact
 import java.text.SimpleDateFormat
@@ -51,6 +59,34 @@ fun ListScreen(
                 showExpanded = showExpanded,
                 onSelectContact = onSelectContact,
             )
+        }
+        item {
+            val positions = arrayOf(
+                LatLng(40.1925, -8.4128), LatLng(39.1925, -8.4128),
+                LatLng(41.1925, -8.4128), LatLng(40.1925, -7.4128),
+                LatLng(40.1925, -9.4128),
+            )
+            val boundsBuilder = LatLngBounds.Builder()
+            positions.forEach { boundsBuilder.include(it) }
+            val bounds = boundsBuilder.build()
+            val cameraPositionState = rememberCameraPositionState {
+                CameraPosition.fromLatLngZoom(positions[0], 13f)
+            }
+            LaunchedEffect(bounds) {
+                cameraPositionState.animate(
+                    update = CameraUpdateFactory.newLatLngBounds(bounds,64),
+                    durationMs = 5000
+                )
+            }
+            GoogleMap(
+                modifier = Modifier.fillMaxSize().height(400.dp),
+                cameraPositionState = cameraPositionState
+            ) {
+
+                positions.forEach { latLng ->
+                    Marker(state = MarkerState(position = latLng))
+                }
+            }
         }
     }
 }
