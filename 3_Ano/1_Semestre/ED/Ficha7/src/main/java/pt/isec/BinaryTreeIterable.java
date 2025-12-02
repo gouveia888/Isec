@@ -2,13 +2,12 @@ package pt.isec;
 
 import java.util.*;
 
-public class BinaryTree<T extends Comparable<? super T>> {
+public class BinaryTreeIterable<T extends Comparable<? super T>> implements Iterable {
     private Node<T> raiz;
     private Comparator<T> comp;
     static int prof = 1;
-    private int rotacoes=0;
 
-    public BinaryTree() {
+    public BinaryTreeIterable() {
         comp = new Comparator<T>() {
             @Override
             public int compare(T o1, T o2) {
@@ -17,8 +16,12 @@ public class BinaryTree<T extends Comparable<? super T>> {
         };
     }
 
-    public BinaryTree(Comparator<T> comp) {
+    public BinaryTreeIterable(Comparator<T> comp) {
         this.comp = comp;
+    }
+
+    public Node<T> getRaiz() {
+        return raiz;
     }
 
     public void insere(T node) {
@@ -28,7 +31,6 @@ public class BinaryTree<T extends Comparable<? super T>> {
             return;
         }
         insere(raiz, n);
-
     }
 
     private Node<T> insere(Node<T> raiz, Node<T> node) {
@@ -52,23 +54,6 @@ public class BinaryTree<T extends Comparable<? super T>> {
             }
         }
         return raiz;
-    }
-
-    public void rotateWithRight(){
-        raiz = rotateWithRight(raiz);
-    }
-
-    private Node rotateWithRight(Node node){
-
-        Node b = node.getRight(); //rotação efetuada aqui
-        Node temp = b.getLeft();
-        b.setLeft(node);
-        node.setRight(temp);
-
-        node.pr = node.getRight() == null ? 0 : node.getRight().getDepth(); //acertar profundidade da sub-arvores
-        b.pl = b.getLeft().getDepth();
-
-        return b;
     }
 
     public boolean verificaNode(T node) {
@@ -318,24 +303,9 @@ public class BinaryTree<T extends Comparable<? super T>> {
         return sucessor(no.getRight(), value);
     }
 
-    public boolean compararArvores(BinaryTree<T> arvore2) {
-        return compararArvores(this.raiz, arvore2.raiz);
+    @Override
+    public BinaryTreeIterator iterator() {
+        return new BinaryTreeIterator(raiz);
     }
-
-    private boolean compararArvores(Node<T> no1, Node<T> no2) {
-        if(no1 == null && no2 == null) {
-            return true;
-        }
-
-        if(no1 == null || no2 == null) {
-            return false;
-        }
-
-        int cmp = comp.compare(no1.getNode(), no2.getNode());
-        return cmp == 0 && compararArvores(no1.getLeft(), no2.getLeft()) && compararArvores(no1.getRight(), no2.getRight());
-
-    }
-
-
 
 }
