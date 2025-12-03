@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1031351353228",
+    "project_id": "aula-amov",
+    "storage_bucket": "aula-amov.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031351353228:android:1fae51b7d5401c8fd7e0a9",
+        "android_client_info": {
+          "package_name": "pt.isec.a2019112767.aula13"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031351353228-7onapgboj3oqbtump6fducfa4nub40m7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pt.isec.a2019112767.aula13",
+            "certificate_hash": "4280953333f0348c30b69b48c93e969723023ea1"
+          }
+        },
+        {
+          "client_id": "1031351353228-9aksdmb41m8pdnu4iknd7h2c22o18nsv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADpDCCZB2wR9Z9FRK2ct6-mFjUm_LQPyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031351353228-9aksdmb41m8pdnu4iknd7h2c22o18nsv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
