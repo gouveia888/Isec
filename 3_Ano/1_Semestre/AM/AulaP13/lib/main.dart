@@ -1,6 +1,21 @@
-import 'package:flutter/material.dart';
+import 'dart:convert';
+import 'dart:io';
 
-void main() {
+import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
+import 'package:image_picker/image_picker.dart';
+import 'package:location/location.dart';
+import 'package:path_provider/path_provider.dart';
+
+import 'Data/CatFact.dart'; //flutter pub get (on console)
+
+late Directory dir;
+late File file;
+
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  dir = await getApplicationDocumentsDirectory();
+  file = File("${dir.path}/userImage1");
   runApp(const MyApp());
 }
 
@@ -61,6 +76,21 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
+  static const String _catFactsUrl = 'https://catfact.ninja/facts';
+  List<CatFact>? _catFacts;
+  bool _fetchingData = false;
+
+  Location location = new Location();
+  bool _serviceEnabled=false;
+  PermissionStatus _permissionGranted = PermissionStatus.denied;
+
+  @override
+  void initState(){
+    super.initState();
+    initLocation();
+
+  }
+
   void _incrementCounter() {
     setState(() {
       // This call to setState tells the Flutter framework that something has
@@ -82,6 +112,63 @@ class _MyHomePageState extends State<MyHomePage> {
     setState(() {
       _counter--;
     });
+  }
+
+  Future<void> _fetchCatFacts() async {
+    await Future.delayed(const Duration(seconds: 5));
+    try {
+      setState(() => _fetchingData = true);
+      http.Response response = await http.get(Uri.parse(_catFactsUrl));
+      if (response.statusCode == HttpStatus.ok) {
+        debugPrint(response.body);
+        final Map<String, dynamic> decodedData = json.decode(response.body);
+        setState(() => _catFacts = (decodedData['data'] as List)
+            .map((fact) => CatFact.fromJson(fact)).toList());
+      }
+    } catch (ex) {
+      debugPrint('Something went wrong: $ex');
+    } finally {
+      setState(() => _fetchingData = false);
+    }
+  }
+
+  Future<void> _fetchCatFactsClear() async {
+    setState(() {
+      _catFacts = null;
+    });
+  }
+
+
+  LocationData _locationData = LocationData.fromMap({
+    'latitude' : 0.0,
+    'longitude' : 0.0
+  });
+
+  Future<void> initLocation() async {
+    _serviceEnabled = await location.serviceEnabled();
+    if (!_serviceEnabled) {
+      _serviceEnabled = await location.requestService();
+      if (!_serviceEnabled) {
+        return;
+      }
+    }
+    _permissionGranted = await location.hasPermission();
+    if (_permissionGranted == PermissionStatus.denied) {
+      _permissionGranted = await location.requestPermission();
+      if (_permissionGranted != PermissionStatus.granted) {
+        return;
+      }
+    }
+    getLocation();
+  }
+
+  Future<void> getLocation() async {
+    if (!_serviceEnabled ||
+        _permissionGranted != PermissionStatus.granted) {
+      return;
+    }
+    _locationData = await location.getLocation();
+    setState(() {});
   }
 
   @override
@@ -164,10 +251,125 @@ class _MyHomePageState extends State<MyHomePage> {
 
             FilledButton(onPressed: (){
               Navigator.of(context).pushNamed("/TerceiroEcra");
+
             }, child: const Text ("Terceiro Ecra")),
 
 
-          ],
+            const SizedBox(height: 20),
+            //Exemplo chamada assincrona
+            FutureBuilder<String>(
+              future: _fetchAnAsyncString(),
+              builder: (
+                  BuildContext context, AsyncSnapshot<String> snapshot
+                  ) {
+                if (snapshot.hasData) {
+                  return Text(snapshot.data!);
+                } else if (snapshot.hasError) {
+                  return const Text('Oops, something happened');
+                } else {
+                  return const CircularProgressIndicator();
+                }
+              },
+            ),
+
+            //Exemplo chamada api
+            /*FutureBuilder<http.Response>(
+              future: http.get(Uri.parse(_catFactsUrl)),
+              builder: (
+              BuildContext context, AsyncSnapshot<http.Response> snapshot
+              ) {
+                  if (snapshot.hasData) {
+                    return Expanded(
+                      child: SingleChildScrollView( child: Text(snapshot.data!.body))
+                    );
+                  } else if (snapshot.hasError) {
+                    return const Text('Oops, something happened');
+                  } else {
+                    return const CircularProgressIndicator();
+                  }
+              },*/
+              //apresenta o json em formato de lista
+                ElevatedButton(
+                  onPressed: _fetchCatFacts,
+                  child: const Text('Fetch cat facts'),
+                ),
+                if (_fetchingData) const CircularProgressIndicator(),
+                if (!_fetchingData && _catFacts != null && _catFacts!.isNotEmpty)
+                  Expanded(
+                    child: ListView.separated(
+                      itemCount: _catFacts!.length,
+                      separatorBuilder: (_, __) => const Divider(thickness: 2.0),
+                      itemBuilder: (BuildContext context, int index) =>
+                          ListTile(
+                            title: Text('Cat fact #$index'),
+                            subtitle: Text(_catFacts![index].fact),
+                          ),
+                    ),
+                  ),
+
+            //limpar a lista
+            ElevatedButton(
+              onPressed: _fetchCatFactsClear,
+              child: const Text('Clear cat facts'),
+            ),
+            
+            Row(
+              children: [
+                Image.asset('images/1.png'),
+                SizedBox(height:50, child: Image.network('https://wayf.ipc.pt/IPCds/images/logo_ipc2.png')),
+              ],
+            ),
+
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                Text('Lat: ${_locationData.latitude}'),
+                Text('Lon: ${_locationData.longitude}')
+              ],
+            ),
+
+            ElevatedButton(
+                onPressed: getLocation,
+                child: const Text('Get location')
+            ),
+
+            ElevatedButton(
+                onPressed: () {
+                  location.onLocationChanged.listen(
+                          (LocationData currentLocation) {
+                        setState(() {_locationData = currentLocation;});
+                      }
+                  );
+                },
+                child: const Text('Activate continuous location')
+            ),
+
+            StreamBuilder(
+                stream: location.onLocationChanged,
+                builder: (context, location) => Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Text('Lat: ${location.data?.latitude}'),
+                    Text('Lon: ${location.data?.longitude}')
+                  ],
+                )
+            ),
+
+            ElevatedButton(
+                onPressed: () async {
+                  final imgFile = await ImagePicker().pickImage(source: ImageSource.gallery);
+                  if (imgFile != null) {
+                    await imgFile.saveTo(file.path);
+                    FileImage(file).evict(); // avoid cache
+                  }
+                  setState(() {});
+                },
+                child: const Text("Pick Image")
+            ),
+            if (file.existsSync())
+              Image.file(key: UniqueKey(), file),
+            
+            ],
         ),
       ),
       floatingActionButton:
@@ -192,6 +394,11 @@ class _MyHomePageState extends State<MyHomePage> {
       )
     );
   }
+}
+
+Future<String> _fetchAnAsyncString() async {
+  await Future.delayed(const Duration(seconds: 5));
+  return Future.value('Hello world, from an aysnc call!');
 }
 
 class SegundoEcra extends StatelessWidget {
