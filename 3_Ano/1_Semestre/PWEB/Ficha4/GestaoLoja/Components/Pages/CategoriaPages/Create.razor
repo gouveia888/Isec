@@ -4,6 +4,8 @@
 @inject IDbContextFactory<GestaoLoja.Data.ApplicationDbContext> DbFactory
 @inject NavigationManager NavigationManager
 
+@inject GestaoLoja.Services.CategoriaService categoriaService
+
 @using Microsoft.AspNetCore.Authorization
 @attribute [Authorize (Roles = "Admin")]
 
@@ -46,6 +48,10 @@
             </div>     
             <button type="submit" class="btn btn-primary">Create</button>
         </EditForm>
+        <div class="alert alert-info">
+			@if (!String.IsNullOrEmpty(apiMensagem))
+                @apiMensagem;
+        </div>
     </div>
 </div>
 
@@ -56,15 +62,26 @@
 @code {
     [SupplyParameterFromForm]
     private Categoria Categoria { get; set; } = new();
-
+	private String apiMensagem = String.Empty;
     // To protect from overposting attacks, see https://learn.microsoft.com/aspnet/core/blazor/forms/#mitigate-overposting-attacks.
     private async Task AddCategoria()
     {
         using var context = DbFactory.CreateDbContext();
 
-        context.Categorias.Add(Categoria);
-        await context.SaveChangesAsync();
-        NavigationManager.NavigateTo("/categoria");
+		var response = await categoriaService.CreateCategoria(Categoria);
+
+        if(response is not null)
+        {
+            apiMensagem = "Categoria criada com sucesso!";
+            NavigationManager.NavigateTo("/categoria");
+		}
+
+		apiMensagem = "Erro ao criar a categoria.";
+        //context.Categorias.Add(Categoria);
+        //await context.SaveChangesAsync();
+        //NavigationManager.NavigateTo("/categoria");
+
+
     }
 
     private string? previewUrl;

@@ -266,3 +266,4 @@ C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha4\RESTfulAPI\bin\Debug\net8.0\runtimes\w
 C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha4\RESTfulAPI\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha4\RESTfulAPI\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha4\RESTfulAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha4\RESTfulAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

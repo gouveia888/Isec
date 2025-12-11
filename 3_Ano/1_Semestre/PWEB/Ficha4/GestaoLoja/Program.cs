@@ -1,6 +1,7 @@
 ﻿using GestaoLoja.Components;
 using GestaoLoja.Components.Account;
 using GestaoLoja.Data;
+using GestaoLoja.Services;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -48,6 +49,14 @@ builder.Services.AddIdentityCore<ApplicationUser>(options => options.SignIn.Requ
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
 builder.Services.AddSingleton<IEmailSender<ApplicationUser>, IdentityNoOpEmailSender>();
+
+builder.Services.AddHttpClient("api", client =>
+{
+    client.BaseAddress = new Uri("https://localhost:7151/");
+});
+
+builder.Services.AddScoped<CategoriaService>();
+builder.Services.AddScoped<AutenticacaoService>();
 
 var app = builder.Build();
 

@@ -6,6 +6,10 @@
 @using Microsoft.AspNetCore.Authorization
 @implements IAsyncDisposable
 @inject IDbContextFactory<GestaoLoja.Data.ApplicationDbContext> DbFactory
+@* DbFactory porque estamos a usar a entity framework *@
+
+@inject GestaoLoja.Services.CategoriaService categoriaService
+@* servico criado que usa a api *@
 
 @layout GestaoLoja.Components.Layout.AdminLayout
 @using GestaoLoja.Components.Layout
@@ -15,8 +19,8 @@
 @* Como temos o role user no authorize vai aparecer o layout admins*@
 @* //Adicionar layout do Admin *@
 
-<h1>Lista de categorias</h1>
-
+<h1>Lista de categorias - Pela API</h1>
+    
 <AuthorizeView Roles="Admin">
     <Authorized>
         <p>
@@ -25,7 +29,7 @@
 	</Authorized>
 </AuthorizeView>
 
-<QuickGrid Class="table" Items="context.Categorias">
+<QuickGrid Class="table" Items="categorias"> @* ou categorias.AsQueryable() *@
     <PropertyColumn Property="categoria => categoria.Nome" />
     @* <PropertyColumn Property="categoria => categoria.Ordem" />
     <PropertyColumn Property="categoria => categoria.UrlImagem" /> *@
@@ -58,13 +62,35 @@
     </TemplateColumn>
 </QuickGrid>
 
+<h1> Categorias pela API </h1>
+
+    @if(categorias is null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else
+    {
+        <ul>
+            @foreach (var categoria in categorias)
+            {
+                <li>@categoria.Nome</li>
+		    }
+        </ul>
+    }
+
+
 @code {
     private ApplicationDbContext context = default!;
 
-    protected override void OnInitialized()
+    IQueryable<Categoria> categorias; //para o acesso pela api mantedo o QuickGrid trocamos para IQueryable
+
+    protected override async Task OnInitializedAsync()
     {
         context = DbFactory.CreateDbContext();
+
+		categorias = Queryable.AsQueryable(await categoriaService.GetCategoriasAsync()); //usamos o servico criado para aceder a api convertendo para queryable
+         
     }
 
-    public async ValueTask DisposeAsync() => await context.DisposeAsync();
+	public async ValueTask DisposeAsync() => await context.DisposeAsync(); //dispose do context para libertar memoria
 }

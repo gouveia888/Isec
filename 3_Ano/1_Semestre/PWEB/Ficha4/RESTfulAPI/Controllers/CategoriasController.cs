@@ -82,7 +82,7 @@ namespace RESTfulAPI.Controllers
         // POST: api/Categorias criar uma nova categoria
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Categoria>> PostCategoria(Categoria categoria)
+        public async Task<ActionResult<Categoria>> PostCategoria([FromBody]Categoria categoria)
         {
             _context.Categorias.Add(categoria);
             await _context.SaveChangesAsync();
