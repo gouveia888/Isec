@@ -33,7 +33,6 @@ class MainActivity : ComponentActivity() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     viewModel = viewModel
                     onSuccess = {
-                        //TODO
                     },
                     modifier = Modifier
                 }

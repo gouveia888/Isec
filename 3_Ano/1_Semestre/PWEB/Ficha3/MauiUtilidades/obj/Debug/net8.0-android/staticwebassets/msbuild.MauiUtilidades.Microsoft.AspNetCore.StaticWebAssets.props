@@ -17,7 +17,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>954</FileLength>
-      <LastWriteTime>Mon, 20 Oct 2025 09:34:39 GMT</LastWriteTime>
+      <LastWriteTime>Sat, 18 Oct 2025 11:15:26 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\MauiUtilidades.styles.css'))">
@@ -37,7 +37,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>77</FileLength>
-      <LastWriteTime>Mon, 27 Oct 2025 17:02:25 GMT</LastWriteTime>
+      <LastWriteTime>Fri, 24 Oct 2025 09:26:22 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\MauiUtilidades.styles.css'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>

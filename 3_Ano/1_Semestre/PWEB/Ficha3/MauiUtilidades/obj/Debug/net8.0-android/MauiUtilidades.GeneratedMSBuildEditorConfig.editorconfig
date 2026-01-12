@@ -13,39 +13,39 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MauiUtilidades
 build_property.RootNamespace = MauiUtilidades
-build_property.ProjectDir = C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\MauiUtilidades\
+build_property.ProjectDir = D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\MauiUtilidades\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\ISEC\Isec\3_Ano\1_Semestre\PWEB\Ficha3\MauiUtilidades
+build_property.MSBuildProjectDirectory = D:\Isec\3_Ano\1_Semestre\PWEB\Ficha3\MauiUtilidades
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/ISEC/Isec/3_Ano/1_Semestre/PWEB/Ficha3/MauiUtilidades/App.xaml]
+[D:/Isec/3_Ano/1_Semestre/PWEB/Ficha3/MauiUtilidades/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiUtilidades.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ISEC/Isec/3_Ano/1_Semestre/PWEB/Ficha3/MauiUtilidades/MainPage.xaml]
+[D:/Isec/3_Ano/1_Semestre/PWEB/Ficha3/MauiUtilidades/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiUtilidades.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ISEC/Isec/3_Ano/1_Semestre/PWEB/Ficha3/MauiUtilidades/Components/Routes.razor]
+[D:/Isec/3_Ano/1_Semestre/PWEB/Ficha3/MauiUtilidades/Components/Routes.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ISEC/Isec/3_Ano/1_Semestre/PWEB/Ficha3/MauiUtilidades/Components/_Imports.razor]
+[D:/Isec/3_Ano/1_Semestre/PWEB/Ficha3/MauiUtilidades/Components/_Imports.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
