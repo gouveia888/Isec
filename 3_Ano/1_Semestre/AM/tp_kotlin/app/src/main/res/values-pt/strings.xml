@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">SafetYSec</string>
+    <string name="login">Entrar</string>
+    <string name="profile_monitor">Monitor</string>
+    <string name="profile_protected">Protegido</string>
+    <string name="textToRegister">Não tem conta? Registar</string>
+    <string name="protected_dashboard_title">Dashboard do Protegido</string>
+    <string name="monitor_dashboard_title">Dashboard do Monitor</string>
+    <string name="accident">ACIDENTE</string>
+    <string name="fall">QUEDA</string>
+    <string name="no_premission_gps">Sem permissão de GPS</string>
+    <string name="obtain_signal_gps">A obter sinal GPS..</string>
+    <string name="app_active">SafetYSec Ativo</string>
+    <string name="sec_rules">A monitorizar regras de segurança...</string>
+    <string name="alert_inactivity">INATIVIDADE</string>
+    <string name="user_immobile_desc">Utilizador imóvel há %1$d minutos.</string>
+    <string name="incident_location">Local do Incidente</string>
+    <string name="alert_details_title">Detalhes do Alerta</string>
+    <string name="alert_type_label">Tipo: %1$s</string>
+    <string name="default_panic">Pânico</string>
+    <string name="alert_date_label">Data: %1$s</string>
+    <string name="unknown_date">Desconhecida</string>
+    <string name="alert_video_title">Gravação do Alerta:</string>
+    <string name="video_not_available">O vídeo ainda está a ser processado ou não está disponível.</string>
+    <string name="alert_of_type">Alerta de %1$s</string>
+    <string name="alert_location_title">Localização do Alerta</string>
+    <string name="protected_is_here">O protegido está aqui</string>
+    <string name="safe_zone_center">Centro da Zona Segura</string>
+    <string name="protected_location">Localização do Protegido</string>
+    <string name="setup_safe_zone">Configurar Zona Segura</string>
+    <string name="radius_label">Raio: %1$d metros</string>
+    <string name="save_changes">Guardar Alterações</string>
+    <string name="zone_save_success">Zona Guardada com Sucesso!</string>
+    <string name="error_generic">Erro: %1$s</string>
+    <string name="password_label">Palavra-passe</string>
+    <string name="error_load_profile">Erro ao carregar perfil.</string>
+    <string name="mfa_title">Autenticação Multifator</string>
+    <string name="mfa_description">Introduza o seu código de segurança para concluir o acesso.</string>
+    <string name="pin_label">PIN (4 dígitos)</string>
+    <string name="wrong_pin">PIN Incorreto!</string>
+    <string name="confirm">Confirmar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="monitor_panel_title">Painel de Monitorização</string>
+    <string name="my_protected_users">Os Meus Protegidos</string>
+    <string name="recent_alerts">Alertas Recentes</string>
+    <string name="edit_profile_desc">Editar Perfil</string>
+    <string name="no_protected_users">Nenhum protegido associado.</string>
+    <string name="no_critical_alerts">Sem alertas críticos.</string>
+    <string name="user_status_label">Estado: %1$s</string>
+    <string name="unnamed_user">Sem Nome</string>
+    <string name="default_status">Ativo</string>
+    <string name="associate_new_protected">Associar Novo Protegido</string>
+    <string name="assoc_dialog_title">Associar Protegido</string>
+    <string name="assoc_dialog_desc">Introduza o código de 6 dígitos gerado pelo protegido.</string>
+    <string name="otp_label">Código OTP</string>
+    <string name="assoc_success">Protegido associado!</string>
+    <string name="assoc_error_generic">Código inválido</string>
+    <string name="alert_header_label">%1$s: %2$s</string>
+    <string name="date_label">Data: %1$s</string>
+    <string name="time_label">Hora: %1$s</string>
+    <string name="gps_label">GPS: %1$s</string>
+    <string name="view_on_map">Ver no Mapa da App</string>
+    <string name="settings_label">Configurações</string>
+    <string name="my_profile_title">O Meu Perfil</string>
+    <string name="security_section">Segurança</string>
+    <string name="security_code_label">Código de Segurança (4 dígitos)</string>
+    <string name="new_password_placeholder">Nova Password (Vazio para manter)</string>
+    <string name="save_changes_btn">Guardar Alterações</string>
+    <string name="status_recording">A GRAVAR...</string>
+    <string name="panic_button">BOTÃO DE PÂNICO</string>
+    <string name="hello_user">Olá, %1$s</string>
+    <string name="consent_title">Consentimento</string>
+    <string name="monitoring_active">Monitorização Ativa</string>
+    <string name="monitoring_paused">Pausada</string>
+    <string name="association_code">Código de Associação</string>
+    <string name="generate_new_code">Gerar Novo Código</string>
+    <string name="my_monitors">Meus Monitores</string>
+    <string name="no_monitors_found">Nenhum monitor associado</string>
+    <string name="remove_action">Remover</string>
+    <string name="config_title">Configurações</string>
+    <string name="monitoring_rules">Regras de Monitorização</string>
+    <string name="alert_in_progress">ALERTA EM CURSO!</string>
+    <string name="alert_will_send_in">O alerta será enviado em</string>
+    <string name="seconds_label">segundos.</string>
+    <string name="security_pin">PIN de Segurança</string>
+    <string name="alert_cancelled_success">Alerta Cancelado com Sucesso</string>
+    <string name="stop_alert_btn">PARAR ALERTA</string>
+    <string name="time_left_display">%1$d</string>
+    <string name="register_title">Criar Nova Conta</string>
+    <string name="full_name_label">Nome Completo</string>
+    <string name="register_error_fields">Preencha todos os campos (Senha min. 6 caracteres)</string>
+    <string name="register_btn">Registar</string>
+    <string name="already_have_account">Já tem conta? Faça Login</string>
+    <string name="rules_config_title">Configurar Regras</string>
+    <string name="monitoring_params">Parâmetros de Monitorização</string>
+    <string name="max_speed_label">Velocidade Máxima (km/h)</string>
+    <string name="inactivity_time_label">Tempo de Inatividade (minutos)</string>
+    <string name="auth_window_title">Janela de Autorização (Privacidade)</string>
+    <string name="working_hours">Horário de Funcionamento</string>
+    <string name="start_time">Início</string>
+    <string name="end_time">Fim</string>
+    <string name="days_of_week_title">Dias da Semana</string>
+    <string-array name="days_array">
+        <item>Segunda</item>
+        <item>Terça</item>
+        <item>Quarta</item>
+        <item>Quinta</item>
+        <item>Sexta</item>
+        <item>Sábado</item>
+        <item>Domingo</item>
+    </string-array>
+    <string name="alert_header_format">%1$s: %2$s</string>
+    <string name="alert_time_label">Hora: %1$s</string>
+    <string name="alert_gps_label">GPS: %1$s</string>
+    <string name="alert_geofence_exit">Saída de Zona Segura</string>
+    <string name="alert_geofence_desc">O utilizador afastou-se %1$d metros do centro da zona permitida.</string>
+</resources>

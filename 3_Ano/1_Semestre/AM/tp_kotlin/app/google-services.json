@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "668818968026",
+    "project_id": "safetysec-cd64c",
+    "storage_bucket": "safetysec-cd64c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668818968026:android:daf3c5c76ca8fe9b6084e3",
+        "android_client_info": {
+          "package_name": "pt.isec.safetysec"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "A_SUA_API_KEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
