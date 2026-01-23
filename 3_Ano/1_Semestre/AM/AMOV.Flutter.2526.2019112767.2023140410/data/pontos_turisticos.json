@@ -1,0 +1,150 @@
+{
+  "city": "Wiesbaden",
+  "categories": [
+    {
+      "name": "Monumentos",
+      "points": [
+        {
+          "id": 1,
+          "name": "Kurhaus Wiesbaden",
+          "short_description": "Edifício histórico termal",
+          "description": "O Kurhaus é um dos símbolos de Wiesbaden, conhecido pela sua arquitetura neoclássica e pelo casino.",
+          "image": "images/kurhaus_wiesbaden.jpg",
+          "schedule": "10:00 - 18:00",
+          "average_price": "Gratuito",
+          "location": "Kurhausplatz, Wiesbaden",
+          "lat": 50.0848,
+          "lon": 8.2474
+        },
+        {
+          "id": 4,
+          "name": "Igreja Russa Ortodoxa",
+          "short_description": "Igreja de estilo russo",
+          "description": "A Igreja Russa Ortodoxa de Santa Isabel destaca-se pela sua arquitetura única e localização elevada.",
+          "image": "images/russian_church.jpg",
+          "schedule": "10:00 - 17:00",
+          "average_price": "Gratuito",
+          "location": "Neroberg, Wiesbaden",
+          "lat": 50.0978,
+          "lon": 8.2348
+        },
+        {
+          "id": 8,
+          "name": "Biebrich Palace",
+          "short_description": "Palácio barroco junto ao Reno",
+          "description": "O Palácio de Biebrich é um palácio barroco rodeado por jardins, localizado junto ao rio Reno.",
+          "image": "images/biebrich_palace.jpg",
+          "schedule": "09:00 - 18:00",
+          "average_price": "Gratuito",
+          "location": "Rheingaustraße, Wiesbaden",
+          "lat": 50.0376,
+          "lon": 8.2341
+        }
+      ]
+    },
+    {
+      "name": "Cultura",
+      "points": [
+        {
+          "id": 2,
+          "name": "Nerobergbahn",
+          "short_description": "Funicular histórico",
+          "description": "A Nerobergbahn é um funicular movido a água que liga o centro da cidade ao monte Neroberg.",
+          "image": "images/nerobergbahn.png",
+          "schedule": "09:00 - 19:00",
+          "average_price": "4€",
+          "location": "Wilhelmstraße, Wiesbaden",
+          "lat": 50.0946,
+          "lon": 8.2447
+        },
+        {
+          "id": 6,
+          "name": "Wilhelmstraße",
+          "short_description": "Avenida principal da cidade",
+          "description": "A Wilhelmstraße é conhecida pelas lojas elegantes, cafés e edifícios históricos.",
+          "image": "images/wilhelmstrasse.jpg",
+          "schedule": "Sempre aberto",
+          "average_price": "Gratuito",
+          "location": "Wilhelmstraße, Wiesbaden",
+          "lat": 50.0818,
+          "lon": 8.2458
+        }
+      ]
+    },
+    {
+      "name": "Natureza",
+      "points": [
+        {
+          "id": 3,
+          "name": "Neroberg",
+          "short_description": "Colina com vistas panorâmicas",
+          "description": "O Neroberg oferece trilhos naturais, áreas verdes e vistas magníficas sobre Wiesbaden.",
+          "image": "images/neroberg.jpg",
+          "schedule": "Sempre aberto",
+          "average_price": "Gratuito",
+          "location": "Neroberg, Wiesbaden",
+          "lat": 50.0985,
+          "lon": 8.2405
+        },
+        {
+          "id": 7,
+          "name": "Thermalbad Aukammtal",
+          "short_description": "Termas modernas",
+          "description": "As termas Aukammtal oferecem piscinas termais e áreas de relaxamento, mantendo a tradição termal da cidade.",
+          "image": "images/aukammtal.jpg",
+          "schedule": "09:00 - 22:00",
+          "average_price": "18€",
+          "location": "Leibnizstraße, Wiesbaden",
+          "lat": 50.0895,
+          "lon": 8.2708
+        },
+        {
+          "id": 9,
+          "name": "Parque Schlosspark Biebrich",
+          "short_description": "Parque histórico",
+          "description": "O Schlosspark Biebrich é um grande parque paisagístico ideal para caminhadas e lazer.",
+          "image": "images/schlosspark.jpg",
+          "schedule": "Sempre aberto",
+          "average_price": "Gratuito",
+          "location": "Biebrich, Wiesbaden",
+          "lat": 50.0405,
+          "lon": 8.2335
+        }
+      ]
+    },
+    {
+      "name": "Museus",
+      "points": [
+        {
+          "id": 5,
+          "name": "Museu de Wiesbaden",
+          "short_description": "Museu de arte e história natural",
+          "description": "O Museu de Wiesbaden alberga coleções de arte moderna, bem como exposições de história natural.",
+          "image": "images/museum_wiesbaden.jpg",
+          "schedule": "10:00 - 17:00",
+          "average_price": "6€",
+          "location": "Friedrich-Ebert-Allee, Wiesbaden",
+          "lat": 50.0775,
+          "lon": 8.2460
+        }
+      ]
+    },
+    {
+      "name": "Gastronomia",
+      "points": [
+        {
+          "id": 10,
+          "name": "Restaurantes Tradicionais",
+          "short_description": "Culinária regional alemã",
+          "description": "Os restaurantes tradicionais de Wiesbaden servem pratos típicos da região de Hesse e vinhos locais.",
+          "image": "images/gastronomy_wiesbaden.jpg",
+          "schedule": "12:00 - 23:00",
+          "average_price": "20€",
+          "location": "Várias localizações, Wiesbaden",
+          "lat": 50.0825,
+          "lon": 8.2400
+        }
+      ]
+    }
+  ]
+}
