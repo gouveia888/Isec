@@ -1,0 +1,6 @@
+# Target directories
+/tp-directory-server/target/
+/tp-request-server/target/
+/tp-request-client/target/
+/tp-packet-library/target/
+#/db-files/

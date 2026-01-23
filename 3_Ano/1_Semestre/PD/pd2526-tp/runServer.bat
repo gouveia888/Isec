@@ -1,0 +1,1 @@
+java -jar .\tp-request-server\target\tp-request-server-1.0-SNAPSHOT.jar 127.0.0.1 6001 db-files 230.30.30.30

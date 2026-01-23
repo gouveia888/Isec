@@ -1,0 +1,1 @@
+java -jar .\tp-directory-server\target\tp-directory-server-1.0-SNAPSHOT.jar 6001
